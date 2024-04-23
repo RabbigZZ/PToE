@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="PToE" modversion="16.0" corepackage="False" steamworkshopid="3157190485" gameversion="1.3.0.4">
+  <Text file="%ModDir%/English.xml" />
+  <Text file="%ModDir%/SimplifiedChinese.xml" />
+  <Item file="%ModDir%/Override.xml" />
+  <Item file="%ModDir%/Beaker.xml" />
+  <Item file="%ModDir%/Compounds.xml" />
+  <Item file="%ModDir%/Elements.xml" />
+  <Item file="%ModDir%/Items.xml" />
+  <Item file="%ModDir%/Minerals.xml" />
+  <Afflictions file="%ModDir%/Afflictions.xml" />
+  <Decals file="%ModDir%/DecalPrefabs.xml" />
+  <Other file="%ModDir%/Items.png" />
+  <Other file="%ModDir%/PToE.png" />
+  <Other file="%ModDir%/PToE_blank.png" />
+  <Other file="%ModDir%/Minerals.png" />
+  <Other file="%ModDir%/MineralEnvironment.png" />
+  <Other file="%ModDir%/UI.png" />
+  <Other file="%ModDir%/info(SimplifiedChinese).txt" />
+  <Other file="%ModDir%/progress.txt" />
+</contentpackage>
