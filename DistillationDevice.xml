@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items>
+  <Item name="" identifier="distillationdevice" category="Misc" Tags="" scale="0.5" impactsoundtag="impact_metal_heavy" isshootable="true">
+    <Sprite texture="%ModDir%/Items.png" depth="0.7" sourcerect="720,208,208,128" origin="0.5,0.5" />
+    <Body width="200" height="120" density="20" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="15">
+      <RequiredItem identifier="heatdevice" />
+      <RequiredItem identifier="flusk" />
+      <RequiredItem identifier="condenser" />
+      <RequiredItem identifier="thermometer" />
+    </Fabricate>
+    <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="ItemMsgDetachWrench" PickingTime="5.0" aimpos="85,-10" handle1="0,0" attachable="true" attachedbydefault="true" aimable="true">
+      <RequiredItem items="wrench" type="Equipped" />
+    </Holdable>
+    <LightComponent color="255,255,255,255" lightcolor="255,0,0,32" range="100" IsOn="true" powerconsumption="100" castshadows="false" AllowInGameEditing="false">
+      <sprite texture="%ModDir%/Items.png" sourcerect="1008,208,208,128" origin="0.5,0.5" />
+    </LightComponent>
+    <ItemContainer hideitems="true" canbeselected="true" capacity="1" maxstacksize="1" msg="ItemMsgInteractSelect" allowuioverlap="true">
+      <SlotIcon slotindex="0" texture="%ModDir%/UI.png" sourcerect="192,0,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="1" texture="%ModDir%/UI.png" sourcerect="256,0,64,64" origin="0.5,0.5" /> 
+      <GuiFrame relativesize="0.15,0.2" anchor="Center" style="ItemUI" />
+      <Containable items="smallitem">
+        <StatusEffect type="OnContaining" targettype="Contained" targets="silveramalgam" delay="10.0" stackable="false" checkconditionalalways="true">
+          <Conditional voltage="gt 0.5" TargetContainer="true" />
+          <SpawnItem identifiers="silver" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="mercury" spawnposition="ThisInventory"  spawnifinventoryfull="true" />
+          <Remove />
+        </StatusEffect>
+        <StatusEffect type="OnContaining" targettype="Contained" targets="aluminiumamalgam1" delay="10.0" stackable="false" checkconditionalalways="true">
+          <Conditional voltage="gt 0.5" TargetContainer="true" />
+          <SpawnItem identifiers="aluminium" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="mercury" spawnposition="ThisInventory"  spawnifinventoryfull="true" />
+          <Remove />
+        </StatusEffect>
+        <StatusEffect type="OnContaining" targettype="Contained" targets="aluminiumamalgam2" delay="10.0" stackable="false" checkconditionalalways="true">
+          <Conditional voltage="gt 0.5" TargetContainer="true" />
+          <SpawnItem identifiers="aluminium" count="2" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="mercury" spawnposition="ThisInventory"  spawnifinventoryfull="true" />
+          <Remove />
+        </StatusEffect>
+        <StatusEffect type="OnContaining" targettype="Contained" targets="goldamalgam" delay="10.0" stackable="false" checkconditionalalways="true">
+          <Conditional voltage="gt 0.5" TargetContainer="true" />
+          <SpawnItem identifiers="gold" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="mercury" spawnposition="ThisInventory"  spawnifinventoryfull="true" />
+          <Remove />
+        </StatusEffect>
+        <StatusEffect type="OnContaining" targettype="Contained" targets="brominewaterconcentrated" delay="10.0" stackable="false" checkconditionalalways="true">
+          <Conditional voltage="gt 0.5" TargetContainer="true" />
+          <SpawnItem identifiers="brominewaterdilute" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="bromine" spawnposition="ThisInventory"  spawnifinventoryfull="true" />
+          <Remove />
+        </StatusEffect>
+      </Containable>
+      <SubContainer hideitems="true" capacity="1" maxstacksize="1">
+        <Containable items="distillable" />
+      </SubContainer>
+    </ItemContainer>
+    <CustomInterface canbeselected="true" drawhudwhenequipped="true" AllowInGameEditing="false" allowuioverlap="true">
+      <GuiFrame relativesize="0.12,0.14" anchor="BottomCenter" absoluteoffset="0,75" />
+      <Button text="deconstructordeconstruct">
+        <StatusEffect type="OnUse" target="This">
+          <DropContainedItems />
+          <SpawnItem identifiers="beaker" spawnposition="SameInventory" spawnifinventoryfull="true" SpawnIfNotInInventory="true" />
+          <SpawnItem identifiers="flusk" spawnposition="SameInventory" spawnifinventoryfull="true" SpawnIfNotInInventory="true" />
+          <SpawnItem identifiers="condenser" spawnposition="SameInventory" spawnifinventoryfull="true" SpawnIfNotInInventory="true" />
+          <SpawnItem identifiers="thermometer" spawnposition="SameInventory" spawnifinventoryfull="true" SpawnIfNotInInventory="true" />
+          <SpawnItem identifiers="smartheater" spawnposition="SameInventory" spawnifinventoryfull="true" SpawnIfNotInInventory="true" />
+          <Remove />
+        </StatusEffect>
+      </Button>
+    </CustomInterface>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="power" displayname="connection.power" />
+    </ConnectionPanel>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+</Items>

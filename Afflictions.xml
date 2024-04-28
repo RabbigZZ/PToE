@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Afflictions>
+  <Affliction
+    name=""
+    identifier="arsenicpoisoning"
+    description=""
+    type="poison"
+    causeofdeathdescription=""
+    selfcauseofdeathdescription=""
+    limbspecific="false"
+    indicatorlimb="Torso"
+    showiconthreshold="75"
+    showinhealthscannerthreshold="10"
+    treatmentthreshold="75"
+    karmachangeonapplied="-50"
+    maxstrength="100"
+    affectmachines="false"
+    healcostmultiplier="0"
+    basehealcost="50"
+    MedicalSkillGain="1.5">
+    <Description
+      textidentifier="afflictiondescription.arsenicpoisoning.medium.self"
+      target="Self"
+      minstrength="0"
+      maxstrength="100"/>
+    <Description
+      textidentifier="afflictiondescription.arsenicpoisoning.low"
+      target="OtherCharacter"
+      minstrength="0"
+      maxstrength="50"/>
+    <Description
+      textidentifier="afflictiondescription.arsenicpoisoning"
+      target="OtherCharacter"
+      minstrength="50"
+      maxstrength="75"/>
+    <Description
+      textidentifier="afflictiondescription.arsenicpoisoning.high"
+      target="OtherCharacter"
+      minstrength="75"
+      maxstrength="100"/>
+    <Effect minstrength="0" maxstrength="10"
+      strengthchange="-0.25"
+      minscreenblur="0.0"
+      maxscreenblur="0.1">
+    </Effect>
+    <Effect minstrength="10" maxstrength="50"
+      strengthchange="0.25"
+      minscreenblur="0.1"
+      maxscreenblur="0.2">
+    </Effect>
+    <Effect minstrength="50" maxstrength="75"
+      strengthchange="0.5"
+      minscreenblur="0.1"
+      maxscreenblur="1.0"
+      minfacetint="255,255,0,0"
+      maxfacetint="255,255,0,80"
+      minbodytint="255,255,0,0"
+      maxbodytint="255,255,0,60"
+      minspeedmultiplier="1.0"
+      maxspeedmultiplier="0.8"
+      tag="poisoned">
+      <StatusEffect target="Character">
+        <Affliction identifier="nausea" amount="2" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="75" maxstrength="99"
+      strengthchange="2"
+      minscreenblur="1.0"
+      maxscreenblur="2.0"
+      minscreendistort="0.0"
+      maxscreendistort="1.0"
+      minfacetint="255,255,0,80"
+      maxfacetint="255,255,0,80"
+      minbodytint="255,255,0,60"
+      maxbodytint="255,255,0,60"
+      minspeedmultiplier="0.8"
+      maxspeedmultiplier="0.8"
+      tag="poisoned">
+      <StatusEffect target="Character">
+        <Affliction identifier="organdamage" amount="2" />
+        <Affliction identifier="nausea" amount="5" />
+      </StatusEffect>
+      <StatusEffect target="Character" setvalue="true">
+        <Conditional healthpercentage="lt 90"/>
+        <Affliction identifier="stun" amount="1" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="99" maxstrength="100"
+      strengthchange="10"
+      minscreenblur="2.0"
+      maxscreenblur="2.0"
+      minscreendistort="1.0"
+      maxscreendistort="1.0"
+      minfacetint="255,255,0,80"
+      maxfacetint="255,255,0,80"
+      minbodytint="255,255,0,60"
+      maxbodytint="255,255,0,60"
+      minspeedmultiplier="0.8"
+      maxspeedmultiplier="0.8"
+      tag="poisoned">
+      <StatusEffect target="Character" setvalue="true">
+        <Conditional healthpercentage="lt 90"/>
+        <Affliction identifier="stun" amount="1" />
+      </StatusEffect>
+      <StatusEffect target="Character">
+        <Affliction identifier="organdamage" amount="10" />
+        <Affliction identifier="nausea" amount="5" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="640,640,128,128" color="106,106,106,255" origin="0,0"/>
+  </Affliction>
+  <Affliction
+    name=""
+    identifier="mercurypoisoning"
+    description=""
+    type="poison"
+    causeofdeathdescription=""
+    selfcauseofdeathdescription=""
+    limbspecific="false"
+    indicatorlimb="Torso"
+    showiconthreshold="25"
+    showinhealthscannerthreshold="10"
+    treatmentthreshold="25"
+    karmachangeonapplied="-50"
+    maxstrength="100"
+    affectmachines="false"
+    healcostmultiplier="0"
+    basehealcost="50"
+    MedicalSkillGain="1.5">
+    <Description
+      textidentifier="afflictiondescription.mercurypoisoning.medium.self"
+      target="Self"
+      minstrength="0"
+      maxstrength="100"/>
+    <Description
+      textidentifier="afflictiondescription.mercurypoisoning.low"
+      target="OtherCharacter"
+      minstrength="0"
+      maxstrength="25"/>
+    <Description
+      textidentifier="afflictiondescription.mercurypoisoning"
+      target="OtherCharacter"
+      minstrength="25"
+      maxstrength="50"/>
+    <Description
+      textidentifier="afflictiondescription.mercurypoisoning.high"
+      target="OtherCharacter"
+      minstrength="50"
+      maxstrength="100"/>
+    <Effect minstrength="0" maxstrength="10"
+      strengthchange="-0.25"
+      minscreenblur="0.0"
+      maxscreenblur="0.1">
+    </Effect>
+    <Effect minstrength="10" maxstrength="25"
+      strengthchange="0.25"
+      minscreenblur="0.1"
+      maxscreenblur="0.2">
+    </Effect>
+    <Effect minstrength="25" maxstrength="50"
+      strengthchange="0.25"
+      minscreenblur="0.1"
+      maxscreenblur="2.0"
+      minfacetint="255,255,0,0"
+      maxfacetint="255,255,0,80"
+      minbodytint="255,255,0,0"
+      maxbodytint="255,255,0,60"
+      minspeedmultiplier="1.0"
+      maxspeedmultiplier="0.2"
+      tag="poisoned">
+    </Effect>
+    <Effect minstrength="50" maxstrength="99"
+      strengthchange="5"
+      screenblur="2.0"
+      minscreendistort="0.0"
+      maxscreendistort="1.0"
+      minfacetint="255,255,0,80"
+      maxfacetint="255,255,0,80"
+      minbodytint="255,255,0,60"
+      maxbodytint="255,255,0,60"
+      tag="poisoned">
+      <StatusEffect target="Character" setvalue="true">
+        <Affliction identifier="stun" amount="1" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="99" maxstrength="100"
+      strengthchange="10"
+      minscreenblur="2.0"
+      maxscreenblur="2.0"
+      minscreendistort="1.0"
+      maxscreendistort="1.0"
+      minfacetint="255,255,0,80"
+      maxfacetint="255,255,0,80"
+      minbodytint="255,255,0,60"
+      maxbodytint="255,255,0,60"
+      tag="poisoned">
+      <StatusEffect target="Character" setvalue="true">
+        <Affliction identifier="stun" amount="1" />
+      </StatusEffect>
+      <StatusEffect target="Character">
+        <Affliction identifier="organdamage" amount="10" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="640,640,128,128" color="106,106,106,255" origin="0,0"/>
+  </Affliction>
+</Afflictions>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items>
+  <Item name="" identifier="beaker" category="Misc" Tags="mediumitem" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="5.5">
+    <Price baseprice="60" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" sold="true" multiplier="1.25" available="1" />
+      <Price storeidentifier="merchantresearch" sold="true" multiplier="0.9" minavailable="5" />
+      <Price storeidentifier="merchantmilitary" minavailable="10" />
+      <Price storeidentifier="merchantmine" minavailable="5" />
+    </Price>
+    <Sprite texture="%ModDir%/Items.png" depth="0.2" sourcerect="496,224,48,48" origin="0.5,0.5" />
+    <Body width="35" height="45" density="15" />
+    <Deconstruct time="5">
+      <Item identifier="silicon" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="60">
+      <RequiredSkill identifier="medical" level="30" />
+      <RequiredItem identifier="advancedglass" />
+    </Fabricate>
+    <Throwable characterusable="true" canBeCombined="false" slots="Any,RightHand,LeftHand" throwforce="3.5" aimpos="35,-10" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnImpact" target="This" Condition="0.0" setvalue="true" />
+      <StatusEffect type="OnBroken" target="This" Condition="-100.0">
+        <sound file="Content/Sounds/Damage/GlassBreak1.ogg" selectionmode="Random" range="1000" />
+        <sound file="Content/Sounds/Damage/GlassBreak2.ogg" selectionmode="Random" range="1000" />
+        <sound file="Content/Sounds/Damage/GlassBreak3.ogg" selectionmode="Random" range="1000" />
+        <sound file="Content/Sounds/Damage/GlassBreak4.ogg" selectionmode="Random" range="1000" />
+        <ParticleEmitter particle="waterdrop" anglemin="0" anglemax="360" particleamount="10" velocitymin="200" velocitymax="300" scalemin="0.4" scalemax="0.8" />
+        <Explosion range="50.0" force="0.0" flames="false" smoke="false" sparks="false" underwaterbubble="false">
+          <Affliction identifier="lacerations" strength="10" />
+          <Affliction identifier="bleeding" strength="5" />
+        </Explosion>
+        <DropContainedItems />
+        <Remove />
+      </StatusEffect>
+    </Throwable>
+    <ItemContainer hideitems="true" capacity="2" maxstacksize="1">
+      <Containable items="smallitem" />
+    </ItemContainer>
+    <CustomInterface canbeselected="true" drawhudwhenequipped="true" AllowInGameEditing="false">
+      <GuiFrame relativesize="0.12,0.14" anchor="BottomCenter" absoluteoffset="0,75" />
+      <Button text="react">
+        <StatusEffect type="OnUse" target="This">
+          <RequiredItem items="silver,silvercommendation,silvermedal" type="Contained" />
+          <RequiredItem items="mercury" type="Contained" />
+          <SpawnItem identifiers="beaker" spawnposition="SameInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="silveramalgam" spawnposition="SameInventory" spawnifinventoryfull="true" />
+          <Remove />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="This">
+          <RequiredItem items="aluminium" type="Contained" />
+          <RequiredItem items="mercury" type="Contained" />
+          <SpawnItem identifiers="beaker" spawnposition="SameInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="aluminiumamalgam1" spawnposition="SameInventory" spawnifinventoryfull="true" />
+          <Remove />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="This">
+          <RequiredItem items="aluminium" type="Contained" />
+          <RequiredItem items="aluminiumamalgam1" type="Contained" />
+          <SpawnItem identifiers="beaker" spawnposition="SameInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="aluminiumamalgam2" spawnposition="SameInventory" spawnifinventoryfull="true" />
+          <Remove />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="This">
+          <RequiredItem items="oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank" type="Contained" />
+          <RequiredItem items="mercury" type="Contained" />
+          <SpawnItem identifiers="beaker" spawnposition="SameInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="aluminiumamalgam2" spawnposition="SameInventory" spawnifinventoryfull="true" />
+          <Remove />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="This">
+          <RequiredItem items="gold,goldcommendation,goldmedal" type="Contained" />
+          <RequiredItem items="mercury" type="Contained" />
+          <SpawnItem identifiers="beaker" spawnposition="SameInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="goldamalgam" spawnposition="SameInventory" spawnifinventoryfull="true" />
+          <Remove />
+        </StatusEffect>
+      </Button>
+    </CustomInterface>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+</Items>

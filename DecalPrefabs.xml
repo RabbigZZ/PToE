@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefabs>
+  <fruitsplatter_chromeyellow color="128,67,0,230" lifetime="6000" fadeouttime="30">
+    <sprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="672,416,192,192" origin="0.5,0.5" />
+    <sprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="672,160,192,192" origin="0.5,0.5" />
+  </fruitsplatter_chromeyellow>
+</prefabs>
