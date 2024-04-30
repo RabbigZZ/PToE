@@ -58,7 +58,7 @@
           <Remove />
         </StatusEffect>
         <StatusEffect type="OnUse" target="Contained">
-          <RequiredItem items="oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank" type="Contained" />
+          <RequiredItem items="oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank" type="Contained" ExcludeBroken="false" />
           <RequiredItem items="mercury" type="Contained" />
           <SpawnItem identifiers="aluminiumamalgam2" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <Remove />
