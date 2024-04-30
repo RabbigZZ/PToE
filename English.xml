@@ -1,15 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <infotexts language="English" nowhitespace="false" translatedname="English">
+  <!--Actions-->
   <react>React</react>
+  <shake>Shake</shake>
+  <!--Fabrication Descriptions-->
   <fabricationdescription.plate>Plating. Hard and wearproof metals.</fabricationdescription.plate>
   <fabricationdescription.rareearth>Scandium, yttrium, or lanthanides except promethium.</fabricationdescription.rareearth>
   <fabricationdescription.oxidant1>Solid oxidants for explosives.</fabricationdescription.oxidant1>
+  <!--Interactable Devices-->
   <entityname.beaker>Beaker</entityname.beaker>
   <entitydescription.beaker>Suitable to most simple chemical reactions.</entitydescription.beaker>
   <entityname.heatdevice>Heat Device</entityname.heatdevice>
   <entitydescription.heatdevice>An open heat device.</entitydescription.heatdevice>
   <entityname.distillationdevice>Distillation Device</entityname.distillationdevice>
   <entitydescription.distillationdevice>Evaporate and collect liquids. It may take a bit longer time.</entitydescription.distillationdevice>
+  <!--Elements-->
   <entityname.hydrogentank>Hydrogen Tank</entityname.hydrogentank>
   <displayname.hydrogentankempty>Hydrogen Tank (empty)</displayname.hydrogentankempty>
   <entitydescription.hydrogentank>Dangerous fuel, completely prohibited. Can be refilled by oxygenerators.</entitydescription.hydrogentank>
@@ -79,6 +84,7 @@
   <entitydescription.gold>Its value does not need explanations.</entitydescription.gold>
   <entityname.mercury>Mercury</entityname.mercury>
   <entitydescription.mercury>Is liquid at room temperature, can dissolve many metals. Toxic.</entitydescription.mercury>
+  <!--Compounds-->
   <entityname.disulphuricacid>Disulphuric Acid</entityname.disulphuricacid>
   <entitydescription.disulphuricacid>React mildly with water to generate sulphuric acid.</entitydescription.disulphuricacid>
   <entityname.potassiumchlorate>Potassium Chlorate</entityname.potassiumchlorate>
@@ -99,12 +105,9 @@
   <entitydescription.silvercommendation>A small medal fashioned out of copper and silver, made out of Commendation. When applied to another crewmember's body, it instantly bestows them with the experience 3 times of Commendation.</entitydescription.silvercommendation>
   <entityname.silvermedal>Silver Medal</entityname.silvermedal>
   <entitydescription.silvermedal>A small medal fashioned out of bronze and silver, made out of Medal. When applied to another crewmember's body, it instantly bestows them with the experience 3 times of Medal.</entitydescription.silvermedal>
-  <entityname.silverionbandage>Silver Ion Bandage</entityname.silverionbandage>
-  <entitydescription.silverionbandage>Bandage with silver ion added.</entitydescription.silverionbandage>
-  <entityname.silverionglue>Silver Ion Glue</entityname.silverionglue>
-  <entitydescription.silverionglue>Antibiotic Glue made out of silver ion, cheaper but not so effecient as general antibiotic glue.</entitydescription.silverionglue>
   <entityname.goldcommendation>Gold Commendation</entityname.goldcommendation>
   <entitydescription.goldcommendation>A small medal fashioned out of copper and gold, made out of Commendation. When applied to another crewmember's body, it instantly bestows them with the experience 10 times of Commendation.</entitydescription.goldcommendation>
+  <!--Items-->
   <entityname.goldmedal>Gold Medal</entityname.goldmedal>
   <entitydescription.goldmedal>A small medal fashioned out of bronze and gold, made out of Medal. When applied to another crewmember's body, it instantly bestows them with the experience 10 times of Medal.</entitydescription.goldmedal>
   <entityname.goldingot>Gold Ingot</entityname.goldingot>
@@ -117,10 +120,6 @@
   <displayname.vanadinitecrystalquick>Vanadinite Crystal (quick)</displayname.vanadinitecrystalquick>
   <displayname.vanadinitecrystalslow>Vanadinite Crystal (slow)</displayname.vanadinitecrystalslow>
   <displayname.vanadinitecrystalveryslow>Vanadinite Crystal (very slow)</displayname.vanadinitecrystalveryslow>
-  <entityname.whitearsenic>White Arsenic</entityname.whitearsenic>
-  <entitydescription.whitearsenic>Fatal poison even slowlier than sufforin.</entitydescription.whitearsenic>
-  <entityname.arsenicantidote>Arsenic Antidote</entityname.arsenicantidote>
-  <entitydescription.arsenicantidote>An antidote for acute cyanide poisoning.</entitydescription.arsenicantidote>
   <entityname.blackpowder>Black Powder</entityname.blackpowder>
   <entitydescription.blackpowder>Material of some old-fashioned explosives.</entitydescription.blackpowder>
   <entityname.blackpowderpack>Black Powder Pack</entityname.blackpowderpack>
@@ -155,7 +154,6 @@
   <entitydescription.stunbatonplated>Not just stun again.</entitydescription.stunbatonplated>
   <entityname.ultimatewrench>Ultimate Wrench</entityname.ultimatewrench>
   <entitydescription.ultimatewrench>A Superb tool and strong weapon that only mechanical masters can rein.</entitydescription.ultimatewrench>
-  <entityname.chromeyellowpaint>Chrome Yellow Paint</entityname.chromeyellowpaint>
   <entityname.znmndrycell>Zn-Mn Dry Cell</entityname.znmndrycell>
   <entitydescription.znmndrycell>Zinc-Manganese Dry Cell. Extremely cheap but NOT rechargeable.</entitydescription.znmndrycell>
   <entityname.incandescentlight>Incandescent Light</entityname.incandescentlight>
@@ -182,18 +180,30 @@
   <entitydescription.condenser>Transfer gas went through into liquid with cold water.</entitydescription.condenser>
   <entityname.thermometer>Thermometer</entityname.thermometer>
   <entitydescription.thermometer>Made from gallium, with super measuring range.</entitydescription.thermometer>
-  <entityname.edta2na>EDTA-2Na</entityname.edta2na>
-  <entitydescription.edta2na>Ethylenediaminetetraacetic acid disodium salt, which can relieve all kinds of heavy metal poisioning.</entitydescription.edta2na>
-  <entityname.dimethylmercury>Dimethyl Mercury</entityname.dimethylmercury>
-  <entitydescription.dimethylmercury>One of the most dangerous mercury compounds. It can even penetrate latex gloves.</entitydescription.dimethylmercury>
   <entityname.advancedsprayer>Advanced Sprayer</entityname.advancedsprayer>
   <entitydescription.advancedsprayer>Little consumption, super range and all paints supported.</entitydescription.advancedsprayer>
   <entityname.brominewaterdilute>Bromine Water (Dilute)</entityname.brominewaterdilute>
   <entitydescription.brominewaterdilute>Got this by passing chlorine into marine water. It can be concentrated by medical fabricator.</entitydescription.brominewaterdilute>
   <entityname.brominewaterconcentrated>Bromine Water (Concentrated)</entityname.brominewaterconcentrated>
   <entitydescription.brominewaterconcentrated>It really stinks. Distill to get liquid bromine.</entitydescription.brominewaterconcentrated>
+  <entityname.nuclearglowstick>Nuclear Glowstick</entityname.nuclearglowstick>
+  <entitydescription.nuclearglowstick>Glows for about 5 minutes after a shake, can be used unlimited times.</entitydescription.nuclearglowstick>
+  <!--Medical-->
+  <entityname.silverionbandage>Silver Ion Bandage</entityname.silverionbandage>
+  <entitydescription.silverionbandage>Bandage with silver ion added.</entitydescription.silverionbandage>
+  <entityname.silverionglue>Silver Ion Glue</entityname.silverionglue>
+  <entitydescription.silverionglue>Antibiotic Glue made out of silver ion, cheaper but not so effecient as general antibiotic glue.</entitydescription.silverionglue>
   <entityname.merbromin>Merbromin</entityname.merbromin>
   <entitydescription.merbromin>Disinfect efficiently, barely irritates wounds.</entitydescription.merbromin>
+  <entityname.edta2na>EDTA-2Na</entityname.edta2na>
+  <entitydescription.edta2na>Ethylenediaminetetraacetic acid disodium salt, which can relieve all kinds of heavy metal poisioning.</entitydescription.edta2na>
+  <entityname.dimethylmercury>Dimethyl Mercury</entityname.dimethylmercury>
+  <entitydescription.dimethylmercury>One of the most dangerous mercury compounds. It can even penetrate latex gloves.</entitydescription.dimethylmercury>
+  <entityname.whitearsenic>White Arsenic</entityname.whitearsenic>
+  <entitydescription.whitearsenic>Fatal poison even slowlier than sufforin.</entitydescription.whitearsenic>
+  <entityname.arsenicantidote>Arsenic Antidote</entityname.arsenicantidote>
+  <entitydescription.arsenicantidote>An antidote for acute cyanide poisoning.</entitydescription.arsenicantidote>
+  <!--Minerals-->
   <entityname.silverore>Silver Ore</entityname.silverore>
   <entitydescription.silverore>A mineral containing large amounts of silver.</entitydescription.silverore>
   <entityname.cerargyrite>Cerargyrite</entityname.cerargyrite>
@@ -239,6 +249,11 @@
   <entitydescription.cinnabar>A mineral composed of mercury and sulphur.</entitydescription.cinnabar>
   <entityname.montroydite>Montroydite</entityname.montroydite>
   <entitydescription.montroydite>A mineral containing mercury.</entitydescription.montroydite>
+  <!--Paints-->
+  <entityname.chromeyellowpaint>Chrome Yellow Paint</entityname.chromeyellowpaint>
+  <entityname.prussianbluepaint>Prussian Blue Paint</entityname.prussianbluepaint>
+  <entityname.parisgreenpaint>Paris Green Paint</entityname.parisgreenpaint>
+  <!--Messages-->
   <afflictionname.arsenicpoisoning>Arsenic poisoning</afflictionname.arsenicpoisoning>
   <afflictioncauseofdeath.arsenicpoisoning>Died of arsenic poisoning.</afflictioncauseofdeath.arsenicpoisoning>
   <afflictioncauseofdeathself.arsenicpoisoning>You have died of arsenic poisoning.</afflictioncauseofdeathself.arsenicpoisoning>

@@ -39,39 +39,34 @@
     <CustomInterface canbeselected="true" drawhudwhenequipped="true" AllowInGameEditing="false">
       <GuiFrame relativesize="0.12,0.14" anchor="BottomCenter" absoluteoffset="0,75" />
       <Button text="react">
-        <StatusEffect type="OnUse" target="This">
+        <StatusEffect type="OnUse" target="Contained">
           <RequiredItem items="silver,silvercommendation,silvermedal" type="Contained" />
           <RequiredItem items="mercury" type="Contained" />
-          <SpawnItem identifiers="beaker" spawnposition="SameInventory" spawnifinventoryfull="true" />
-          <SpawnItem identifiers="silveramalgam" spawnposition="SameInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="silveramalgam" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>
-        <StatusEffect type="OnUse" target="This">
+        <StatusEffect type="OnUse" target="Contained">
           <RequiredItem items="aluminium" type="Contained" />
           <RequiredItem items="mercury" type="Contained" />
-          <SpawnItem identifiers="beaker" spawnposition="SameInventory" spawnifinventoryfull="true" />
-          <SpawnItem identifiers="aluminiumamalgam1" spawnposition="SameInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="aluminiumamalgam1" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>
-        <StatusEffect type="OnUse" target="This">
+        <StatusEffect type="OnUse" target="Contained">
           <RequiredItem items="aluminium" type="Contained" />
           <RequiredItem items="aluminiumamalgam1" type="Contained" />
-          <SpawnItem identifiers="beaker" spawnposition="SameInventory" spawnifinventoryfull="true" />
-          <SpawnItem identifiers="aluminiumamalgam2" spawnposition="SameInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="aluminiumamalgam2" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>
-        <StatusEffect type="OnUse" target="This">
+        <StatusEffect type="OnUse" target="Contained">
           <RequiredItem items="oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank" type="Contained" />
           <RequiredItem items="mercury" type="Contained" />
-          <SpawnItem identifiers="beaker" spawnposition="SameInventory" spawnifinventoryfull="true" />
-          <SpawnItem identifiers="aluminiumamalgam2" spawnposition="SameInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="aluminiumamalgam2" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>
-        <StatusEffect type="OnUse" target="This">
+        <StatusEffect type="OnUse" target="Contained">
           <RequiredItem items="gold,goldcommendation,goldmedal" type="Contained" />
           <RequiredItem items="mercury" type="Contained" />
-          <SpawnItem identifiers="beaker" spawnposition="SameInventory" spawnifinventoryfull="true" />
-          <SpawnItem identifiers="goldamalgam" spawnposition="SameInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="goldamalgam" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>
       </Button>

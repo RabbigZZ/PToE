@@ -1,15 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <infotexts language="Simplified Chinese" nowhitespace="true" translatedname="中文(简体)">
+  <!--操作-->
   <react>反应</react>
+  <shake>摇</shake>
+  <!--加工台描述-->
   <fabricationdescription.plate>镀层。坚硬且耐磨的金属。</fabricationdescription.plate>
   <fabricationdescription.rareearth>钪、钇、或除钷外的镧系元素。</fabricationdescription.rareearth>
   <fabricationdescription.oxidant1>制爆的固体氧化剂。</fabricationdescription.oxidant1>
+  <!--可交互仪器-->
   <entityname.beaker>烧杯</entityname.beaker>
   <entitydescription.beaker>适用于大部分简单化学反应。</entitydescription.beaker>
   <entityname.heatdevice>加热装置</entityname.heatdevice>
   <entitydescription.heatdevice>敞口的加热装置。</entitydescription.heatdevice>
   <entityname.distillationdevice>蒸馏装置</entityname.distillationdevice>
   <entitydescription.distillationdevice>蒸发并收集液体，需要的时间可能稍长。</entitydescription.distillationdevice>
+  <!--元素-->
   <entityname.hydrogentank>氢气罐</entityname.hydrogentank>
   <displayname.hydrogentankempty>氢气罐（空）</displayname.hydrogentankempty>
   <entitydescription.hydrogentank>危险燃料，已被全面禁止。可被氧气制造机补充。</entitydescription.hydrogentank>
@@ -79,6 +84,7 @@
   <entitydescription.gold>它的价值不需要解释。</entitydescription.gold>
   <entityname.mercury>汞</entityname.mercury>
   <entitydescription.mercury>室温下为液态，可以溶解多种金属。有毒。</entitydescription.mercury>
+  <!--化合物-->
   <entityname.potassiumchlorate>氯酸钾</entityname.potassiumchlorate>
   <entitydescription.potassiumchlorate>强氧化剂，与白糖混合威力都不小。</entitydescription.potassiumchlorate>
   <entityname.potassiumnitrate>硝酸钾</entityname.potassiumnitrate>
@@ -95,14 +101,11 @@
   <entitydescription.aluminiumamalgam2>溶解了大量铝的汞，遇水极为危险。可以通过蒸馏分离。</entitydescription.aluminiumamalgam2>
   <entityname.goldamalgam>金汞齐</entityname.goldamalgam>
   <entitydescription.goldamalgam>金汞合金，可以通过蒸馏分离。</entitydescription.goldamalgam>
+  <!--物品-->
   <entityname.silvercommendation>银嘉奖</entityname.silvercommendation>
   <entitydescription.silvercommendation>银质小徽章，由嘉奖制成。对另一位船员使用时立即给予3倍于嘉奖的经验值。</entitydescription.silvercommendation>
   <entityname.silvermedal>银奖章</entityname.silvermedal>
   <entitydescription.silvermedal>银质小徽章，由奖章制成。对另一位船员使用时立即给予3倍于奖章的经验值。</entitydescription.silvermedal>
-  <entityname.silverionbandage>银离子绷带</entityname.silverionbandage>
-  <entitydescription.silverionbandage>添加了银离子的绷带。</entitydescription.silverionbandage>
-  <entityname.silverionglue>银离子凝胶</entityname.silverionglue>
-  <entitydescription.silverionglue>用银离子制成的抗菌凝胶，较便宜但是不如抗生素凝胶高效。</entitydescription.silverionglue>
   <entityname.goldcommendation>金嘉奖</entityname.goldcommendation>
   <entitydescription.goldcommendation>金质小徽章，由嘉奖制成。对另一位船员使用时立即给予10倍于嘉奖的经验值。</entitydescription.goldcommendation>
   <entityname.goldmedal>金奖章</entityname.goldmedal>
@@ -117,10 +120,6 @@
   <displayname.vanadinitecrystalquick>钒铅矿晶体（快）</displayname.vanadinitecrystalquick>
   <displayname.vanadinitecrystalslow>钒铅矿晶体（慢）</displayname.vanadinitecrystalslow>
   <displayname.vanadinitecrystalveryslow>钒铅矿晶体（极慢）</displayname.vanadinitecrystalveryslow>
-  <entityname.whitearsenic>砒霜</entityname.whitearsenic>
-  <entitydescription.whitearsenic>药效比升天毒剂还缓慢的致死毒剂。</entitydescription.whitearsenic>
-  <entityname.arsenicantidote>砒霜解药</entityname.arsenicantidote>
-  <entitydescription.arsenicantidote>用于解除砷中毒的解毒剂。</entitydescription.arsenicantidote>
   <entityname.blackpowder>黑火药</entityname.blackpowder>
   <entitydescription.blackpowder>一些过时爆炸物的原材料。</entitydescription.blackpowder>
   <entityname.blackpowderpack>黑火药包</entityname.blackpowderpack>
@@ -155,7 +154,6 @@
   <entitydescription.stunbatonplated>不再仅仅是眩晕了。</entitydescription.stunbatonplated>
   <entityname.ultimatewrench>终极扳手</entityname.ultimatewrench>
   <entitydescription.ultimatewrench>极佳的工具和强力的武器，只有机械大师们驾驭得了它。</entitydescription.ultimatewrench>
-  <entityname.chromeyellowpaint>铬黄色涂料</entityname.chromeyellowpaint>
   <entityname.znmndrycell>Zn-Mn干电池</entityname.znmndrycell>
   <entitydescription.znmndrycell>锌锰干电池，极为便宜但无法充电。</entitydescription.znmndrycell>
   <entityname.incandescentlight>白炽灯</entityname.incandescentlight>
@@ -182,18 +180,30 @@
   <entitydescription.condenser>用冷水将通过的蒸气转变为液体。</entitydescription.condenser>
   <entityname.thermometer>温度计</entityname.thermometer>
   <entitydescription.thermometer>由镓制成，量程超大。</entitydescription.thermometer>
-  <entityname.edta2na>EDTA二钠</entityname.edta2na>
-  <entitydescription.edta2na>乙二胺四乙酸二钠盐，可以缓解各类重金属中毒。</entitydescription.edta2na>
-  <entityname.dimethylmercury>二甲基汞</entityname.dimethylmercury>
-  <entitydescription.dimethylmercury>最危险的汞化合物之一，它甚至能渗透橡胶手套。</entitydescription.dimethylmercury>
   <entityname.advancedsprayer>高级喷漆器</entityname.advancedsprayer>
   <entitydescription.advancedsprayer>消耗很少，范围超大且支持所有涂料。</entitydescription.advancedsprayer>
   <entityname.brominewaterdilute>溴水（稀）</entityname.brominewaterdilute>
   <entitydescription.brominewaterdilute>将氯通入海水得到，能被医疗加工台浓缩。</entitydescription.brominewaterdilute>
   <entityname.brominewaterconcentrated>溴水（浓）</entityname.brominewaterconcentrated>
   <entitydescription.brominewaterconcentrated>真的臭。蒸馏以得到液溴。</entitydescription.brominewaterconcentrated>
+  <entityname.nuclearglowstick>核能荧光棒</entityname.nuclearglowstick>
+  <entitydescription.nuclearglowstick>摇晃后持续发光约5分钟，可无限次使用。</entitydescription.nuclearglowstick>
+  <!--医疗-->
+  <entityname.silverionbandage>银离子绷带</entityname.silverionbandage>
+  <entitydescription.silverionbandage>添加了银离子的绷带。</entitydescription.silverionbandage>
+  <entityname.silverionglue>银离子凝胶</entityname.silverionglue>
+  <entitydescription.silverionglue>用银离子制成的抗菌凝胶，较便宜但是不如抗生素凝胶高效。</entitydescription.silverionglue>
   <entityname.merbromin>汞溴红</entityname.merbromin>
   <entitydescription.merbromin>高效消毒，几乎不刺激伤口。</entitydescription.merbromin>
+  <entityname.edta2na>EDTA二钠</entityname.edta2na>
+  <entitydescription.edta2na>乙二胺四乙酸二钠盐，可以缓解各类重金属中毒。</entitydescription.edta2na>
+  <entityname.dimethylmercury>二甲基汞</entityname.dimethylmercury>
+  <entitydescription.dimethylmercury>最危险的汞化合物之一，它甚至能渗透橡胶手套。</entitydescription.dimethylmercury>
+  <entityname.whitearsenic>砒霜</entityname.whitearsenic>
+  <entitydescription.whitearsenic>药效比升天毒剂还缓慢的致死毒剂。</entitydescription.whitearsenic>
+  <entityname.arsenicantidote>砒霜解药</entityname.arsenicantidote>
+  <entitydescription.arsenicantidote>用于解除砷中毒的解毒剂。</entitydescription.arsenicantidote>
+  <!--矿物-->
   <entityname.silverore>银矿</entityname.silverore>
   <entitydescription.silverore>含银的富集矿物。</entitydescription.silverore>
   <entityname.cerargyrite>角银矿</entityname.cerargyrite>
@@ -240,6 +250,11 @@
   <entitydescription.cinnabar>含有汞、硫成分的矿物。</entitydescription.cinnabar>
   <entityname.montroydite>橙红石</entityname.montroydite>
   <entitydescription.montroydite>含汞的富集矿物。</entitydescription.montroydite>
+  <!--涂料-->
+  <entityname.chromeyellowpaint>铬黄涂料</entityname.chromeyellowpaint>
+  <entityname.prussianbluepaint>普鲁士蓝涂料</entityname.prussianbluepaint>
+  <entityname.parisgreenpaint>巴黎绿涂料</entityname.parisgreenpaint>
+  <!--信息-->
   <afflictionname.arsenicpoisoning>砷中毒</afflictionname.arsenicpoisoning>
   <afflictioncauseofdeath.arsenicpoisoning>死于砷中毒</afflictioncauseofdeath.arsenicpoisoning>
   <afflictioncauseofdeathself.arsenicpoisoning>你因砷中毒而死。</afflictioncauseofdeathself.arsenicpoisoning>

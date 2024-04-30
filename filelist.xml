@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="PToE" modversion="16.0" corepackage="False" steamworkshopid="3157190485" gameversion="1.4.5.0">
+<contentpackage name="PToE" modversion="16.1" corepackage="False" steamworkshopid="3157190485" gameversion="1.4.5.0">
   <Text file="%ModDir%/English.xml" />
   <Text file="%ModDir%/SimplifiedChinese.xml" />
   <Item file="%ModDir%/Beaker.xml" />
@@ -8,7 +8,9 @@
   <Item file="%ModDir%/Elements.xml" />
   <Item file="%ModDir%/HeatDevice.xml" />
   <Item file="%ModDir%/Items.xml" />
+  <Item file="%ModDir%/Medical.xml" />
   <Item file="%ModDir%/Minerals.xml" />
+  <Item file="%ModDir%/Paints.xml" />
   <Afflictions file="%ModDir%/Afflictions.xml" />
   <Decals file="%ModDir%/DecalPrefabs.xml" />
   <Other file="%ModDir%/Items.png" />

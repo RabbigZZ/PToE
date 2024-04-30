@@ -85,9 +85,7 @@
       <RequiredItem identifier="potassium" />
       <RequiredItem identifier="manganese" />
     </Fabricate>
-    <SuitableTreatment type="bleeding" suitability="30" />
-    <SuitableTreatment type="lacerations" suitability="30" />
-    <SuitableTreatment identifier="burn" suitability="-50" />
+    <SuitableTreatment type="infection" suitability="20" />
     <InventoryIcon texture="%ModDir%/Items.png" sourcerect="0,208,64,64" />
     <Sprite texture="%ModDir%/Items.png" sourcerect="640,160,21,42" depth="0.55" origin="0.5,0.5" />
     <Body width="20" height="40" density="20" />
