@@ -51,7 +51,7 @@
     <Price baseprice="100" sold="false">
       <Price storeidentifier="merchantmedical" multiplier="0.9" minavailable="10" minleveldifficulty="25" />
     </Price>
-    <Fabricate suitablefabricators="medicalfabricator" requiredtime="90" amount="8" >
+    <Fabricate suitablefabricators="medicalfabricator" requiredtime="180" amount="8" >
       <RequiredSkill identifier="medical" level="36" />
       <RequiredItem identifier="silver" />
       <RequiredItem identifier="elastin" amount="8" />
@@ -68,7 +68,7 @@
     <SuitableTreatment type="infection" suitability="100" />
     <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="10" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
       <RequiredSkill identifier="medical" level="55" />
-      <StatusEffect type="OnUse" target="This" Condition="-100.0" setvalue="true">
+      <StatusEffect type="OnUse" target="This" Condition="-12.5" setvalue="true">
         <Sound file="Content/Items/Medical/Bandage1.ogg" range="500" />
         <Sound file="Content/Items/Medical/Bandage2.ogg" range="500" />
       </StatusEffect>
