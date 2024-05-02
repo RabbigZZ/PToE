@@ -10,63 +10,45 @@
     <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="ItemMsgDetachWrench" PickingTime="5.0" aimpos="85,-10" handle1="0,0" attachable="true" attachedbydefault="true" aimable="true">
       <RequiredItem items="wrench" type="Equipped" />
     </Holdable>
-    <LightComponent color="255,255,255,255" lightcolor="255,0,0,32" range="100" IsOn="true" powerconsumption="100" castshadows="false" AllowInGameEditing="false">
+    <LightComponent color="255,255,255,255" minvoltage="0.5" lightcolor="255,0,0,32" range="100" IsOn="true" powerconsumption="100" castshadows="false" AllowInGameEditing="false">
       <sprite texture="%ModDir%/Items.png" sourcerect="1008,272,48,64" origin="0.5,0.5" />
+      <StatusEffect type="OnActive" targettype="NearbyCharacters" range="500">
+        <RequiredItem items="mercury,silveramalgam,aluminiumamalgam1,aluminiumamalgam2,goldamalgam" type="Contained" />
+        <Affliction identifier="mercurypoisoning" strength="10" />
+        <Remove />
+     </StatusEffect>
+      <StatusEffect type="OnActive" targettype="NearbyCharacters" range="500">
+        <RequiredItem items="mercury,silveramalgam,aluminiumamalgam1,aluminiumamalgam2,goldamalgam" type="Contained" />
+        <Conditional TargetContainedItem="true" HasTag="deepdiving" />
+        <ReduceAffliction identifier="mercurypoisoning" amount="10" />
+        <Remove />
+     </StatusEffect>
     </LightComponent>
     <ItemContainer hideitems="true" canbeselected="true" capacity="2" maxstacksize="1" msg="ItemMsgInteractSelect" allowuioverlap="true">
       <GuiFrame relativesize="0.15,0.2" anchor="Center" style="ItemUI" />
       <Containable items="smallitem">
         <StatusEffect type="OnContaining" targettype="Contained" targets="mercury" delay="3.0" stackable="false" checkconditionalalways="true">
           <Conditional voltage="gt 0.5" TargetContainer="true" />
-          <Explosion range="500.0" force="1" applyfireeffects="false" flames="false" sparks="false" underwaterbubble="false">
-            <Affliction identifier="mercurypoisoning" strength="25" />
-          </Explosion>
           <Remove />
         </StatusEffect>
         <StatusEffect type="OnContaining" targettype="Contained" targets="silveramalgam" delay="3.0" stackable="false" checkconditionalalways="true">
           <Conditional voltage="gt 0.5" TargetContainer="true" />
           <SpawnItem identifiers="silver" spawnposition="ThisInventory" spawnifinventoryfull="true" />
-          <Explosion range="500.0" force="1" applyfireeffects="false" flames="false" sparks="false" underwaterbubble="false">
-            <Affliction identifier="mercurypoisoning" strength="25" />
-          </Explosion>
           <Remove />
         </StatusEffect>
         <StatusEffect type="OnContaining" targettype="Contained" targets="aluminiumamalgam1" delay="3.0" stackable="false" checkconditionalalways="true">
           <Conditional voltage="gt 0.5" TargetContainer="true" />
           <SpawnItem identifiers="aluminium" spawnposition="ThisInventory" spawnifinventoryfull="true" />
-          <Explosion range="500.0" force="1" applyfireeffects="false" flames="false" sparks="false" underwaterbubble="false">
-            <Affliction identifier="mercurypoisoning" strength="25" />
-          </Explosion>
           <Remove />
         </StatusEffect>
         <StatusEffect type="OnContaining" targettype="Contained" targets="aluminiumamalgam2" delay="3.0" stackable="false" checkconditionalalways="true">
           <Conditional voltage="gt 0.5" TargetContainer="true" />
           <SpawnItem identifiers="aluminium" count="2" spawnposition="ThisInventory" spawnifinventoryfull="true" />
-          <Explosion range="500.0" force="1" applyfireeffects="false" flames="false" sparks="false" underwaterbubble="false">
-            <Affliction identifier="mercurypoisoning" strength="25" />
-          </Explosion>
           <Remove />
         </StatusEffect>
         <StatusEffect type="OnContaining" targettype="Contained" targets="goldamalgam" delay="3.0" stackable="false" checkconditionalalways="true">
           <Conditional voltage="gt 0.5" TargetContainer="true" />
           <SpawnItem identifiers="gold" spawnposition="ThisInventory" spawnifinventoryfull="true" />
-          <Explosion range="500.0" force="1" applyfireeffects="false" flames="false" sparks="false" underwaterbubble="false">
-            <Affliction identifier="mercurypoisoning" strength="25" />
-          </Explosion>
-          <Remove />
-        </StatusEffect>
-        <StatusEffect type="OnContaining" targettype="Contained" targets="bromine" delay="3.0" stackable="false" checkconditionalalways="true">
-          <Conditional voltage="gt 0.5" TargetContainer="true" />
-          <Explosion range="1000.0" force="1" applyfireeffects="false" flames="false" sparks="false" underwaterbubble="false">
-            <Affliction identifier="nausea" strength="100" />
-          </Explosion>
-          <Remove />
-        </StatusEffect>
-        <StatusEffect type="OnContaining" targettype="Contained" targets="brominewaterconcentrated" delay="3.0" stackable="false" checkconditionalalways="true">
-          <Conditional voltage="gt 0.5" TargetContainer="true" />
-          <Explosion range="500.0" force="1" applyfireeffects="false" flames="false" sparks="false" underwaterbubble="false">
-            <Affliction identifier="nausea" strength="50" />
-          </Explosion>
           <Remove />
         </StatusEffect>
       </Containable>
