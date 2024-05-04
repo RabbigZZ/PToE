@@ -159,7 +159,7 @@
     </Effect>
     <Effect minstrength="25" maxstrength="50"
       strengthchange="0.25"
-      minscreenblur="0.1"
+      minscreenblur="0.2"
       maxscreenblur="2.0"
       minfacetint="255,255,0,0"
       maxfacetint="255,255,0,80"

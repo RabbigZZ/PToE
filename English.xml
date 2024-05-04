@@ -188,6 +188,8 @@
   <entitydescription.brominewaterconcentrated>It really stinks. Distill to get liquid bromine.</entitydescription.brominewaterconcentrated>
   <entityname.nuclearglowstick>Nuclear Glowstick</entityname.nuclearglowstick>
   <entitydescription.nuclearglowstick>Glows for about 5 minutes after a shake, can be used unlimited times.</entitydescription.nuclearglowstick>
+  <entityname.aluminium2>Aluminium (x2)</entityname.aluminium2>
+  <entitydescription.aluminium2>Too much aluminium stacking in this container.</entitydescription.aluminium2>
   <!--Medical-->
   <entityname.silverionbandage>Silver Ion Bandage</entityname.silverionbandage>
   <entitydescription.silverionbandage>Bandage with silver ion added.</entitydescription.silverionbandage>

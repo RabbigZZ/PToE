@@ -20,4 +20,5 @@
   <Other file="%ModDir%/MineralEnvironment.png" />
   <Other file="%ModDir%/UI.png" />
   <Other file="%ModDir%/progress.txt" />
+  <Other file="%ModDir%/workshop_popularity.xlsx" />
 </contentpackage>

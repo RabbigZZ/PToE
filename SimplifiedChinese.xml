@@ -188,6 +188,8 @@
   <entitydescription.brominewaterconcentrated>真的臭。蒸馏以得到液溴。</entitydescription.brominewaterconcentrated>
   <entityname.nuclearglowstick>核能荧光棒</entityname.nuclearglowstick>
   <entitydescription.nuclearglowstick>摇晃后持续发光约5分钟，可无限次使用。</entitydescription.nuclearglowstick>
+  <entityname.aluminium2>铝（x2）</entityname.aluminium2>
+  <entitydescription.aluminium2>过多的铝堆积在这个容器中。</entitydescription.aluminium2>
   <!--医疗-->
   <entityname.silverionbandage>银离子绷带</entityname.silverionbandage>
   <entitydescription.silverionbandage>添加了银离子的绷带。</entitydescription.silverionbandage>

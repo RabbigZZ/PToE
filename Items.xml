@@ -1335,4 +1335,22 @@
       </Button>
     </CustomInterface>
   </Item>
+  <Item name="" identifier="aluminium2" variantof="aluminium" maxstacksize="1" maxstacksizecharacterinventory="1" hideinmenus="true">
+    <PreferredContainer />
+    <PreferredContainer />
+    <Price />
+    <InventoryIcon texture="%ModDir%/Items.png" sourcerect="320,272,64,64" />
+    <Holdable>
+      <StatusEffect />
+      <StatusEffect type="OnNotContained" target="This">
+        <SpawnItem identifiers="aluminium" count="2" spawnposition="This" />
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnContained" target="This">
+        <Conditional TargetContainer="true" entitytype="eq Character" />
+        <SpawnItem identifiers="aluminium" count="2" spawnposition="SameInventory" spawnifinventoryfull="true" />
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
 </Items>
