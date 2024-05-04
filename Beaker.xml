@@ -40,9 +40,23 @@
       <GuiFrame relativesize="0.12,0.14" anchor="BottomCenter" absoluteoffset="0,75" />
       <Button text="react">
         <StatusEffect type="OnUse" target="Contained">
-          <RequiredItem items="silver,silvercommendation,silvermedal" type="Contained" />
+          <RequiredItem items="silver" type="Contained" />
           <RequiredItem items="mercury" type="Contained" />
           <SpawnItem identifiers="silveramalgam" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <Remove />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="Contained">
+          <RequiredItem items="silvercommendation" type="Contained" />
+          <RequiredItem items="mercury" type="Contained" />
+          <SpawnItem identifiers="silveramalgam" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="coalitioncommendation" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <Remove />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="Contained">
+          <RequiredItem items="silvermedal" type="Contained" />
+          <RequiredItem items="mercury" type="Contained" />
+          <SpawnItem identifiers="silveramalgam" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="coalitionmedal" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>
         <StatusEffect type="OnUse" target="Contained">
@@ -64,9 +78,23 @@
           <Remove />
         </StatusEffect>
         <StatusEffect type="OnUse" target="Contained">
-          <RequiredItem items="gold,goldcommendation,goldmedal" type="Contained" />
+          <RequiredItem items="gold" type="Contained" />
           <RequiredItem items="mercury" type="Contained" />
           <SpawnItem identifiers="goldamalgam" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <Remove />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="Contained">
+          <RequiredItem items="goldcommendation" type="Contained" />
+          <RequiredItem items="mercury" type="Contained" />
+          <SpawnItem identifiers="goldamalgam" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="coalitioncommendation" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <Remove />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="Contained">
+          <RequiredItem items="goldmedal" type="Contained" />
+          <RequiredItem items="mercury" type="Contained" />
+          <SpawnItem identifiers="goldamalgam" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="coalitionmedal" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>
       </Button>
