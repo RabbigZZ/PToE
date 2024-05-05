@@ -750,7 +750,7 @@
     </Fabricate>
     <Sprite texture="%ModDir%/Items.png" sourcerect="736,72,153,18" depth="0.55" origin="0.5,0.5" />
     <Body width="153" height="18" density="30" />
-    <MeleeWeapon slots="Any,RightHand,LeftHand" aimpos="35,10" handle1="-28,0" holdangle="30" aimangle="20" reload="0.75" range="75" combatPriority="30" msg="ItemMsgPickUpSelect">
+    <MeleeWeapon slots="Any,RightHand,LeftHand" aimpos="35,10" handle1="-28,0" holdangle="30" aimangle="20" reload="0.75" range="75" combatPriority="50" msg="ItemMsgPickUpSelect">
       <Attack targetimpulse="2" severlimbsprobability="0.55" itemdamage="12" structuredamage="20" structuresoundtype="StructureSlash">
         <Affliction identifier="explosiondamage" strength="12" />
         <Affliction identifier="internaldamage" strength="12" />
@@ -802,7 +802,7 @@
     </Fabricate>
     <InventoryIcon texture="%ModDir%/Items.png" sourcerect="0,144,64,64" />
     <Sprite texture="%ModDir%/Items.png" sourcerect="256,128,64,20" />
-    <MeleeWeapon>
+    <MeleeWeapon combatpriority="35">
       <Attack penetration="0.1">
         <Affliction identifier="blunttrauma" strength="16" />
       </Attack>
@@ -826,7 +826,7 @@
     </Fabricate>
     <InventoryIcon texture="%ModDir%/Items.png" sourcerect="128,144,64,64" />
     <Sprite texture="%ModDir%/Items.png" sourcerect="320,128,128,30" />
-    <MeleeWeapon>
+    <MeleeWeapon combatpriority="40">
       <Attack penetration="0.4">
         <Affliction identifier="blunttrauma" strength="24" />
       </Attack>
@@ -848,7 +848,7 @@
     </Fabricate>
     <InventoryIcon texture="%ModDir%/Items.png" sourcerect="64,144,64,64" />
     <Sprite texture="%ModDir%/Items.png" sourcerect="256,148,64,12" />
-    <MeleeWeapon>
+    <MeleeWeapon combatpriority="35">
       <Attack penetration="0.1">
         <Affliction identifier="lacerations" strength="28" />
         <Affliction identifier="bleeding" strength="8" />
@@ -870,7 +870,7 @@
     </Fabricate>
     <InventoryIcon texture="%ModDir%/Items.png" sourcerect="192,144,64,64" />
     <Sprite texture="%ModDir%/Items.png" sourcerect="448,128,191,63" />
-    <MeleeWeapon>
+    <MeleeWeapon combatpriority="50">
       <Attack penetration="0.4">
         <Affliction identifier="blunttrauma" strength="32" />
       </Attack>
@@ -897,7 +897,7 @@
     </Fabricate>
     <Sprite texture="%ModDir%/Items.png" sourcerect="256,160,114,20" depth="0.55" origin="0.5,0.5" />
     <Body width="60" height="15" density="30" />
-    <MeleeWeapon slots="RightHand+LeftHand,Any" range="100" reload="1.1" controlpose="true" aimpos="45,10" handle1="-10,0" handle2="0,5" holdangle="60" combatpriority="20" msg="ItemMsgPickUpSelect">
+    <MeleeWeapon slots="RightHand+LeftHand,Any" range="100" reload="1.1" controlpose="true" aimpos="45,10" handle1="-10,0" handle2="0,5" holdangle="60" combatpriority="60" msg="ItemMsgPickUpSelect">
       <StatusEffect type="OnFailure" target="This" reload="1.5" setvalue="true" />
       <StatusEffect type="OnUse" target="This" reload="1.1" setvalue="true" delay="1.4"/>
       <RequiredSkill identifier="mechanical" level="80" />
@@ -1065,7 +1065,7 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="nh3bh3tank" category="Equipment,Fuel" maxstacksize="8" maxstacksizecharacterinventory="1" Tags="smallitem,weldingtoolfuel,weldingfuel,refillableoxygensource,weldingfueltank" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" spritecolor="255,192,192,255" InventoryIconColor="255,192,192,255" health="30">
+  <Item name="" identifier="nh3bh3tank" category="Equipment,Fuel" maxstacksize="8" maxstacksizecharacterinventory="1" Tags="smallitem,weldingtoolfuel,weldingfuel,refillableoxygensource,weldingfueltank" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" spritecolor="255,192,192,255" InventoryIconColor="255,192,192,255" health="60">
     <PreferredContainer primary="engcab" secondary="supplycab" />
     <Price baseprice="130" sold="false">
       <Price storeidentifier="merchantcity" multiplier="0.9" available="1" />
@@ -1352,5 +1352,27 @@
         <Remove />
       </StatusEffect>
     </Holdable>
+  </Item>
+  <Item name="" identifier="golddivingknife" variantof="divingknife" spritecolor="255,215,0,255" inventoryiconcolor="255,215,0,255">
+    <PreferredContainer secondary="piratearmcab" spawnprobability="0.01" />
+    <PreferredContainer />
+    <PreferredContainer />
+    <Price baseprice="2050" sold="false" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="66" />
+      <RequiredItem identifier="divingknife" amount="1" />
+      <RequiredItem identifier="gold" />
+    </Fabricate>
+    <MeleeWeapon>
+      <Attack>
+        <StatusEffect type="OnUse" />
+        <StatusEffect type="OnUse" target="This,Character">
+          <GiveExperience amount="3" />
+        </StatusEffect>
+      </Attack>
+    </MeleeWeapon>
+    <Quality>
+      <QualityStat value="0.3" />
+    </Quality>
   </Item>
 </Items>

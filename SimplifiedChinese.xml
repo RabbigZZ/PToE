@@ -190,6 +190,8 @@
   <entitydescription.nuclearglowstick>摇晃后持续发光约5分钟，可无限次使用。</entitydescription.nuclearglowstick>
   <entityname.aluminium2>铝（x2）</entityname.aluminium2>
   <entitydescription.aluminium2>过多的铝堆积在这个容器中。</entitydescription.aluminium2>
+  <entityname.golddivingknife>金潜水刀</entityname.golddivingknife>
+  <entitydescription.golddivingknife>这把刀并没有更锋利，但你更专注了。</entitydescription.golddivingknife>
   <!--医疗-->
   <entityname.silverionbandage>银离子绷带</entityname.silverionbandage>
   <entitydescription.silverionbandage>添加了银离子的绷带。</entitydescription.silverionbandage>

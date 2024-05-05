@@ -34,7 +34,7 @@
         </StatusEffect>
         <StatusEffect type="OnContaining" targettype="Contained" targets="aluminiumamalgam2" delay="10.0" stackable="false" checkconditionalalways="true">
           <Conditional voltage="gt 0.5" TargetContainer="true" />
-          <SpawnItem identifiers="aluminium" count="2" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="aluminium2" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <SpawnItem identifiers="mercury" spawnposition="ThisInventory"  spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>

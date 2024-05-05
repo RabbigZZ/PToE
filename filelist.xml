@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="PToE" modversion="16.4" corepackage="False" steamworkshopid="3157190485" gameversion="1.4.5.0">
+<contentpackage name="PToE" modversion="16.4" corepackage="False" steamworkshopid="3157190485" gameversion="1.4.6.0">
   <Text file="%ModDir%/English.xml" />
   <Text file="%ModDir%/SimplifiedChinese.xml" />
   <Item file="%ModDir%/Beaker.xml" />

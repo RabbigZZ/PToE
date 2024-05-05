@@ -97,6 +97,13 @@
           <SpawnItem identifiers="coalitionmedal" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>
+        <StatusEffect type="OnUse" target="Contained">
+          <RequiredItem items="golddivingknife" type="Contained" />
+          <RequiredItem items="mercury" type="Contained" />
+          <SpawnItem identifiers="goldamalgam" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="divingknife" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <Remove />
+        </StatusEffect>
       </Button>
     </CustomInterface>
     <AiTarget sightrange="1000" static="true" />

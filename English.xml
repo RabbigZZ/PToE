@@ -190,6 +190,8 @@
   <entitydescription.nuclearglowstick>Glows for about 5 minutes after a shake, can be used unlimited times.</entitydescription.nuclearglowstick>
   <entityname.aluminium2>Aluminium (x2)</entityname.aluminium2>
   <entitydescription.aluminium2>Too much aluminium stacking in this container.</entitydescription.aluminium2>
+  <entityname.golddivingknife>Gold Diving Knife</entityname.golddivingknife>
+  <entitydescription.golddivingknife>It is not sharper but makes you more focused.</entitydescription.golddivingknife>
   <!--Medical-->
   <entityname.silverionbandage>Silver Ion Bandage</entityname.silverionbandage>
   <entitydescription.silverionbandage>Bandage with silver ion added.</entitydescription.silverionbandage>
@@ -243,6 +245,7 @@
   <entityname.scheelite>Scheelite</entityname.scheelite>
   <entitydescription.scheelite>A mineral containing calcium and tungsten.</entitydescription.scheelite>
   <entityname.huebnerite>Huebnerite</entityname.huebnerite>
+  <entitydescription.huebnerite>A mineral containing manganese and tungsten.</entitydescription.huebnerite>
   <entityname.borax>Borax</entityname.borax>
   <entitydescription.borax>A mineral containing sodium and boron.</entitydescription.borax>
   <entityname.priceite>Priceite</entityname.priceite>
