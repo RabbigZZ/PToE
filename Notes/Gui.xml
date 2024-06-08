@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style>
+  <Note181 color="255,255,255,242" textcolor="0,0,0,255">
+    <Sprite name="note181" texture="%ModDir%/Notes/Note181.png" sourcerect="0,0,752,1024" maintainaspectratio="true" tile="false" origin="0.5,0.5" compress="true"/>
+  </Note181>
+  <Note182 color="255,255,255,242" textcolor="0,0,0,255">
+    <Sprite name="note182" texture="%ModDir%/Notes/Note182.png" sourcerect="0,0,752,1024" maintainaspectratio="true" tile="false" origin="0.5,0.5" compress="true"/>
+  </Note182>
+</style>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items>
+  <Item name="" identifier="electroplatingtank" category="Misc" tags="crate,chemicaldevice" pickdistance="150" scale="0.5" showcontentsintooltip="true" impactsoundtag="impact_metal_heavy" isshootable="true">
+    <InventoryIcon texture="%ModDir%/Items.png" sourcerect="296,336,168,96" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items.png" depth="0.7" sourcerect="296,336,168,96" origin="0.4404762,0.5677083" />
+    <Body width="150" height="75" density="20" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-80" aimpos="10,-70" handle1="-30,14" handle2="30,14" msg="ItemMsgDetachWrench" PickingTime="5.0" attachable="true" attachedbydefault="true" aimable="true">
+      <RequiredItem items="wrench" type="Equipped" />
+    </Holdable>
+    <LightComponent color="255,255,255,255" lightcolor="255,240,192,32" range="100" IsOn="true" powerconsumption="50" castshadows="false" AllowInGameEditing="false">
+      <StatusEffect type="OnActive" target="Contained">
+        <Conditional voltage="gt 0.5" TargetContainer="true" />
+        <RequiredItem items="coalitioncommendation" type="Contained" />
+        <RequiredItem items="silver" type="Contained" />
+        <SpawnItem identifiers="silvercommendation" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="Contained">
+        <Conditional voltage="gt 0.5" TargetContainer="true" />
+        <RequiredItem items="coalitioncommendation" type="Contained" />
+        <RequiredItem items="gold" type="Contained" />
+        <SpawnItem identifiers="goldcommendation" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="Contained">
+        <Conditional voltage="gt 0.5" TargetContainer="true" />
+        <RequiredItem items="coalitionmedal" type="Contained" />
+        <RequiredItem items="silver" type="Contained" />
+        <SpawnItem identifiers="silvermedal" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="Contained">
+        <Conditional voltage="gt 0.5" TargetContainer="true" />
+        <RequiredItem items="coalitionmedal" type="Contained" />
+        <RequiredItem items="gold" type="Contained" />
+        <SpawnItem identifiers="goldmedal" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="Contained">
+        <Conditional voltage="gt 0.5" TargetContainer="true" />
+        <RequiredItem identifier="wrench" type="Contained" AllowVariants="false" />
+        <RequiredItem items="plate" type="Contained" />
+        <SpawnItem identifiers="wrenchplated" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="Contained">
+        <Conditional voltage="gt 0.5" TargetContainer="true" />
+        <RequiredItem identifier="screwdriver" type="Contained" AllowVariants="false" />
+        <RequiredItem items="plate" type="Contained" />
+        <SpawnItem identifiers="screwdriverplated" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="Contained">
+        <Conditional voltage="gt 0.5" TargetContainer="true" />
+        <RequiredItem identifier="crowbar" type="Contained" AllowVariants="false" />
+        <RequiredItem items="plate" type="Contained" />
+        <SpawnItem identifiers="crowbarplated" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="Contained">
+        <Conditional voltage="gt 0.5" TargetContainer="true" />
+        <RequiredItem identifier="stunbaton" type="Contained" AllowVariants="false" />
+        <RequiredItem items="plate" type="Contained" />
+        <SpawnItem identifiers="stunbatonplated" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="Contained">
+        <Conditional voltage="gt 0.5" TargetContainer="true" />
+        <RequiredItem identifier="divingknife" type="Contained" AllowVariants="false" />
+        <RequiredItem items="gold" type="Contained" />
+        <SpawnItem identifiers="divingknifegilded" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+        <Remove />
+      </StatusEffect>
+    </LightComponent>
+    <ItemContainer hideitems="true" canbeselected="true" capacity="1" maxstacksize="1" msg="ItemMsgInteractSelect" allowuioverlap="true">
+      <SlotIcon slotindex="0" texture="%ModDir%/UI.png" sourcerect="64,64,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="1" texture="%ModDir%/UI.png" sourcerect="0,64,64,64" origin="0.5,0.5" />
+      <GuiFrame relativesize="0.15,0.2" anchor="Center" style="ItemUI" />
+      <Containable items="smallitem">
+      </Containable>
+      <SubContainer capacity="1" maxstacksize="1" hideitems="true">
+        <Containable items="silver,gold,plate" />
+      </SubContainer>
+    </ItemContainer>
+    <CustomInterface canbeselected="true" drawhudwhenequipped="true" AllowInGameEditing="false" allowuioverlap="true">
+      <GuiFrame relativesize="0.12,0.14" anchor="BottomCenter" absoluteoffset="0,75" />
+      <Button text="deconstructordeconstruct">
+        <StatusEffect type="OnUse" target="This">
+          <DropContainedItems />
+          <SpawnItem identifiers="watertank" spawnposition="SameInventory" spawnifinventoryfull="true" SpawnIfNotInInventory="true" />
+          <Remove />
+        </StatusEffect>
+      </Button>
+    </CustomInterface>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="power" displayname="connection.power" />
+    </ConnectionPanel>
+  </Item>
+</Items>

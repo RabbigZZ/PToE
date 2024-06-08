@@ -203,4 +203,37 @@
     </Effect>
     <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="640,640,128,128" color="106,106,106,255" origin="0,0"/>
   </Affliction>
+  <Affliction
+    name=""
+    identifier="underwaterboost"
+    description=""
+    type=""
+    isbuff="true"
+    limbspecific="false"
+    maxstrength="100">
+    <Effect minstrength="0" maxstrength="100"
+      strengthchange="-10">
+      <StatValue stattype="SwimmingSpeed" minvalue="0" maxvalue="10.0" />
+    </Effect>
+    <icon texture="%ModDir%/UI.png" sourcerect="384,0,128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+  <Affliction
+    name=""
+    identifier="merbrominprotection"
+    description=""
+    type=""
+    isbuff="true"
+    limbspecific="true"
+    maxstrength="100">
+    <Effect minstrength="0" maxstrength="100" strengthchange="-0.1" />
+    <Effect minstrength="0" maxstrength="20"
+      resistancefor="infection"
+      minresistance="0.0"
+      maxresistance="1.0" />
+    <Effect minstrength="20" maxstrength="100"
+      resistancefor="infection"
+      minresistance="1.0"
+      maxresistance="1.0" />
+    <icon texture="%ModDir%/UI.png" sourcerect="384,128,128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
 </Afflictions>

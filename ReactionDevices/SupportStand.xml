@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items>
+  <Item name="" identifier="supportstand" category="Misc" tags="mediumitem,chemicaldevice" scale="0.7" pickdistance="150" showcontentsintooltip="true" impactsoundtag="impact_metal_heavy" isshootable="true">
+    <Deconstruct time="10">
+      <Item identifier="steel" amount="2" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="mechanical" level="25" />
+      <RequiredItem identifier="steel" amount="4" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Items.png" depth="0.71" sourcerect="464,336,48,96" origin="0.5,0.5" />
+    <Body width="50" height="90" density="25" />
+    <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="ItemMsgDetach" PickingTime="20.0" aimpos="85,-10" holdpos="30,-30" handle1="-10,0" handle2="-10,-25" attachable="true" attachedbydefault="true" aimable="true">
+      <StatusEffect target="This" type="Always" interval="0.2">
+        <Conditional attached="false" targetitemcomponentname="Holdable" />
+        <DropContainedItems />
+      </StatusEffect>
+    </Holdable>
+    <ItemContainer capacity="5" maxstacksize="1" canbeselected="true" hideitems="true" AllowAccessWhenDropped="false" msg="ItemMsgInteractSelect" allowuioverlap="true">
+      <Containable items="chemicaldevice" excludeditems="supportstand" />
+      <GuiFrame relativesize="0.3,0.2" anchor="Center" style="ItemUI" relativeoffset="-0.1,0" />
+    </ItemContainer>
+    <CustomInterface canbeselected="true" drawhudwhenequipped="false" AllowInGameEditing="false" allowuioverlap="true">
+      <GuiFrame relativesize="0.1,0.1" anchor="Center" relativeoffset="0.1,0" />
+      <Button text="assemble">
+        <StatusEffect type="OnUse" target="Contained">
+          <RequiredItem items="smartheater" type="Contained" />
+          <RequiredItem items="beaker" type="Contained" />
+          <SpawnItem identifiers="heatdevice" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <DropContainedItems />
+          <Remove />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="Contained">
+          <RequiredItem items="flusk" type="Contained" />
+          <RequiredItem items="condenser" type="Contained" />
+          <RequiredItem items="thermometer" type="Contained" />
+          <RequiredItem items="heatdevice" type="Contained" />
+          <SpawnItem identifiers="distillationdevice" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <DropContainedItems />
+          <Remove />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="Contained">
+          <RequiredItem items="watertank" type="Contained" />
+          <RequiredItem items="wire" type="Contained" />
+          <SpawnItem identifiers="electroplatingtank" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <DropContainedItems />
+          <Remove />
+        </StatusEffect>
+      </Button>
+    </CustomInterface>
+  </Item>
+</Items>

@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Items>
-  <Item name="" identifier="heatdevice" category="Misc" Tags="" scale="0.5" impactsoundtag="impact_metal_heavy" isshootable="true">
+  <Item name="" identifier="heatdevice" category="Misc" Tags="chemicaldevice" scale="0.5" impactsoundtag="impact_metal_heavy" isshootable="true">
     <Sprite texture="%ModDir%/Items.png" depth="0.7" sourcerect="672,208,48,64" origin="0.5,0.5" />
     <Body width="40" height="60" density="20" />
-    <Fabricate suitablefabricators="fabricator" requiredtime="5">
-      <RequiredItem identifier="smartheater" />
-      <RequiredItem identifier="beaker" />
-    </Fabricate>
     <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="ItemMsgDetachWrench" PickingTime="5.0" aimpos="85,-10" handle1="0,0" attachable="true" attachedbydefault="true" aimable="true">
       <RequiredItem items="wrench" type="Equipped" />
     </Holdable>

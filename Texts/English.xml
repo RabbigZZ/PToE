@@ -3,6 +3,8 @@
   <!--Actions-->
   <react>React</react>
   <shake>Shake</shake>
+  <assemble>Assemble</assemble>
+  <tear>Tear</tear>
   <!--Fabrication Descriptions-->
   <fabricationdescription.plate>Plating. Hard and wearproof metals.</fabricationdescription.plate>
   <fabricationdescription.rareearth>Scandium, yttrium, or lanthanides except promethium.</fabricationdescription.rareearth>
@@ -14,12 +16,13 @@
   <entitydescription.heatdevice>An open heat device.</entitydescription.heatdevice>
   <entityname.distillationdevice>Distillation Device</entityname.distillationdevice>
   <entitydescription.distillationdevice>Evaporate and collect liquids. It may take a bit longer time.</entitydescription.distillationdevice>
+  <entityname.supportstand>Support Stand</entityname.supportstand>
+  <entitydescription.supportstand>Assemble devices.</entitydescription.supportstand>
+  <entityname.electroplatingtank>Electroplating Tank</entityname.electroplatingtank>
+  <entitydescription.electroplatingtank>Cathode is for the item about to be plated, anode is for the plating metal.</entitydescription.electroplatingtank>
   <!--Elements-->
-  <entityname.hydrogentank>Hydrogen Tank</entityname.hydrogentank>
-  <displayname.hydrogentankempty>Hydrogen Tank (empty)</displayname.hydrogentankempty>
-  <entitydescription.hydrogentank>Dangerous fuel, completely prohibited. Can be refilled by oxygenerators.</entitydescription.hydrogentank>
-  <entityname.hydrogenstoringalloytank>Hydrogen Storing Alloy Tank</entityname.hydrogenstoringalloytank>
-  <entitydescription.hydrogenstoringalloytank>Rare earth-nickel alloy inside is able to store massive hydrogen safely. Can be refilled by oxygenerators.</entitydescription.hydrogenstoringalloytank>
+  <entityname.beryllium>Beryllium</entityname.beryllium>
+  <entitydescription.beryllium>Familiar with aluminum in most attributes, but lighter and rarer.</entitydescription.beryllium>
   <entityname.boron>Boron</entityname.boron>
   <entitydescription.boron>Metalloid with properties complex and unique, usages even more various.</entitydescription.boron>
   <entityname.ammonia>Ammonia</entityname.ammonia>
@@ -84,6 +87,8 @@
   <entitydescription.gold>Its value does not need explanations.</entitydescription.gold>
   <entityname.mercury>Mercury</entityname.mercury>
   <entitydescription.mercury>Is liquid at room temperature, can dissolve many metals. Toxic.</entitydescription.mercury>
+  <entityname.plutonium>Plutonium</entityname.plutonium>
+  <entitydescription.plutonium>Transferred from uranium. The power it containing greatly exceeded uranium and thorium.</entitydescription.plutonium>
   <!--Compounds-->
   <entityname.disulphuricacid>Disulphuric Acid</entityname.disulphuricacid>
   <entitydescription.disulphuricacid>React mildly with water to generate sulphuric acid.</entitydescription.disulphuricacid>
@@ -95,10 +100,10 @@
   <entitydescription.potassiumpermanganate>Strong oxidant. Mainly used to disinfect.</entitydescription.potassiumpermanganate>
   <entityname.silveramalgam>Silver Amalgam</entityname.silveramalgam>
   <entitydescription.silveramalgam>Silver-mercury alloy that can be separated by distillation.</entitydescription.silveramalgam>
-  <entityname.aluminiumamalgam1>Aluminium Amalgam</entityname.aluminiumamalgam1>
-  <entitydescription.aluminiumamalgam1>Mercury with some aluminium dissolved. Reacts violently when coming into contact with water, and can be separated by distillation.</entitydescription.aluminiumamalgam1>
-  <entityname.aluminiumamalgam2>Aluminium Amalgam</entityname.aluminiumamalgam2>
-  <entitydescription.aluminiumamalgam2>Mercury with a lot of aluminium dissolved. Becomes extremely dangerous when coming into contact with water, and can be separated by distillation.</entitydescription.aluminiumamalgam2>
+  <entityname.aluminiumamalgam1>Aluminum Amalgam</entityname.aluminiumamalgam1>
+  <entitydescription.aluminiumamalgam1>Mercury with some aluminum dissolved. Reacts violently when coming into contact with water, and can be separated by distillation.</entitydescription.aluminiumamalgam1>
+  <entityname.aluminiumamalgam2>Aluminum Amalgam</entityname.aluminiumamalgam2>
+  <entitydescription.aluminiumamalgam2>Mercury with a lot of aluminum dissolved. Becomes extremely dangerous when coming into contact with water, and can be separated by distillation.</entitydescription.aluminiumamalgam2>
   <entityname.goldamalgam>Gold Amalgam</entityname.goldamalgam>
   <entitydescription.goldamalgam>Gold-mercury alloy that can be separated by distillation.</entitydescription.goldamalgam>
   <entityname.silvercommendation>Silver Commendation</entityname.silvercommendation>
@@ -108,6 +113,11 @@
   <entityname.goldcommendation>Gold Commendation</entityname.goldcommendation>
   <entitydescription.goldcommendation>A small medal fashioned out of copper and gold, made out of Commendation. When applied to another crewmember's body, it instantly bestows them with the experience 10 times of Commendation.</entitydescription.goldcommendation>
   <!--Items-->
+  <entityname.hydrogentank>Hydrogen Tank</entityname.hydrogentank>
+  <displayname.hydrogentankempty>Hydrogen Tank (empty)</displayname.hydrogentankempty>
+  <entitydescription.hydrogentank>Dangerous fuel, completely prohibited. Can be refilled by oxygenerators.</entitydescription.hydrogentank>
+  <entityname.hydrogenstoringalloytank>Hydrogen Storing Alloy Tank</entityname.hydrogenstoringalloytank>
+  <entitydescription.hydrogenstoringalloytank>Rare earth-nickel alloy inside is able to store massive hydrogen safely. Can be refilled by oxygenerators.</entitydescription.hydrogenstoringalloytank>
   <entityname.goldmedal>Gold Medal</entityname.goldmedal>
   <entitydescription.goldmedal>A small medal fashioned out of bronze and gold, made out of Medal. When applied to another crewmember's body, it instantly bestows them with the experience 10 times of Medal.</entitydescription.goldmedal>
   <entityname.goldingot>Gold Ingot</entityname.goldingot>
@@ -190,8 +200,24 @@
   <entitydescription.nuclearglowstick>Glows for about 5 minutes after a shake, can be used unlimited times.</entitydescription.nuclearglowstick>
   <entityname.aluminium2>Aluminium (x2)</entityname.aluminium2>
   <entitydescription.aluminium2>Too much aluminium stacking in this container.</entitydescription.aluminium2>
-  <entityname.golddivingknife>Gold Diving Knife</entityname.golddivingknife>
-  <entitydescription.golddivingknife>It is not sharper but makes you more focused.</entitydescription.golddivingknife>
+  <entityname.divingknifegilded>Gilded Diving Knife</entityname.divingknifegilded>
+  <entitydescription.divingknifegilded>It is not sharper but makes you more focused.</entitydescription.divingknifegilded>
+  <entityname.lightweightdivingsuit>Lightweight Diving Suit</entityname.lightweightdivingsuit>
+  <entitydescription.lightweightdivingsuit>You can walk and run as usual in it. You can take a incandescent light with you by it.</entitydescription.lightweightdivingsuit>
+  <entityname.lightweightscooter>Lightweight Scooter</entityname.lightweightscooter>
+  <entitydescription.lightweightscooter>Carry it on your back instead of holding it.</entitydescription.lightweightscooter>
+  <entityname.advanceddivingmask>Advanced Diving Mask</entityname.advanceddivingmask>
+  <entitydescription.advanceddivingmask>Level 2 diving mask: Much harder than a normal one.</entitydescription.advanceddivingmask>
+  <entityname.smartdivingmask>Smart Diving Mask</entityname.smartdivingmask>
+  <entitydescription.smartdivingmask>Level 3 diving mask: Only comsumes oxygen in necessity.</entitydescription.smartdivingmask>
+  <entityname.automaticdivingmask>Automatic Diving Mask</entityname.automaticdivingmask>
+  <entitydescription.automaticdivingmask>Level 4 diving mask: Refills oxygen tanks when enquipped and in idle.</entitydescription.automaticdivingmask>
+  <entityname.watertank>Water Tank</entityname.watertank>
+  <entitydescription.watertank>Can both contain and proof water.</entitydescription.watertank>
+  <entityname.plutoniumblock>Plutonium Block</entityname.plutoniumblock>
+  <entitydescription.plutoniumblock>The power of this pack is at least 2 times of a nuclear shell. Think twice before use.</entitydescription.plutoniumblock>
+  <entityname.plutoniumshell>Plutonium Shell</entityname.plutoniumshell>
+  <entitydescription.plutoniumshell>Maybe more destructive than a plutonium block.</entitydescription.plutoniumshell>
   <!--Medical-->
   <entityname.silverionbandage>Silver Ion Bandage</entityname.silverionbandage>
   <entitydescription.silverionbandage>Bandage with silver ion added.</entitydescription.silverionbandage>
@@ -254,10 +280,34 @@
   <entitydescription.cinnabar>A mineral composed of mercury and sulphur.</entitydescription.cinnabar>
   <entityname.montroydite>Montroydite</entityname.montroydite>
   <entitydescription.montroydite>A mineral containing mercury.</entitydescription.montroydite>
+  <entityname.berylite>Berylite</entityname.berylite>
+  <entitydescription.berylite>A mineral containing beryllium, aluminum and silicon.</entitydescription.berylite>
+  <entityname.chrysoberyl>Chrysoberyl</entityname.chrysoberyl>
+  <entitydescription.chrysoberyl>A mineral containing beryllium and aluminum.</entitydescription.chrysoberyl>
+  <entityname.phenakite>Phenakite</entityname.phenakite>
+  <entitydescription.phenakite>A mineral containing beryllium and silicon.</entitydescription.phenakite>
   <!--Paints-->
   <entityname.chromeyellowpaint>Chrome Yellow Paint</entityname.chromeyellowpaint>
   <entityname.prussianbluepaint>Prussian Blue Paint</entityname.prussianbluepaint>
   <entityname.parisgreenpaint>Paris Green Paint</entityname.parisgreenpaint>
+  <!--Rods-->
+  <entityname.emptyreactionrod>Reaction Rod (empty)</entityname.emptyreactionrod>
+  <entitydescription.emptyreactionrod>If this is placed in an active reactor, material inside will absorb neutrons and begin to transfer.</entitydescription.emptyreactionrod>
+  <entityname.plutoniumfuelrod>Plutonium Fuel Rod</entityname.plutoniumfuelrod>
+  <entitydescription.plutoniumfuelrod>Despite the long life 12 times of uranium fuel rod, it's a waste to fuel your reactor with this.</entitydescription.plutoniumfuelrod>
+  <entityname.uraniumreactionrod>Uranium Reaction Rod</entityname.uraniumreactionrod>
+  <entitydescription.uraniumreactionrod>238U + n -> 239U </entitydescription.uraniumreactionrod>
+  <entityname.uraniumreactionrod1>Uranium Reaction Rod (decaying)</entityname.uraniumreactionrod1>
+  <entitydescription.uraniumreactionrod1>239U -> 239Np + e- (quick)</entitydescription.uraniumreactionrod1>
+  <entityname.neptuniumreactionrod1>Neptunium Reaction Rod (decaying)</entityname.neptuniumreactionrod1>
+  <entitydescription.neptuniumreactionrod1>239Np -> 239Pu + e- (slow)</entitydescription.neptuniumreactionrod1>
+  <entityname.plutoniumreactionrod>Plutonium Reaction Rod</entityname.plutoniumreactionrod>
+  <entitydescription.plutoniumreactionrod>It seems not able to react further. Deconstruct to get plutonium.</entitydescription.plutoniumreactionrod>
+  <!--Notes-->
+  <entityname.note181>Note 18.0 (1/2)</entityname.note181>
+  <entitydescription.note181>On the back is: "Tip: Assemble devices on support stands."</entitydescription.note181>
+  <entityname.note182>Note 18.0 (2/2)</entityname.note182>
+  <entitydescription.note182>Something about the electroplating tank.</entitydescription.note182>
   <!--Messages-->
   <afflictionname.arsenicpoisoning>Arsenic poisoning</afflictionname.arsenicpoisoning>
   <afflictioncauseofdeath.arsenicpoisoning>Died of arsenic poisoning.</afflictioncauseofdeath.arsenicpoisoning>
@@ -271,8 +321,12 @@
   <afflictioncauseofdeathself.mercurypoisoning>You have died of mercury poisoning.</afflictioncauseofdeathself.mercurypoisoning>
   <afflictiondescription.mercurypoisoning>The patient has been poisoned to obnubination. Unless an antidote is found, the patient will eventually die in agony.</afflictiondescription.mercurypoisoning>
   <afflictiondescription.mercurypoisoning.high>The patient has vital signs, but mercury has thoroughly invaded the brain. There is nothing to do.</afflictiondescription.mercurypoisoning.high>
-  <afflictiondescription.mercurypoisoning.medium.self>You have a headache......who and where I am?</afflictiondescription.mercurypoisoning.medium.self>
+  <afflictiondescription.mercurypoisoning.medium.self>Dizzy...... who and where am I?</afflictiondescription.mercurypoisoning.medium.self>
   <afflictiondescription.mercurypoisoning.low>The mercury content in the patient's body severely exceeded the limit.</afflictiondescription.mercurypoisoning.low>
+  <afflictionname.underwaterboost>Underwater Boost</afflictionname.underwaterboost>
+  <afflictiondescription.underwaterboost>Something is pushing you.</afflictiondescription.underwaterboost>
+  <afflictionname.merbrominprotection>Merbromin Protection</afflictionname.merbrominprotection>
+  <afflictiondescription.merbrominprotection>Merbromin is protecting this limb from further infections.</afflictiondescription.merbrominprotection>
   <itemmsgblackpowderpackrequired>Black powder pack required</itemmsgblackpowderpackrequired>
   <itemmsgblackpowderrequired>Black powder required</itemmsgblackpowderrequired>
 </infotexts>

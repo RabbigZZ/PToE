@@ -3,6 +3,8 @@
   <!--操作-->
   <react>反应</react>
   <shake>摇</shake>
+  <assemble>组装</assemble>
+  <tear>撕</tear>
   <!--加工台描述-->
   <fabricationdescription.plate>镀层。坚硬且耐磨的金属。</fabricationdescription.plate>
   <fabricationdescription.rareearth>钪、钇、或除钷外的镧系元素。</fabricationdescription.rareearth>
@@ -14,12 +16,13 @@
   <entitydescription.heatdevice>敞口的加热装置。</entitydescription.heatdevice>
   <entityname.distillationdevice>蒸馏装置</entityname.distillationdevice>
   <entitydescription.distillationdevice>蒸发并收集液体，需要的时间可能稍长。</entitydescription.distillationdevice>
+  <entityname.supportstand>铁架台</entityname.supportstand>
+  <entitydescription.supportstand>组装仪器</entitydescription.supportstand>
+  <entityname.electroplatingtank>电镀槽</entityname.electroplatingtank>
+  <entitydescription.electroplatingtank>待镀物件置于阴极，镀层金属置于阳极。</entitydescription.electroplatingtank>
   <!--元素-->
-  <entityname.hydrogentank>氢气罐</entityname.hydrogentank>
-  <displayname.hydrogentankempty>氢气罐（空）</displayname.hydrogentankempty>
-  <entitydescription.hydrogentank>危险燃料，已被全面禁止。可被氧气制造机补充。</entitydescription.hydrogentank>
-  <entityname.hydrogenstoringalloytank>贮氢合金罐</entityname.hydrogenstoringalloytank>
-  <entitydescription.hydrogenstoringalloytank>其内部的稀土镍合金可以安全地储存大量氢气。可被氧气制造机补充。</entitydescription.hydrogenstoringalloytank>
+  <entityname.beryllium>铍</entityname.beryllium>
+  <entitydescription.beryllium>主要性质与铝相似，但是更轻、更稀有。</entitydescription.beryllium>
   <entityname.boron>硼</entityname.boron>
   <entitydescription.boron>性质复杂而独特的类金属，应用更是五花八门。</entitydescription.boron>
   <entityname.ammonia>氨</entityname.ammonia>
@@ -84,6 +87,8 @@
   <entitydescription.gold>它的价值不需要解释。</entitydescription.gold>
   <entityname.mercury>汞</entityname.mercury>
   <entitydescription.mercury>室温下为液态，可以溶解多种金属。有毒。</entitydescription.mercury>
+  <entityname.plutonium>钚</entityname.plutonium>
+  <entitydescription.plutonium>从铀转化而来。它所蕴含的能量远超铀或钍。</entitydescription.plutonium>
   <!--化合物-->
   <entityname.potassiumchlorate>氯酸钾</entityname.potassiumchlorate>
   <entitydescription.potassiumchlorate>强氧化剂，与白糖混合威力都不小。</entitydescription.potassiumchlorate>
@@ -102,6 +107,11 @@
   <entityname.goldamalgam>金汞齐</entityname.goldamalgam>
   <entitydescription.goldamalgam>金汞合金，可以通过蒸馏分离。</entitydescription.goldamalgam>
   <!--物品-->
+  <entityname.hydrogentank>氢气罐</entityname.hydrogentank>
+  <displayname.hydrogentankempty>氢气罐（空）</displayname.hydrogentankempty>
+  <entitydescription.hydrogentank>危险燃料，已被全面禁止。可被氧气制造机补充。</entitydescription.hydrogentank>
+  <entityname.hydrogenstoringalloytank>贮氢合金罐</entityname.hydrogenstoringalloytank>
+  <entitydescription.hydrogenstoringalloytank>其内部的稀土镍合金可以安全地储存大量氢气。可被氧气制造机补充。</entitydescription.hydrogenstoringalloytank>
   <entityname.silvercommendation>银嘉奖</entityname.silvercommendation>
   <entitydescription.silvercommendation>银质小徽章，由嘉奖制成。对另一位船员使用时立即给予3倍于嘉奖的经验值。</entitydescription.silvercommendation>
   <entityname.silvermedal>银奖章</entityname.silvermedal>
@@ -190,8 +200,24 @@
   <entitydescription.nuclearglowstick>摇晃后持续发光约5分钟，可无限次使用。</entitydescription.nuclearglowstick>
   <entityname.aluminium2>铝（x2）</entityname.aluminium2>
   <entitydescription.aluminium2>过多的铝堆积在这个容器中。</entitydescription.aluminium2>
-  <entityname.golddivingknife>金潜水刀</entityname.golddivingknife>
-  <entitydescription.golddivingknife>这把刀并没有更锋利，但你更专注了。</entitydescription.golddivingknife>
+  <entityname.divingknifegilded>镀金潜水刀</entityname.divingknifegilded>
+  <entitydescription.divingknifegilded>这把刀并没有更锋利，但你更专注了。</entitydescription.divingknifegilded>
+  <entityname.lightweightdivingsuit>轻量潜水服</entityname.lightweightdivingsuit>
+  <entitydescription.lightweightdivingsuit>你可以穿着它正常行走奔跑。你可以用它随身携带一个白炽灯。</entitydescription.lightweightdivingsuit>
+  <entityname.lightweightscooter>轻量推进器</entityname.lightweightscooter>
+  <entitydescription.lightweightscooter>把它背在身上，而不是握着。</entitydescription.lightweightscooter>
+  <entityname.advanceddivingmask>高级潜水面罩</entityname.advanceddivingmask>
+  <entitydescription.advanceddivingmask>2级潜水面罩：比普通的坚固很多。</entitydescription.advanceddivingmask>
+  <entityname.smartdivingmask>智能潜水面罩</entityname.smartdivingmask>
+  <entitydescription.smartdivingmask>3级潜水面罩：只在必要时消耗氧气。</entitydescription.smartdivingmask>
+  <entityname.automaticdivingmask>自动潜水面罩</entityname.automaticdivingmask>
+  <entitydescription.automaticdivingmask>4级潜水面罩：当装备中且闲置时，填充氧气罐。</entitydescription.automaticdivingmask>
+  <entityname.watertank>水槽</entityname.watertank>
+  <entitydescription.watertank>既能装水，又能防水。</entitydescription.watertank>
+  <entityname.plutoniumblock>钚炸弹</entityname.plutoniumblock>
+  <entitydescription.plutoniumblock>这个包裹的威力至少是核弹的两倍，使用前三思。</entitydescription.plutoniumblock>
+  <entityname.plutoniumshell>钚轨道炮弹</entityname.plutoniumshell>
+  <entitydescription.plutoniumshell>可能比钚炸弹更具破坏性。</entitydescription.plutoniumshell>
   <!--医疗-->
   <entityname.silverionbandage>银离子绷带</entityname.silverionbandage>
   <entitydescription.silverionbandage>添加了银离子的绷带。</entitydescription.silverionbandage>
@@ -254,10 +280,34 @@
   <entitydescription.cinnabar>含有汞、硫成分的矿物。</entitydescription.cinnabar>
   <entityname.montroydite>橙红石</entityname.montroydite>
   <entitydescription.montroydite>含汞的富集矿物。</entitydescription.montroydite>
+  <entityname.berylite>绿柱石</entityname.berylite>
+  <entitydescription.berylite>含有铍、铝、硅成分的矿物。</entitydescription.berylite>
+  <entityname.chrysoberyl>金绿玉</entityname.chrysoberyl>
+  <entitydescription.chrysoberyl>含有铍、铝成分的矿物。</entitydescription.chrysoberyl>
+  <entityname.phenakite>硅铍石</entityname.phenakite>
+  <entitydescription.phenakite>含有铍、硅成分的矿物。</entitydescription.phenakite>
   <!--涂料-->
   <entityname.chromeyellowpaint>铬黄涂料</entityname.chromeyellowpaint>
   <entityname.prussianbluepaint>普鲁士蓝涂料</entityname.prussianbluepaint>
   <entityname.parisgreenpaint>巴黎绿涂料</entityname.parisgreenpaint>
+  <!--“棒”-->
+  <entityname.emptyreactionrod>反应棒（空）</entityname.emptyreactionrod>
+  <entitydescription.emptyreactionrod>若被置于运作中的反应堆，其中的材料将吸收中子并开始转化。</entitydescription.emptyreactionrod>
+  <entityname.plutoniumfuelrod>钚燃料棒</entityname.plutoniumfuelrod>
+  <entitydescription.plutoniumfuelrod>尽管它有铀燃料棒12倍的使用寿命，用作反应堆燃料还是太浪费。</entitydescription.plutoniumfuelrod>
+  <entityname.uraniumreactionrod>铀反应棒</entityname.uraniumreactionrod>
+  <entitydescription.uraniumreactionrod>238U+n->239U</entitydescription.uraniumreactionrod>
+  <entityname.uraniumreactionrod1>铀反应棒（衰变中）</entityname.uraniumreactionrod1>
+  <entitydescription.uraniumreactionrod1>239U->239Np+e-（快）</entitydescription.uraniumreactionrod1>
+  <entityname.neptuniumreactionrod1>镎反应棒（衰变中）</entityname.neptuniumreactionrod1>
+  <entitydescription.neptuniumreactionrod1>239Np->239Pu+e-（慢）</entitydescription.neptuniumreactionrod1>
+  <entityname.plutoniumreactionrod>钚反应棒</entityname.plutoniumreactionrod>
+  <entitydescription.plutoniumreactionrod>它看起来不能进一步反应了。拆解以获得钚。</entitydescription.plutoniumreactionrod>
+  <!--Notes-->
+  <entityname.note181>笔记18.0（1/2）</entityname.note181>
+  <entitydescription.note181>背面写着：“提示：在铁架台上组装仪器”</entitydescription.note181>
+  <entityname.note182>笔记18.0（2/2）</entityname.note182>
+  <entitydescription.note182>关于电镀槽的一些事。</entitydescription.note182>
   <!--信息-->
   <afflictionname.arsenicpoisoning>砷中毒</afflictionname.arsenicpoisoning>
   <afflictioncauseofdeath.arsenicpoisoning>死于砷中毒</afflictioncauseofdeath.arsenicpoisoning>
@@ -273,6 +323,10 @@
   <afflictiondescription.mercurypoisoning.high>虽然患者尚有生命体征，但汞已经完全侵入其大脑，回天无力。</afflictiondescription.mercurypoisoning.high>
   <afflictiondescription.mercurypoisoning.medium.self>你感到头晕……我是谁？我在哪？</afflictiondescription.mercurypoisoning.medium.self>
   <afflictiondescription.mercurypoisoning.low>患者体内汞含量严重超标。</afflictiondescription.mercurypoisoning.low>
+  <afflictionname.underwaterboost>水下加速</afflictionname.underwaterboost>
+  <afflictiondescription.underwaterboost>有东西推动着你。</afflictiondescription.underwaterboost>
+  <afflictionname.merbrominprotection>汞溴红保护</afflictionname.merbrominprotection>
+  <afflictiondescription.merbrominprotection>汞溴红正保护此肢体免受进一步感染。</afflictiondescription.merbrominprotection>
   <itemmsgblackpowderpackrequired>需要黑火药包</itemmsgblackpowderpackrequired>
   <itemmsgblackpowderrequired>需要黑火药</itemmsgblackpowderrequired>
 </infotexts>

@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Items>
+  <Item name="" identifier="beryllium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <Price baseprice="194" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
+      <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="1" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/PToE.png" sourcerect="64,64,64,64" />
+    <Sprite texture="%ModDir%/PToE.png" sourcerect="67,74,57,47" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="20" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
   <Item name="" identifier="boron" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
     <Price baseprice="23" sold="false">
@@ -24,7 +42,7 @@
     <Price baseprice="15" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
       <Price storeidentifier="merchantcity" multiplier="1.25" />
-      <Price storeidentifier="merchantresearch" multiplier="1.1" avaliable="4" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" minavaliable="4" />
       <Price storeidentifier="merchantmilitary" multiplier="1.1" />
       <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="20" />
     </Price>
@@ -66,7 +84,7 @@
       <Price storeidentifier="merchantcity" multiplier="1.25" />
       <Price storeidentifier="merchantresearch" multiplier="1.1" />
       <Price storeidentifier="merchantmilitary" multiplier="1.1" />
-      <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" avaliable="2" />
+      <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavaliable="2" />
     </Price>
     <InventoryIcon texture="%ModDir%/PToE.png" sourcerect="256,192,64,64" />
     <Sprite texture="%ModDir%/PToE.png" sourcerect="260,201,59,48" depth="0.55" origin="0.5,0.5" />
@@ -258,7 +276,7 @@
       <Price storeidentifier="merchantcity" multiplier="1.25" />
       <Price storeidentifier="merchantresearch" multiplier="1.1" />
       <Price storeidentifier="merchantmilitary" multiplier="1.1" />
-      <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" avaliable="1" />
+      <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavaliable="1" />
     </Price>
     <InventoryIcon texture="%ModDir%/PToE.png" sourcerect="128,448,64,64" />
     <Sprite texture="%ModDir%/Items.png" sourcerect="393,160,22,42" depth="0.55" origin="0.5,0.5" />
@@ -344,6 +362,24 @@
     <InventoryIcon texture="%ModDir%/PToE.png" sourcerect="704,320,64,64" />
     <Sprite texture="%ModDir%/Items.png" sourcerect="416,160,22,43" depth="0.6" origin="0.5,0.5" />
     <Body width="22" height="42" density="40" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="" identifier="plutonium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <Price baseprice="1230" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
+      <Price storeidentifier="merchantmine" multiplier="0.8" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/PToE.png" sourcerect="448,512,64,64" />
+    <Sprite texture="%ModDir%/PToE.png" sourcerect="451,520,59,49" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="40" />
     <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
       <StatusEffect type="OnBroken" target="This">
         <Remove />

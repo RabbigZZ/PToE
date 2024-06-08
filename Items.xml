@@ -96,11 +96,6 @@
       <Price storeidentifier="merchantmilitary" sold="true" maxavailable="1" />
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
-    <Fabricate suitablefabricators="fabricator" requiredtime="20">
-      <RequiredSkill identifier="helm" level="50" />
-      <RequiredItem identifier="coalitionmedal" />
-      <RequiredItem identifier="silver" />
-    </Fabricate>
     <Deconstruct time="20">
       <Item identifier="copper" />
       <Item identifier="tin" />
@@ -128,11 +123,6 @@
       <Price storeidentifier="merchantresearch" multiplier="0.9" />
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
-    <Fabricate suitablefabricators="fabricator" requiredtime="20">
-      <RequiredSkill identifier="helm" level="80" />
-      <RequiredItem identifier="coalitioncommendation" />
-      <RequiredItem identifier="gold"/> 
-    </Fabricate>
     <Deconstruct time="20">
       <Item identifier="copper" />
     </Deconstruct>
@@ -159,11 +149,6 @@
       <Price storeidentifier="merchantresearch" multiplier="0.9" />
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
-    <Fabricate suitablefabricators="fabricator" requiredtime="20">
-      <RequiredSkill identifier="helm" level="80" />
-      <RequiredItem identifier="coalitionmedal" />
-      <RequiredItem identifier="gold" />
-    </Fabricate>
     <Deconstruct time="20">
       <Item identifier="copper" />
       <Item identifier="tin" />
@@ -192,10 +177,6 @@
     <Deconstruct time="30">
       <Item identifier="gold" amount="5" />
     </Deconstruct>
-    <Fabricate suitablefabricators="fabricator" requiredtime="60">
-      <RequiredSkill identifier="mechanical" level="70" />
-      <RequiredItem identifier="gold" amount="8" />
-    </Fabricate>
     <InventoryIcon texture="%ModDir%/Items.png" sourcerect="114,66,16,12" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items.png" sourcerect="114,66,16,12" depth="0.55" origin="0.5,0.5" />
     <Body width="16" height="12" density="50" />
@@ -794,12 +775,8 @@
     <PreferredContainer primary="wreckengcab,abandonedengcab,outpostengcab,beaconengcab"  spawnprobability="0.1"/>
     <PreferredContainer secondary="outpostcrewcabinet" spawnprobability="0.05"/>
     <PreferredContainer secondary="outposttrashcan" spawnprobability="0" />
-    <Price baseprice="100" avaliable="1" />
-    <Fabricate>
-      <RequiredSkill identifier="mechanical" level="50" />
-      <RequiredItem identifier="" tag="plate" description="fabricationdescription.plate" amount="1" />
-      <RequiredItem identifier="wrench" />
-    </Fabricate>
+    <Price baseprice="100" minavaliable="1" />
+    <Fabricate />
     <InventoryIcon texture="%ModDir%/Items.png" sourcerect="0,144,64,64" />
     <Sprite texture="%ModDir%/Items.png" sourcerect="256,128,64,20" />
     <MeleeWeapon combatpriority="35">
@@ -818,12 +795,8 @@
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" spawnprobability="0.05" />
     <PreferredContainer primary="wreckengcab,abandonedengcab,outpostengcab,beaconengcab" spawnprobability="0.1" />
     <PreferredContainer secondary="outpostcrewcabinet" spawnprobability="0.05" />
-    <Price baseprice="120" avaliable="1" />
-    <Fabricate>
-      <RequiredSkill identifier="mechanical" level="50" />
-      <RequiredItem identifier="" tag="plate" description="fabricationdescription.plate" amount="1" />
-      <RequiredItem identifier="crowbar" />
-    </Fabricate>
+    <Price baseprice="120" minavaliable="1" />
+    <Fabricate />
     <InventoryIcon texture="%ModDir%/Items.png" sourcerect="128,144,64,64" />
     <Sprite texture="%ModDir%/Items.png" sourcerect="320,128,128,30" />
     <MeleeWeapon combatpriority="40">
@@ -840,12 +813,8 @@
     <PreferredContainer primary="wreckreactorcab,abandonedreactorcab" spawnprobability="0.05" />
     <PreferredContainer secondary="outpostcrewcabinet" spawnprobability="0" />
     <PreferredContainer secondary="outposttrashcan" spawnprobability="0" />
-    <Price baseprice="100" avaliable="1" />
-    <Fabricate>
-      <RequiredSkill identifier="mechanical" level="50" />
-      <RequiredItem identifier="" tag="plate" description="fabricationdescription.plate" amount="1" />
-      <RequiredItem identifier="screwdriver" />
-    </Fabricate>
+    <Price baseprice="100" minavaliable="1" />
+    <Fabricate />
     <InventoryIcon texture="%ModDir%/Items.png" sourcerect="64,144,64,64" />
     <Sprite texture="%ModDir%/Items.png" sourcerect="256,148,64,12" />
     <MeleeWeapon combatpriority="35">
@@ -860,19 +829,15 @@
     </Quality>
   </Item>
   <Item name="" identifier="stunbatonplated" variantof="stunbaton" allowasextracargo="true">
-    <PreferredContainer secondary="outpostsecarmcab" spawnprobability="0" />
-    <PreferredContainer secondary="wreckarmcab,abandonedarmcab" spawnprobability="0" />
+    <PreferredContainer spawnprobability="0" />
+    <PreferredContainer spawnprobability="0" />
     <Price baseprice="300" sold="false" />
-    <Fabricate suitablefabricators="fabricator" requiredtime="10">
-      <RequiredSkill identifier="mechanical" level="50" />
-      <RequiredItem identifier="" tag="plate" description="fabricationdescription.plate" amount="2" />
-      <RequiredItem identifier="stunbaton" amount="1" />
-    </Fabricate>
+    <Fabricate />
     <InventoryIcon texture="%ModDir%/Items.png" sourcerect="192,144,64,64" />
     <Sprite texture="%ModDir%/Items.png" sourcerect="448,128,191,63" />
     <MeleeWeapon combatpriority="50">
       <Attack penetration="0.4">
-        <Affliction identifier="blunttrauma" strength="32" />
+        <Affliction strength="24" />
       </Attack>
     </MeleeWeapon>
   </Item>
@@ -932,7 +897,7 @@
     <PreferredContainer secondary="outposttrashcan" amount="1" spawnprobability="0.2" />
     <Price baseprice="30" available="10">
       <Price storeidentifier="merchantoutpost" multiplier="0.9" />
-      <Price storeidentifier="merchantcity" avaliable="20" />
+      <Price storeidentifier="merchantcity" minavaliable="20" />
       <Price storeidentifier="merchantresearch" multiplier="1.2" />
       <Price storeidentifier="merchantmilitary" multiplier="1.1" />
       <Price storeidentifier="merchantengineering" multiplier="0.9" />
@@ -949,7 +914,7 @@
       <RequiredItem identifier="manganese" />
       <RequiredItem identifier="mercury" />
     </Fabricate>
-    <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="24" fabricationlimitmin="0" fabricationlimitmax="5" quality="0"/>
+    <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="24" fabricationlimitmin="0" fabricationlimitmax="5" quality="0" />
     <InventoryIcon texture="%ModDir%/Items.png" sourcerect="832,96,64,64" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items.png" sourcerect="256,186,34,22" depth="0.55" />
     <Body width="32" height="20" density="30" />
@@ -973,8 +938,8 @@
   <Item name="" identifier="incandescentlight" maxstacksize="32" maxstacksizecharacterinventory="8" category="Electrical" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true" GrabWhenSelected="true">
     <Price baseprice="150" sold="false">
       <Price storeidentifier="merchantresearch" multiplier="1.25" />
-      <Price storeidentifier="merchantmine" sold="true" avaliable="1" />
-      <Price storeidentifier="merchantengineering" sold="true" avaliable="1" multiplier="0.9" />
+      <Price storeidentifier="merchantmine" sold="true" minavaliable="1" />
+      <Price storeidentifier="merchantengineering" sold="true" minavaliable="1" multiplier="0.9" />
     </Price>
     <PreferredContainer primary="engcab"/>
     <Deconstruct time="10">
@@ -1108,7 +1073,7 @@
   <Item name="" identifier="asgacircuit" category="Electrical" Tags="smallitem,signal" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_metal_light">
     <Price baseprice="780" sold="false">
       <Price storeidentifier="merchantresearch" multiplier="1.25" />
-      <Price storeidentifier="merchantengineering" sold="true" multiplier="0.9" avaliable="1" />
+      <Price storeidentifier="merchantengineering" sold="true" multiplier="0.9" minavaliable="1" />
     </Price>
     <PreferredContainer primary="engcab"/>
     <Deconstruct time="5">
@@ -1141,7 +1106,7 @@
     <Body width="16" height="12" density="10.05" />
     <IdCard slots="Card,Any" msg="ItemMsgPickUpSelect" />
   </Item>
-  <Item name="" identifier="smartheater" category="Misc" Tags="smallitem" cargocontaineridentifier="metalcrate" description="" scale="0.5">
+  <Item name="" identifier="smartheater" category="Misc" Tags="mediumitem,chemicaldevice" cargocontaineridentifier="metalcrate" description="" scale="0.5">
     <Price baseprice="1080" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
       <Price storeidentifier="merchantcity" sold="true" multiplier="1.25" available="1" />
@@ -1161,7 +1126,7 @@
     <Body width="40" height="15" density="20" />
     <Holdable slots="Any,RightHand+LeftHand" holdpos="30,-30" msg="ItemMsgPickUpSelect" />
   </Item>
-  <Item name="" identifier="flusk" category="Misc" Tags="mediumitem" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="5.5">
+  <Item name="" identifier="flusk" category="Misc" Tags="mediumitem,chemicaldevice" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="5.5">
     <Price baseprice="70" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
       <Price storeidentifier="merchantcity" multiplier="1.25" />
@@ -1194,7 +1159,7 @@
     </Throwable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="" identifier="condenser" category="Misc" Tags="mediumitem" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="5.5">
+  <Item name="" identifier="condenser" category="Misc" Tags="mediumitem,chemicaldevice" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="5.5">
     <Price baseprice="170" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
       <Price storeidentifier="merchantcity" multiplier="1.25" />
@@ -1226,7 +1191,7 @@
     </Throwable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="" identifier="thermometer" category="Misc" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="5.5">
+  <Item name="" identifier="thermometer" category="Misc" Tags="smallitem,chemicaldevice" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="5.5">
     <Price baseprice="850" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
       <Price storeidentifier="merchantcity" multiplier="1.25" />
@@ -1353,16 +1318,12 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="golddivingknife" variantof="divingknife" spritecolor="255,215,0,255" inventoryiconcolor="255,215,0,255">
+  <Item name="" identifier="divingknifegilded" variantof="divingknife" spritecolor="255,215,0,255" inventoryiconcolor="255,215,0,255">
     <PreferredContainer secondary="piratearmcab" spawnprobability="0.01" />
     <PreferredContainer />
     <PreferredContainer />
     <Price baseprice="2050" sold="false" />
-    <Fabricate suitablefabricators="fabricator" requiredtime="30">
-      <RequiredSkill identifier="weapons" level="66" />
-      <RequiredItem identifier="divingknife" amount="1" />
-      <RequiredItem identifier="gold" />
-    </Fabricate>
+    <Fabricate />
     <MeleeWeapon>
       <Attack>
         <StatusEffect type="OnUse" />
@@ -1374,5 +1335,352 @@
     <Quality>
       <QualityStat value="0.3" />
     </Quality>
+  </Item>
+  <Item name="" identifier="lightweightdivingsuit" variantof="divingsuit" spritecolor="128,128,255,255" inventoryiconcolor="128,128,255,255">
+    <Price baseprice="250" sold="false" />
+    <PreferredContainer spawnprobability="0" />
+    <PreferredContainer />
+    <PreferredContainer spawnprobability="0" />
+    <PreferredContainer spawnprobability="0" />
+    <Deconstruct>
+      <Item identifier="beryllium" />
+      <Item identifier="rubber" />
+    </Deconstruct>
+    <Fabricate>
+      <RequiredSkill level="55" />
+      <RequiredItem identifier="beryllium" amount="2" />
+      <RequiredItem identifier="rubber" />
+      <RequiredItem identifier="rubber" />
+    </Fabricate>
+    <Wearable>
+      <sprite name="Lightweight Diving Suit Helmet">
+        <LightComponent lightcolor="255,240,192,255">
+          <StatusEffect />
+          <StatusEffect type="OnWearing" target="This" range="1000" setvalue="true" interval="0.1">
+            <RequiredItem items="incandescentlight" type="Contained" />
+          </StatusEffect>
+          <StatusEffect type="OnWearing" target="This" range="1500" setvalue="true" interval="0.1">
+            <RequiredItem items="halogenlight" type="Contained" />
+          </StatusEffect>
+          <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" Interval="0.1" setvalue="true">
+            <RequiredItem items="incandescentlight,halogenlight" type="Contained" />
+            <RequiredItem items="mobilebattery" type="Contained" />
+          </StatusEffect>
+          <LightTexture texture="Content/Lights/pointlight_bounce.png" origin="0.5,0.5" />
+        </LightComponent>
+      </sprite>
+      <sprite name="Lightweight Diving Suit Torso" />
+      <sprite name="Lightweight Diving Suit Right Hand" />
+      <sprite name="Lightweight Diving Suit Left Hand" />
+      <sprite name="Lightweight Diving Suit Right Upper Arm" />
+      <sprite name="Lightweight Diving Suit Left Upper Arm" />
+      <sprite name="Lightweight Diving Suit Right Lower Arm" />
+      <sprite name="Lightweight Diving Suit Left Lower Arm" />
+      <sprite name="Lightweight Diving Suit Waist" />
+      <sprite name="Lightweight Diving Suit Right Thigh" />
+      <sprite name="Lightweight Diving Suit Left Thigh" />
+      <sprite name="Lightweight Diving Suit Right Leg" />
+      <sprite name="Lightweight Diving Suit Left Leg" />
+      <sprite name="Lightweight Diving Suit Left Shoe" />
+      <sprite name="Lightweight Diving Suit Right Shoe" />
+      <StatusEffect type="OnWearing" />
+      <StatusEffect PressureProtection="4500.0">
+        <TriggerAnimation />
+        <TriggerAnimation />
+      </StatusEffect>
+      <StatusEffect type="OnContained" />
+      <StatusEffect type="OnWearing" targettype="Contained" targets="mobilebattery" Condition="-0.3">
+        <RequiredItem items="mobilebattery" type="Contained" />
+        <RequiredItem items="incandescentlight" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" targettype="Contained" targets="mobilebattery" Condition="-0.2">
+        <RequiredItem items="mobilebattery" type="Contained" />
+        <RequiredItem items="halogenlight" type="Contained" />
+      </StatusEffect>
+      <damagemodifier damagemultiplier="0.88" />
+      <damagemodifier damagemultiplier="0.7" />
+      <damagemodifier damagemultiplier="0.7" />
+    </Wearable>
+    <ItemContainer containedstateindicatorslot="0">
+      <SlotIcon slotindex="0" />
+      <SlotIcon slotindex="1" texture="%ModDir%/UI.png" sourcerect="320,0,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="2" texture="Content/UI/StatusMonitorUI.png" sourcerect="128,448,64,64" origin="0.5,0.5" />
+      <SubContainer capacity="1" maxstacksize="1" itempos="-70,0">
+        <Containable items="incandescentlight,halogenlight" />
+      </SubContainer>
+      <SubContainer hideitems="true" capacity="1" maxstacksize="1">
+        <Containable items="mobilebattery" />
+      </SubContainer>
+      <StatusEffect targetslot="0" />
+    </ItemContainer> 
+  </Item>
+  <Item name="" identifier="lightweightscooter" variantof="underwaterscooter">
+    <Price baseprice="720" sold="false" />
+    <Preferredcontainer />
+    <PreferredContainer spawnprobability="0" />
+    <PreferredContainer />
+    <Deconstruct time="20">
+      <Item identifier="beryllium" amount="2" />
+      <Item identifier="fpgacircuit" />
+      <Item />
+      <Item />
+    </Deconstruct>
+    <Fabricate requiredtime="60">
+      <RequiredSkill identifier="mechanical" level="45" />
+      <RequiredSkill identifier="eletrical" level="55" />
+      <RequiredItem identifier="beryllium" amount="3" />
+      <RequiredItem identifier="waterdetector" />
+      <RequiredItem />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Items.png" sourcerect="384,272,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items.png" depth="0.55" sourcerect="0,336,140,102" origin="0.5,0.53125" />
+    <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
+      <sprite name="Smart Scooter" texture="%ModDir%/Items.png" sourcerect="0,336,140,102" limb="Torso" inherittexturescale="true" origin="0.4,1.0" rotation="90" />
+      <StatusEffect type="OnWearing" target="This,Character" Interval="0.1" setvalue="true">
+        <RequiredItem items="mobilebattery" type="Contained" />
+        <Conditional InWater="true" />
+        <Affliction identifier="underwaterboost" strength="11" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained" Condition="-0.2" duration="0.1" stackable="false">
+        <RequiredItem items="mobilebattery" type="Contained" />
+        <Conditional InWater="true" />
+        <sound file="Content/Items/Diving/ScooterLoop.ogg" range="500.0" loop="true" />
+        <ParticleEmitter particle="bubbles" particlespersecond="10" anglemin="0" anglemax="360" velocitymin="0" velocitymax="0" />
+      </StatusEffect>
+    </Wearable>
+    <Holdable>
+      <LightComponent />
+      <StatusEffect />
+      <StatusEffect />
+    </Holdable>
+    <Propulsion force="200" />
+  </Item>
+  <Item name="" identifier="advanceddivingmask" variantof="divingmask" spritecolor="0,255,0,255" inventoryiconcolor="0,255,0,255">
+    <Price baseprice="380" sold="false" />
+    <PreferredContainer />
+    <PreferredContainer amount="0" />
+    <PreferredContainer amount="0" />
+    <PreferredContainer />
+    <PreferredContainer spawnprobability="0" />
+    <Deconstruct>
+      <Item identifier="advancedglass" />
+    </Deconstruct>
+    <Fabricate requiredtime="30">
+      <RequiredSkill level="45" />
+      <RequiredItem identifier="advancedglass" />
+      <RequiredItem amount="2" />
+      <RequiredItem identifier="beryllium" />
+    </Fabricate>
+    <Wearable armorvalue="10.0">
+      <damagemodifier afflictionidentifiers="lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.4" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="bitewounds,blunttrauma" armorsector="0.0,360.0" damagemultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.2" damagesound="LimbArmor" deflectprojectiles="true" />
+    </Wearable>
+  </Item>
+  <Item name="" identifier="smartdivingmask" variantof="divingmask" spritecolor="0,0,255,255" inventoryiconcolor="0,0,255,255">
+    <Price baseprice="510" sold="false" />
+    <PreferredContainer />
+    <PreferredContainer amount="0" />
+    <PreferredContainer amount="0" />
+    <PreferredContainer />
+    <PreferredContainer spawnprobability="0" />
+    <Deconstruct>
+      <Item identifier="advancedglass" />
+      <Item identifier="rubber" />
+      <Item identifier="fpgacircuit" />
+    </Deconstruct>
+    <Fabricate requiredtime="15">
+      <RequiredSkill identifier="electrical" level="45" />
+      <RequiredItem identifier="advanceddivingmask" />
+      <RequiredItem identifier="oxygendetector" />
+      <RequiredItem />
+    </Fabricate>
+    <Wearable armorvalue="10.0">
+      <StatusEffect type="OnWearing" />
+      <StatusEffect type="OnWearing" target="Character" UseHullOxygen="false" OxygenAvailable="1000.0">
+        <RequiredItem items="oxygensource" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained" Condition="-0.3" comparison="And">
+        <Conditional targetcontainer="true" targetgrandparent="true" IsDead="false" />
+        <Conditional targetcontainer="true" targetgrandparent="true" DecreasedOxygenConsumption="lt 99" />
+        <Conditional targetcontainer="true" targetgrandparent="true" HullOxygenPercentage="lt 50" />
+        <Conditional targetcontainer="true" targetgrandparent="true" NeedsAir="true" />
+        <Conditional InWater="false" />        
+        <RequiredItem items="oxygensource" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained" Condition="-0.3" comparison="And">
+        <Conditional targetcontainer="true" targetgrandparent="true" IsDead="false" />
+        <Conditional targetcontainer="true" targetgrandparent="true" DecreasedOxygenConsumption="lt 99" />
+        <Conditional targetcontainer="true" targetgrandparent="true" NeedsAir="true" />
+        <Conditional InWater="true" />
+        <RequiredItem items="oxygensource" type="Contained" />
+      </StatusEffect>
+      <damagemodifier afflictionidentifiers="lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.4" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="bitewounds,blunttrauma" armorsector="0.0,360.0" damagemultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.2" damagesound="LimbArmor" deflectprojectiles="true" />
+    </Wearable>
+    <ItemContainer>
+      <Containable items="oxygensource,weldingtoolfuel" />
+      <Containable />
+      <Containable items="oxygenitetank">
+        <StatusEffect>
+          <Conditional IsDead="false" />
+          <Conditional DecreasedOxygenConsumption="lt 99" />
+          <Conditional NeedsAir="true" />
+          <Conditional HullOxygenPercentage="lt 50" />
+        </StatusEffect>
+      </Containable>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="automaticdivingmask" variantof="divingmask" spritecolor="255,0,255,255" inventoryiconcolor="255,0,255,255">
+    <Price baseprice="1400" sold="false" />
+    <PreferredContainer />
+    <PreferredContainer amount="0" />
+    <PreferredContainer amount="0" />
+    <PreferredContainer />
+    <PreferredContainer spawnprobability="0" />
+    <Deconstruct>
+      <Item identifier="advancedglass" />
+      <Item identifier="rubber" />
+      <Item identifier="fpgacircuit" amount="2" />
+    </Deconstruct>
+    <Fabricate requiredtime="15">
+      <RequiredSkill identifier="electrical" level="60" />
+      <RequiredItem identifier="smartdivingmask" />
+      <RequiredItem identifier="asgacircuit" />
+      <RequiredItem />
+    </Fabricate>
+    <Wearable armorvalue="10.0">
+      <StatusEffect type="OnWearing" />
+      <StatusEffect type="OnWearing" target="Character" OxygenAvailable="1000.0">
+        <RequiredItem items="oxygensource" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained" Condition="-0.8" comparison="And">
+        <Conditional targetcontainer="true" targetgrandparent="true" IsDead="false" />
+        <Conditional targetcontainer="true" targetgrandparent="true" DecreasedOxygenConsumption="lt 99" />
+        <Conditional targetcontainer="true" targetgrandparent="true" HullOxygenPercentage="lt 50" />
+        <Conditional targetcontainer="true" targetgrandparent="true" NeedsAir="true" />
+        <Conditional InWater="false" />
+        <RequiredItem items="oxygensource" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained" Condition="-0.8" comparison="And">
+        <Conditional targetcontainer="true" targetgrandparent="true" IsDead="false" />
+        <Conditional targetcontainer="true" targetgrandparent="true" DecreasedOxygenConsumption="lt 99" />
+        <Conditional targetcontainer="true" targetgrandparent="true" NeedsAir="true" />
+        <Conditional InWater="true" />
+        <RequiredItem items="oxygensource" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" targettype="Contained" targets="refillableoxygensource" Condition="0.5" />
+      <damagemodifier afflictionidentifiers="lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.4" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="bitewounds,blunttrauma" armorsector="0.0,360.0" damagemultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.2" damagesound="LimbArmor" deflectprojectiles="true" />
+    </Wearable>
+    <ItemContainer>
+      <Containable items="oxygensource,weldingtoolfuel" />
+      <Containable />
+      <Containable items="oxygenitetank">
+        <StatusEffect>
+          <Conditional IsDead="false" />
+          <Conditional DecreasedOxygenConsumption="lt 99" />
+          <Conditional NeedsAir="true" />
+          <Conditional HullOxygenPercentage="lt 50" />
+        </StatusEffect>
+      </Containable>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="watertank" category="Misc" tags="crate,chemicaldevice" scale="0.5" pickdistance="150" showcontentsintooltip="true" impactsoundtag="impact_metal_heavy" waterproof="true">
+    <Deconstruct time="10">
+      <Item identifier="plastic" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="mechanical" level="20" />
+      <RequiredItem identifier="plastic" amount="2" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Items.png" depth="0.54" sourcerect="144,336,152,89" origin="0.5,0.5" />
+    <Body width="150" height="75" density="20" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="-30,14" handle2="30,14" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer capacity="12" maxstacksize="32" canbeselected="false" hideitems="true" keepopenwhenequipped="true" movableframe="true">
+      <Containable items="smallitem,mediumitem" excludeditems="toolbelt,toolbox,bandolier,cargoscooter,largemobilecontainer" />
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="plutoniumblock" category="Weapon" description="" Scale="0.5" Tags="smallitem,explosive,demolitionsexpert" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="explosivecrate" impactsoundtag="impact_soft">
+    <PreferredContainer primary="secarmcab" secondary="armcab"/>
+    <Price baseprice="750" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.4" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" multiplier="0.9" />
+      <Price storeidentifier="merchantarmory" multiplier="0.9" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="c4block" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="120" amount="2">
+      <RequiredSkill identifier="weapons" level="85" />
+      <RequiredItem identifier="c4block" amount="2" />
+      <RequiredItem identifier="plutonium" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Items.png" depth="0.55" sourcerect="674,273,45,30" origin="0.5,0.5" />
+    <Body width="45" height="30" density="25" />
+    <Throwable characterusable="false" slots="Any,RightHand,LeftHand" canbecombined="true" removeoncombined="true" throwforce="3.5" aimpos="35,-10" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true"/>
+      <StatusEffect type="OnBroken" target="This">
+        <sound file="Content/Items/Weapons/ExplosionLarge1.ogg" range="50000" />
+        <sound file="Content/Items/Weapons/ExplosionLarge2.ogg" range="50000" />
+        <Explosion range="3500.0" structuredamage="1200" itemdamage="1000" ballastfloradamage="1000" force="50.0" severlimbsprobability="2" debris="true" decal="explosion" decalsize="1.0"
+                   camerashake="1000" camerashakerange="50000" 
+                   flashrange="20000" flashduration="8.0"
+                   screencolor="255,255,255,255" screencolorrange="10000" screencolorduration="8.0" penetration="0.8">
+          <Affliction identifier="explosiondamage" strength="2000" />
+          <Affliction identifier="burn" strength="2000" />
+          <Affliction identifier="radiationsickness" strength="100" />
+          <Affliction identifier="stun" strength="30" />
+        </Explosion>
+        <Explosion range="4000" force="0.0" smoke="false" sparks="false" empstrength="2.5" applyfireeffects="false" ignorecover="true">
+          <Affliction identifier="emp" strength="100" multiplybymaxvitality="true" />
+        </Explosion>
+        <ParticleEmitter particle="underwaterexplosion" anglemin="0" anglemax="360" particleamount="3" velocitymin="0" velocitymax="0" scalemin="30" scalemax="30" />
+        <SpawnItem identifier="nuclearaftereffectemitter" spawnposition="This"/>
+        <Remove />
+      </StatusEffect>
+    </Throwable>
+    <Quality>
+      <QualityStat stattype="ExplosionRadius" value="0.1"/>
+      <QualityStat stattype="ExplosionDamage" value="0.1"/>
+    </Quality>
+  </Item>
+  <Item name="" identifier="plutoniumshell" variantof="nuclearshell" inventoryiconcolor="0,255,0,255" spritecolor="0,255,0,255">
+    <PreferredContainer primary="railgunammoloader,railgunammocontainer" mincondition="1"/>
+    <PreferredContainer secondary="wreckrailgunammocontainer" amount="1" spawnprobability="0.05"/>
+    <Price baseprice="820">
+      <Price sold="false" />
+      <Price sold="false" />
+      <Price sold="false" />
+      <Price sold="false" />
+      <Price sold="false" />
+      <Price sold="false" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+      <Item identifier="c4block" />
+      <Item />
+    </Deconstruct>
+    <Fabricate>
+      <RequiredItem identifier="steel" />
+      <RequiredItem identifier="plutoniumblock" />
+      <RequiredItem />
+    </Fabricate>
+    <Projectile>
+      <StatusEffect>
+        <Explosion range="4000.0" structuredamage="1200" itemdamage="1000" ballastfloradamage="1000" flashrange="20000" flashduration="8.0" screencolorrange="10000" screencolorduration="8.0" penetration="0.8">
+          <Affliction strength="2000" />
+          <Affliction strength="2000" />
+        </Explosion>
+        <Explosion range="4000">
+          <Affliction strength="100" />
+        </Explosion>
+        <ParticleEmitter scalemin="30" scalemax="30" />
+      </StatusEffect>
+    </Projectile>
   </Item>
 </Items>

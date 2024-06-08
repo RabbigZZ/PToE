@@ -151,7 +151,7 @@
         <sound file="Content/Items/Tools/FlareLoop.ogg" type="OnActive" range="500.0" loop="true" />
       </StatusEffect>
       <StatusEffect type="InWater" target="This" delay="3.0" setvalue="true" condition="0" stackable="false" checkconditionalalways="true">
-        <Conditional InWater="true"/>
+        <Conditional InWater="true" />
       </StatusEffect>
       <StatusEffect type="OnBroken" target="This">
         <sound file="Content/Items/Weapons/ExplosionSmall1.ogg" range="2000" />

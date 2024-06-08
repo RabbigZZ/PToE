@@ -101,7 +101,7 @@
       <Price storeidentifier="merchantcity" sold="true" minavaliable="2" />
       <Price storeidentifier="merchantmedical" sold="true" multiplier="0.9" minavaliable="5" />
     </Price>
-    <Fabricate suitablefabricators="medicalfabricator" requiredtime="20" amount="4">
+    <Fabricate suitablefabricators="medicalfabricator" requiredtime="20" amount="6">
       <RequiredSkill identifier="medical" level="60" />
       <RequiredItem identifier="ethanol" amount="4" />
       <RequiredItem identifier="mercury" />
@@ -118,10 +118,12 @@
         <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
       </StatusEffect>
       <StatusEffect tags="medical" type="OnSuccess" target="This,Limb" duration="10.0">
-        <ReduceAffliction type="infection" amount="8" />
+        <ReduceAffliction type="infection" amount="2.8" />
+        <Affliction identifier="merbrominprotection" strength="10" />
       </StatusEffect>
       <StatusEffect tags="medical" type="OnFailure" target="This,Limb" duration="10.0">
-        <ReduceAffliction type="infection" amount="6" />
+        <ReduceAffliction type="infection" amount="2.1" />
+        <Affliction identifier="merbrominprotection" strength="5" />
       </StatusEffect>
       <StatusEffect type="OnBroken" target="This">
         <Remove />

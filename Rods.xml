@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items>
+  <Item name="" identifier="emptyreactionrod" Category="Fuel" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.5">
+    <PreferredContainer primary="reactorcab" />
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="45">
+      <RequiredSkill identifier="electrical" level="50" />
+      <RequiredItem identifier="beryllium" />
+      <RequiredItem identifier="steel" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Rods.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Rods.png" depth="0.55" sourcerect="0,955,19,69" />
+    <Body radius="6" height="55" density="15" />
+    <Holdable handle1="0,0" slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect" />
+    <ItemContainer hideitems="true" capacity="1" maxstacksize="1">
+      <Containable items="uranium">
+        <StatusEffect type="OnContaining" target="This">
+          <Conditional TargetContainedItem="true" condition="gte 100" />
+          <SpawnItem identifiers="uraniumreactionrod" spawnposition="SameInventory" spawnifinventoryfull="true" SpawnIfNotInInventory="true" />
+          <Remove />
+        </StatusEffect>
+      </Containable>
+      <!--
+      <Containable items="plutonium">
+        <StatusEffect type="OnContaining" target="This">
+          <Conditional TargetContainedItem="true" condition="gte 100" />
+          <SpawnItem identifiers="plutoniumreactionrod" spawnposition="SameInventory" spawnifinventoryfull="true" SpawnIfNotInInventory="true" />
+          <Remove />
+        </StatusEffect>
+      </Containable>
+      -->
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="plutoniumfuelrod" Category="Fuel" Tags="smallitem,reactorfuel,fulguriumfuelrod" maxstacksize="8" cargocontaineridentifier="metalcrate" scale="0.5" health="1200">
+    <PreferredContainer primary="reactorcab" />
+    <PreferredContainer secondary="wreckreactorcab,abandonedreactorcab,piratereactorcab" amount="1" spawnprobability="0.01"/>
+    <Price baseprice="1500" displaynonempty="true" sold="false">
+      <Price storeidentifier="merchantengineering" sold="true" multiplier="0.9" minavailable="1" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+      <Item identifier="plutonium" mincondition="0.95" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="15">
+      <RequiredSkill identifier="electrical" level="55" />
+      <RequiredItem identifier="plutonium" />
+      <RequiredItem identifier="steel" />
+      <RequiredItem identifier="lead" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" displayname="recycleitem" requiredtime="10">
+      <RequiredSkill identifier="electrical" level="45" />
+      <RequiredItem identifier="plutonium" />
+      <RequiredItem identifier="plutoniumfuelrod" mincondition="0.0" maxcondition="0.1" usecondition="false"/>
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Rods.png" sourcerect="64,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Rods.png" depth="0.55" sourcerect="20,955,19,69" />
+    <Body radius="6" height="55" density="20" />
+    <Holdable handle1="0,0" slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect" />
+    <ItemContainer hideitems="true" capacity="1" itemrotation="90" drawinventory="false" canbeselected="false" SpawnWithId="nucleargunbolt" removecontaineditemsondeconstruct="true" showcontainedstateindicator="false">
+      <Containable items="nucleargunbolt" />
+      <StatusEffect type="OnUse" target="This" condition="-5.0" disabledeltatime="true">
+        <SpawnItem identifiers="nucleargunbolt" spawnposition="SameInventory" />
+      </StatusEffect>
+    </ItemContainer>
+    <Quality>
+      <QualityStat stattype="Condition" value="0.1" />
+    </Quality>
+  </Item>
+  <Item name="" identifier="uraniumreactionrod" Category="Fuel" Tags="smallitem,reactorfuel,huskfigurine" maxstacksize="8" cargocontaineridentifier="metalcrate" scale="0.5" health="200">
+    <PreferredContainer primary="reactorcab" />
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+      <Item identifier="uranium" mincondition="0.95" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Rods.png" sourcerect="128,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Rods.png" depth="0.55" sourcerect="40,955,19,69" />
+    <Body radius="6" height="55" density="20" />
+    <Holdable handle1="0,0" slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnBroken" target="This">
+        <SpawnItem identifiers="uraniumreactionrod1" spawnposition="SameInventory" spawnifinventoryfull="true" SpawnIfNotInInventory="true" />
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="" identifier="uraniumreactionrod1" Category="Fuel" Tags="smallitem,huskfigurine" maxstacksize="8" cargocontaineridentifier="metalcrate" scale="0.5" hideinmenus="true">
+    <PreferredContainer primary="reactorcab" />
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Rods.png" sourcerect="192,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Rods.png" depth="0.55" sourcerect="60,955,19,69" />
+    <Body radius="6" height="55" density="20" />
+    <Holdable handle1="0,0" slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="Always" target="This" Condition="-0.25" />
+      <StatusEffect type="Always" target="NearbyCharacters" range="375" interval="1" disabledeltatime="true">
+        <Affliction identifier="radiationsickness" strength="3" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <SpawnItem identifiers="neptuniumreactionrod1" spawnposition="SameInventory" spawnifinventoryfull="true" SpawnIfNotInInventory="true" />
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="" identifier="neptuniumreactionrod1" Category="Fuel" Tags="smallitem,huskfigurine" maxstacksize="8" cargocontaineridentifier="metalcrate" scale="0.5" hideinmenus="true">
+    <PreferredContainer primary="reactorcab" />
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Rods.png" sourcerect="256,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Rods.png" depth="0.55" sourcerect="80,955,19,69" />
+    <Body radius="6" height="55" density="20" />
+    <Holdable handle1="0,0" slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="Always" target="This" Condition="-0.1" />
+      <StatusEffect type="Always" target="NearbyCharacters" range="250" interval="1" disabledeltatime="true">
+        <Affliction identifier="radiationsickness" strength="2" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <SpawnItem identifiers="plutoniumreactionrod" spawnposition="SameInventory" spawnifinventoryfull="true" SpawnIfNotInInventory="true" />
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="" identifier="plutoniumreactionrod" Category="Fuel" Tags="smallitem,huskfigurine" maxstacksize="8" cargocontaineridentifier="metalcrate" scale="0.5">
+    <PreferredContainer primary="reactorcab" />
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+      <Item identifier="plutonium" mincondition="0.95" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Rods.png" sourcerect="320,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Rods.png" depth="0.55" sourcerect="100,955,19,69" />
+    <Body radius="6" height="55" density="20" />
+    <Holdable handle1="0,0" slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect" />
+  </Item>
+</Items>
