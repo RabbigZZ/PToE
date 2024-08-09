@@ -26,4 +26,10 @@
       <GuiFrame style="Note182" />
     </Terminal>
   </Item>
+  <Item name="" identifier="note183" variantof="note181">
+    <InventoryIcon texture="%ModDir%/Notes/Note183.png" sourcerect="0,0,768,512" />
+    <Terminal>
+      <GuiFrame style="Note183" />
+    </Terminal>
+  </Item>
 </Items>

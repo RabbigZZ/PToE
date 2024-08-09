@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="PToE" modversion="18.0" corepackage="False" steamworkshopid="3157190485" gameversion="1.4.6.0">
+<contentpackage name="PToE" modversion="18.1" corepackage="False" steamworkshopid="3157190485" gameversion="1.5.9.1">
   <Text file="%ModDir%/Texts/English.xml" />
   <Text file="%ModDir%/Texts/SimplifiedChinese.xml" />
   <Item file="%ModDir%/Compounds.xml" />
@@ -23,7 +23,6 @@
   <Other file="%ModDir%/MineralEnvironment.png" />
   <Other file="%ModDir%/UI.png" />
   <Other file="%ModDir%/progress.txt" />
-  <Other file="%ModDir%/workshop_popularity.xlsx" />
   <Item file="%ModDir%/Notes/Notes.xml" />
   <UIStyle file="%ModDir%/Notes/Gui.xml" />
   <Other file="%ModDir%/Notes/Note181.png" />

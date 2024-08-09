@@ -225,12 +225,11 @@
     isbuff="true"
     limbspecific="true"
     maxstrength="100">
-    <Effect minstrength="0" maxstrength="100" strengthchange="-0.1" />
-    <Effect minstrength="0" maxstrength="20"
+    <Effect minstrength="0" maxstrength="20" strengthchange="-0.1"
       resistancefor="infection"
       minresistance="0.0"
       maxresistance="1.0" />
-    <Effect minstrength="20" maxstrength="100"
+    <Effect minstrength="20" maxstrength="100" strengthchange="-0.1"
       resistancefor="infection"
       minresistance="1.0"
       maxresistance="1.0" />

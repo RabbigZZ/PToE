@@ -1278,12 +1278,7 @@
     <Deconstruct time="5" />
     <Fabricate suitablefabricators="fabricator" requiredtime="10" amount="4" outcondition="0.0">
       <RequiredItem identifier="fluorescentpowder" amount="4" />
-      <RequiredItem identifier="uranium" />
-      <RequiredItem identifier="plastic" />
-    </Fabricate>
-    <Fabricate suitablefabricators="fabricator" requiredtime="10" amount="4" outcondition="0.0">
-      <RequiredItem identifier="fluorescentpowder" amount="4" />
-      <RequiredItem identifier="thorium" />
+      <RequiredItem identifier="tritiumoxide" />
       <RequiredItem identifier="plastic" />
     </Fabricate>
     <LightComponent LightColor="57,197,187,255" Flicker="0.0" range="400" IsOn="false" AllowInGameEditing="false">
@@ -1682,5 +1677,30 @@
         <ParticleEmitter scalemin="30" scalemax="30" />
       </StatusEffect>
     </Projectile>
+  </Item>
+  <Item name="" identifier="leadcrate" tags="crate,reactionrodcontainer" scale="0.5" linkable="true" pickdistance="150" showcontentsintooltip="true" impactsoundtag="impact_metal_heavy">
+    <Deconstruct time="0.5" />
+    <Sprite texture="%ModDir%/Items.png" depth="0.54" sourcerect="876,336,152,89" origin="0.5,0.5" />
+    <Body width="150" height="75" density="40" />
+    <LightComponent color="255,255,255,255" minvoltage="0.5" lightcolor="255,255,255,64" range="100" IsOn="true" powerconsumption="10" castshadows="false" AllowInGameEditing="false" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="-30,14" handle2="30,14" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer capacity="4" maxstacksize="1" canbeselected="false" hideitems="true" keepopenwhenequipped="true" movableframe="true">
+      <SlotIcon slotindex="4" texture="Content/UI/StatusMonitorUI.png" sourcerect="192,448,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="5" texture="Content/UI/StatusMonitorUI.png" sourcerect="192,448,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="6" texture="Content/UI/StatusMonitorUI.png" sourcerect="192,448,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="7" texture="Content/UI/StatusMonitorUI.png" sourcerect="192,448,64,64" origin="0.5,0.5" />
+      <Containable items="smallitem" excludeditems="reactionrod" />
+      <SubContainer capacity="4" maxstacksize="1">
+        <Containable items="reactionrod">
+          <StatusEffect type="OnContaining" target="Contained" voltage="1.0" setvalue="true" disabledeltatime="true" />
+        </Containable>
+      </SubContainer>
+    </ItemContainer>
+    <CustomInterface canbeselected="true" drawhudwhenequipped="true" AllowInGameEditing="false">
+      <GuiFrame relativesize="0.12,0.14" anchor="BottomCenter" absoluteoffset="0,75" />
+      <Button text="extract">
+        <StatusEffect type="OnUse" target="This" voltage="1.0" setvalue="true" disabledeltatime="true" />
+      </Button>
+    </CustomInterface>
   </Item>
 </Items>

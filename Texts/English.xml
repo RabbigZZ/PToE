@@ -5,6 +5,7 @@
   <shake>Shake</shake>
   <assemble>Assemble</assemble>
   <tear>Tear</tear>
+  <extract>Extract</extract>
   <!--Fabrication Descriptions-->
   <fabricationdescription.plate>Plating. Hard and wearproof metals.</fabricationdescription.plate>
   <fabricationdescription.rareearth>Scandium, yttrium, or lanthanides except promethium.</fabricationdescription.rareearth>
@@ -106,18 +107,24 @@
   <entitydescription.aluminiumamalgam2>Mercury with a lot of aluminum dissolved. Becomes extremely dangerous when coming into contact with water, and can be separated by distillation.</entitydescription.aluminiumamalgam2>
   <entityname.goldamalgam>Gold Amalgam</entityname.goldamalgam>
   <entitydescription.goldamalgam>Gold-mercury alloy that can be separated by distillation.</entitydescription.goldamalgam>
-  <entityname.silvercommendation>Silver Commendation</entityname.silvercommendation>
-  <entitydescription.silvercommendation>A small medal fashioned out of copper and silver, made out of Commendation. When applied to another crewmember's body, it instantly bestows them with the experience 3 times of Commendation.</entitydescription.silvercommendation>
-  <entityname.silvermedal>Silver Medal</entityname.silvermedal>
-  <entitydescription.silvermedal>A small medal fashioned out of bronze and silver, made out of Medal. When applied to another crewmember's body, it instantly bestows them with the experience 3 times of Medal.</entitydescription.silvermedal>
-  <entityname.goldcommendation>Gold Commendation</entityname.goldcommendation>
-  <entitydescription.goldcommendation>A small medal fashioned out of copper and gold, made out of Commendation. When applied to another crewmember's body, it instantly bestows them with the experience 10 times of Commendation.</entitydescription.goldcommendation>
+  <entityname.deuteriumoxide>Deuterium Oxide</entityname.deuteriumoxide>
+  <entitydescription.deuteriumoxide>Similar to water, but a little heavier and thicker. Try to take a sip?</entitydescription.deuteriumoxide>
+  <entityname.tritiumoxide>Tritium Oxide</entityname.tritiumoxide>
+  <entitydescription.tritiumoxide>Radioactive but generally safe.</entitydescription.tritiumoxide>
+  <entityname.fusionfuelk2dt>Fusion Fuel K2DT</entityname.fusionfuelk2dt>
+  <entitydescription.fusionfuelk2dt>Put this into a nuclear shell, then you'll get a hydrogen shell.</entitydescription.fusionfuelk2dt>
   <!--Items-->
   <entityname.hydrogentank>Hydrogen Tank</entityname.hydrogentank>
   <displayname.hydrogentankempty>Hydrogen Tank (empty)</displayname.hydrogentankempty>
   <entitydescription.hydrogentank>Dangerous fuel, completely prohibited. Can be refilled by oxygenerators.</entitydescription.hydrogentank>
   <entityname.hydrogenstoringalloytank>Hydrogen Storing Alloy Tank</entityname.hydrogenstoringalloytank>
   <entitydescription.hydrogenstoringalloytank>Rare earth-nickel alloy inside is able to store massive hydrogen safely. Can be refilled by oxygenerators.</entitydescription.hydrogenstoringalloytank>
+  <entityname.silvercommendation>Silver Commendation</entityname.silvercommendation>
+  <entitydescription.silvercommendation>A small medal fashioned out of copper and silver, made out of Commendation. When applied to another crewmember's body, it instantly bestows them with the experience 3 times of Commendation.</entitydescription.silvercommendation>
+  <entityname.silvermedal>Silver Medal</entityname.silvermedal>
+  <entitydescription.silvermedal>A small medal fashioned out of bronze and silver, made out of Medal. When applied to another crewmember's body, it instantly bestows them with the experience 3 times of Medal.</entitydescription.silvermedal>
+  <entityname.goldcommendation>Gold Commendation</entityname.goldcommendation>
+  <entitydescription.goldcommendation>A small medal fashioned out of copper and gold, made out of Commendation. When applied to another crewmember's body, it instantly bestows them with the experience 10 times of Commendation.</entitydescription.goldcommendation>
   <entityname.goldmedal>Gold Medal</entityname.goldmedal>
   <entitydescription.goldmedal>A small medal fashioned out of bronze and gold, made out of Medal. When applied to another crewmember's body, it instantly bestows them with the experience 10 times of Medal.</entitydescription.goldmedal>
   <entityname.goldingot>Gold Ingot</entityname.goldingot>
@@ -218,6 +225,8 @@
   <entitydescription.plutoniumblock>The power of this pack is at least 2 times of a nuclear shell. Think twice before use.</entitydescription.plutoniumblock>
   <entityname.plutoniumshell>Plutonium Shell</entityname.plutoniumshell>
   <entitydescription.plutoniumshell>Maybe more destructive than a plutonium block.</entitydescription.plutoniumshell>
+  <entityname.leadcrate>Lead Crate</entityname.leadcrate>
+  <entitydescription.leadcrate>Thick enough to prevent fatal radiations. Also the place to recycle reaction rods.</entitydescription.leadcrate>
   <!--Medical-->
   <entityname.silverionbandage>Silver Ion Bandage</entityname.silverionbandage>
   <entitydescription.silverionbandage>Bandage with silver ion added.</entitydescription.silverionbandage>
@@ -296,18 +305,26 @@
   <entityname.plutoniumfuelrod>Plutonium Fuel Rod</entityname.plutoniumfuelrod>
   <entitydescription.plutoniumfuelrod>Despite the long life 12 times of uranium fuel rod, it's a waste to fuel your reactor with this.</entitydescription.plutoniumfuelrod>
   <entityname.uraniumreactionrod>Uranium Reaction Rod</entityname.uraniumreactionrod>
-  <entitydescription.uraniumreactionrod>238U + n -> 239U </entitydescription.uraniumreactionrod>
+  <entitydescription.uraniumreactionrod>238U + n -> 239U</entitydescription.uraniumreactionrod>
   <entityname.uraniumreactionrod1>Uranium Reaction Rod (decaying)</entityname.uraniumreactionrod1>
   <entitydescription.uraniumreactionrod1>239U -> 239Np + e- (quick)</entitydescription.uraniumreactionrod1>
   <entityname.neptuniumreactionrod1>Neptunium Reaction Rod (decaying)</entityname.neptuniumreactionrod1>
   <entitydescription.neptuniumreactionrod1>239Np -> 239Pu + e- (slow)</entitydescription.neptuniumreactionrod1>
   <entityname.plutoniumreactionrod>Plutonium Reaction Rod</entityname.plutoniumreactionrod>
   <entitydescription.plutoniumreactionrod>It seems not able to react further. Deconstruct to get plutonium.</entitydescription.plutoniumreactionrod>
+  <entityname.waterreactionrod>Water Reaction Rod</entityname.waterreactionrod>
+  <entitydescription.waterreactionrod>H + n -> D</entitydescription.waterreactionrod>
+  <entityname.deuteriumreactionrod>Deuterium Reaction Rod</entityname.deuteriumreactionrod>
+  <entitydescription.deuteriumreactionrod>D + n -> T</entitydescription.deuteriumreactionrod>
+  <entityname.tritiumreactionrod>Tritium Reaction Rod</entityname.tritiumreactionrod>
+  <entitydescription.tritiumreactionrod>It seems not able to react further. Deconstruct to get tritium oxide.</entitydescription.tritiumreactionrod>
   <!--Notes-->
   <entityname.note181>Note 18.0 (1/2)</entityname.note181>
-  <entitydescription.note181>On the back is: "Tip: Assemble devices on support stands."</entitydescription.note181>
+  <entitydescription.note181>It seems that someone was not sober while drawing these.</entitydescription.note181>
   <entityname.note182>Note 18.0 (2/2)</entityname.note182>
   <entitydescription.note182>Something about the electroplating tank.</entitydescription.note182>
+  <entityname.note183>Note 18.1</entityname.note183>
+  <entitydescription.note183>Put a empty reaction rod into water, then the reactor.</entitydescription.note183>
   <!--Messages-->
   <afflictionname.arsenicpoisoning>Arsenic poisoning</afflictionname.arsenicpoisoning>
   <afflictioncauseofdeath.arsenicpoisoning>Died of arsenic poisoning.</afflictioncauseofdeath.arsenicpoisoning>

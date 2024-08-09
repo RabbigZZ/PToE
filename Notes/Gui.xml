@@ -6,4 +6,7 @@
   <Note182 color="255,255,255,242" textcolor="0,0,0,255">
     <Sprite name="note182" texture="%ModDir%/Notes/Note182.png" sourcerect="0,0,752,1024" maintainaspectratio="true" tile="false" origin="0.5,0.5" compress="true"/>
   </Note182>
+  <Note183 color="255,255,255,242" textcolor="0,0,0,255">
+    <Sprite name="note183" texture="%ModDir%/Notes/Note183.png" sourcerect="0,0,752,512" maintainaspectratio="true" tile="false" origin="0.5,0.5" compress="true"/>
+  </Note183>
 </style>

@@ -167,4 +167,74 @@
     </Holdable>
   </Item>
   <Item name="" identifier="goldamalgam" variantof="silveramalgam" spritecolor="255,224,128,255" InventoryIconColor="255,224,128,255" />
+  <Item name="" identifier="deuteriumoxide" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="crate" description="" Tags="smallitem,poison" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+    <PreferredContainer primary="storagecab" />
+    <InventoryIcon texture="%ModDir%/Items.png" sourcerect="624,336,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items.png" sourcerect="752,336,30,57" depth="0.6" origin="0.5,0.5" />
+    <Body width="35" height="65" density="10.2" waterdragcoefficient="1" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" holdangle="30" aimable="false" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnUse" target="This" Condition="-100.0" setvalue="true">
+        <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="" identifier="tritiumoxide" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="crate" description="" Tags="smallitem,poison" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+    <PreferredContainer primary="storagecab" />
+    <InventoryIcon texture="%ModDir%/Items.png" sourcerect="688,336,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items.png" sourcerect="783,336,30,57" depth="0.6" origin="0.5,0.5" />
+    <Body width="35" height="65" density="10.2" waterdragcoefficient="1" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" holdangle="30" aimable="false" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnUse" target="This" Condition="-100.0" setvalue="true">
+        <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="UseTarget" duration="5.0">
+        <Affliction identifier="radiationsickness" amount="3" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="" identifier="fusionfuelk2dt" category="Weapon" description="" Scale="0.5" Tags="smallitem,explosive" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft" damagedbyexplosions="true" ondamagedthreshold="900">
+    <PreferredContainer primary="secarmcab" secondary="armcab"/>
+    <Deconstruct time="5">
+      <Item identifier="potassium" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="25">
+      <RequiredSkill identifier="weapons" level="42" />
+      <RequiredSkill identifier="mechanical" level="42" />
+      <RequiredSkill identifier="medical" level="42" />
+      <RequiredItem identifier="potassium" />
+      <RequiredItem identifier="deuteriumoxide" />
+      <RequiredItem identifier="tritiumoxide" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Items.png" depth="0.55" sourcerect="820,341,48,32" origin="0.5,0.5" />
+    <Body width="45" height="30" density="20" />
+    <Throwable characterusable="false" slots="Any,RightHand,LeftHand" canbecombined="true" removeoncombined="true" throwforce="3.5" aimpos="35,-10" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnBroken" target="This">
+        <sound file="Content/Items/Weapons/ExplosionLarge1.ogg" range="50000" />
+        <sound file="Content/Items/Weapons/ExplosionLarge2.ogg" range="50000" />
+        <Explosion range="5000.0" structuredamage="600" itemdamage="1000" ballastfloradamage="1000" force="50.0" severlimbsprobability="2" debris="true" decal="explosion" decalsize="1.0"
+                   camerashake="1000" camerashakerange="50000" 
+                   flashrange="20000" flashduration="8.0"
+                   screencolor="255,255,255,255" screencolorrange="10000" screencolorduration="8.0" penetration="0.8">
+          <Affliction identifier="explosiondamage" strength="1000" />
+          <Affliction identifier="burn" strength="1000" />
+          <Affliction identifier="stun" strength="15" />
+        </Explosion>
+        <Explosion range="6000" force="0.0" smoke="false" sparks="false" empstrength="2.5" applyfireeffects="false" ignorecover="true">
+          <Affliction identifier="emp" strength="100" multiplybymaxvitality="true" />
+        </Explosion>
+        <ParticleEmitter particle="underwaterexplosion" anglemin="0" anglemax="360" particleamount="1" velocitymin="0" velocitymax="0" scalemin="50" scalemax="50" />
+        <Remove />
+      </StatusEffect>
+    </Throwable>
+    <Quality>
+      <QualityStat stattype="ExplosionRadius" value="0.1"/>
+      <QualityStat stattype="ExplosionDamage" value="0.1"/>
+    </Quality>
+  </Item>
 </Items>

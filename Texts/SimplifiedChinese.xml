@@ -5,6 +5,7 @@
   <shake>摇</shake>
   <assemble>组装</assemble>
   <tear>撕</tear>
+  <extract>提取</extract>
   <!--加工台描述-->
   <fabricationdescription.plate>镀层。坚硬且耐磨的金属。</fabricationdescription.plate>
   <fabricationdescription.rareearth>钪、钇、或除钷外的镧系元素。</fabricationdescription.rareearth>
@@ -106,6 +107,12 @@
   <entitydescription.aluminiumamalgam2>溶解了大量铝的汞，遇水极为危险。可以通过蒸馏分离。</entitydescription.aluminiumamalgam2>
   <entityname.goldamalgam>金汞齐</entityname.goldamalgam>
   <entitydescription.goldamalgam>金汞合金，可以通过蒸馏分离。</entitydescription.goldamalgam>
+  <entityname.deuteriumoxide>重水</entityname.deuteriumoxide>
+  <entitydescription.deuteriumoxide>和水相似，但是更重、更粘稠一点。喝一小口试试？</entitydescription.deuteriumoxide>
+  <entityname.tritiumoxide>超重水</entityname.tritiumoxide>
+  <entitydescription.tritiumoxide>有放射性但大体上是安全的。</entitydescription.tritiumoxide>
+  <entityname.fusionfuelk2dt>聚变燃料K2DT</entityname.fusionfuelk2dt>
+  <entitydescription.fusionfuelk2dt>把这个放进一发核弹，你就会得到一发氢弹。</entitydescription.fusionfuelk2dt>
   <!--物品-->
   <entityname.hydrogentank>氢气罐</entityname.hydrogentank>
   <displayname.hydrogentankempty>氢气罐（空）</displayname.hydrogentankempty>
@@ -218,6 +225,8 @@
   <entitydescription.plutoniumblock>这个包裹的威力至少是核弹的两倍，使用前三思。</entitydescription.plutoniumblock>
   <entityname.plutoniumshell>钚轨道炮弹</entityname.plutoniumshell>
   <entitydescription.plutoniumshell>可能比钚炸弹更具破坏性。</entitydescription.plutoniumshell>
+  <entityname.leadcrate>铅箱</entityname.leadcrate>
+  <entitydescription.leadcrate>厚度足以阻挡致命辐射。也是回收反应棒的场所。</entitydescription.leadcrate>
   <!--医疗-->
   <entityname.silverionbandage>银离子绷带</entityname.silverionbandage>
   <entitydescription.silverionbandage>添加了银离子的绷带。</entitydescription.silverionbandage>
@@ -303,11 +312,19 @@
   <entitydescription.neptuniumreactionrod1>239Np->239Pu+e-（慢）</entitydescription.neptuniumreactionrod1>
   <entityname.plutoniumreactionrod>钚反应棒</entityname.plutoniumreactionrod>
   <entitydescription.plutoniumreactionrod>它看起来不能进一步反应了。拆解以获得钚。</entitydescription.plutoniumreactionrod>
+  <entityname.waterreactionrod>水反应棒</entityname.waterreactionrod>
+  <entitydescription.waterreactionrod>H+n->D</entitydescription.waterreactionrod>
+  <entityname.deuteriumreactionrod>氘反应棒</entityname.deuteriumreactionrod>
+  <entitydescription.deuteriumreactionrod>D+n->T</entitydescription.deuteriumreactionrod>
+  <entityname.tritiumreactionrod>氚反应棒</entityname.tritiumreactionrod>
+  <entitydescription.tritiumreactionrod>它看起来不能进一步反应了。拆解以获得超重水。</entitydescription.tritiumreactionrod>
   <!--Notes-->
   <entityname.note181>笔记18.0（1/2）</entityname.note181>
-  <entitydescription.note181>背面写着：“提示：在铁架台上组装仪器”</entitydescription.note181>
+  <entitydescription.note181>看来某人画这些的时候不太清醒。</entitydescription.note181>
   <entityname.note182>笔记18.0（2/2）</entityname.note182>
   <entitydescription.note182>关于电镀槽的一些事。</entitydescription.note182>
+  <entityname.note183>笔记18.1</entityname.note183>
+  <entitydescription.note183>把一个空反应棒放进水里，然后是反应堆里。</entitydescription.note183>
   <!--信息-->
   <afflictionname.arsenicpoisoning>砷中毒</afflictionname.arsenicpoisoning>
   <afflictioncauseofdeath.arsenicpoisoning>死于砷中毒</afflictioncauseofdeath.arsenicpoisoning>
