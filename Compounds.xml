@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Items>
-  <Item name="" identifier="disulphuricacid" category="Material" maxstacksize="8" cargocontaineridentifier="mediccrate" description="" Tags="smallitem,chem,poison" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Item name="" identifier="ptoe_disulphuricacid" category="Material" maxstacksize="8" cargocontaineridentifier="mediccrate" description="" Tags="smallitem,chem,poison" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <PreferredContainer primary="toxcab" secondary="toxcontainer"/>
     <Price baseprice="160" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
@@ -11,13 +11,13 @@
       <Price storeidentifier="merchantarmory" multiplier="0.9" />
     </Price>
     <Deconstruct time="5">
-      <Item identifier="sulphur" />
+      <Item identifier="ptoe_sulphur" />
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="10">
       <RequiredSkill identifier="mechanical" level="10" />
-      <RequiredItem identifier="sulphur" />
+      <RequiredItem identifier="ptoe_sulphur" />
       <RequiredItem identifier="sulphuricacid" />
-      <RequiredItem identifier="v2o5crate" usecondition="true" mincondition="0.0" />
+      <RequiredItem identifier="ptoe_v2o5crate" usecondition="true" mincondition="0.0" />
     </Fabricate>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="320,768,64,64" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="346,452,33,60" depth="0.6" origin="0.5,0.5" />
@@ -38,7 +38,7 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="potassiumchlorate" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,oxidant1" canbepicked="true" cargocontaineridentifier="explosivecrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_potassiumchlorate" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,ptoe_oxidant1" canbepicked="true" cargocontaineridentifier="explosivecrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
     <Deconstruct time="10">
       <Item identifier="potassium" />
@@ -57,7 +57,7 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="potassiumnitrate" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="fertilizer,smallitem,oxidant1" canbepicked="true" cargocontaineridentifier="explosivecrate" scale="0.5" impactsoundtag="impact_metal_light" health="200">
+  <Item name="" identifier="ptoe_potassiumnitrate" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="fertilizer,smallitem,ptoe_oxidant1" canbepicked="true" cargocontaineridentifier="explosivecrate" scale="0.5" impactsoundtag="impact_metal_light" health="200">
     <PreferredContainer primary="storagecab" />
     <Deconstruct time="10">
       <Item identifier="potassium" />
@@ -65,7 +65,7 @@
     <Fabricate suitablefabricators="fabricator" requiredtime="10">
       <RequiredSkill identifier="weapons" level="50" />
       <RequiredItem identifier="potassium" />
-      <RequiredItem identifier="ammonia" />
+      <RequiredItem identifier="ptoe_ammonia" />
     </Fabricate>
     <InventoryIcon texture="%ModDir%/Items.png" sourcerect="64,208,64,64" />
     <Sprite texture="%ModDir%/Items.png" sourcerect="662,160,21,42" depth="0.55" origin="0.5,0.5" />
@@ -76,14 +76,14 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="potassiumpermanganate" category="Material,Medical" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,medical,oxidant1" canbepicked="true" useinhealthinterface="true" cargocontaineridentifier="explosivecrate" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Item name="" identifier="ptoe_potassiumpermanganate" category="Material,Medical" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,medical,ptoe_oxidant1" canbepicked="true" useinhealthinterface="true" cargocontaineridentifier="explosivecrate" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <PreferredContainer primary="storagecab" />
     <Deconstruct time="10">
       <Item identifier="potassium" />
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator,medicalfabricator" requiredtime="10">
       <RequiredItem identifier="potassium" />
-      <RequiredItem identifier="manganese" />
+      <RequiredItem identifier="ptoe_manganese" />
     </Fabricate>
     <SuitableTreatment type="infection" suitability="20" />
     <InventoryIcon texture="%ModDir%/Items.png" sourcerect="0,208,64,64" />
@@ -106,15 +106,15 @@
     </MeleeWeapon>
     <SkillRequirementHint identifier="medical" level="36" />
   </Item>
-  <Item name="" identifier="silveramalgam" category="Misc" Tags="smallitem" maxstacksize="8" cargocontaineridentifier="metalcrate" description="" scale="0.5">
+  <Item name="" identifier="ptoe_silveramalgam" category="Misc" Tags="smallitem" maxstacksize="8" cargocontaineridentifier="metalcrate" description="" scale="0.5">
     <Deconstruct time="5">
-      <Item identifier="mercury" />
+      <Item identifier="ptoe_mercury" />
     </Deconstruct>
     <Sprite texture="%ModDir%/Items.png" depth="0.8" sourcerect="496,192,48,32" origin="0.5,0.5" />
     <Body width="40" height="20" radius="15" density="40" />
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect" />
   </Item>
-  <Item name="" identifier="aluminiumamalgam1" variantof="silveramalgam">
+  <Item name="" identifier="ptoe_aluminiumamalgam1" variantof="ptoe_silveramalgam">
     <Holdable>
       <StatusEffect type="InWater" target="This" IsOn="true">
         <ParticleEmitter particle="weldspark" particlespersecond="5" anglemin="0" anglemax="360" velocitymin="100" velocitymax="500" scalemin="0.5" scalemax="1" />
@@ -132,15 +132,15 @@
         <Explosion range="150.0" ballastfloradamage="20" force="3" applyfireeffects="false" flames="false">
           <Affliction identifier="burn" strength="25" />
           <Affliction identifier="stun" strength="5" />
-          <Affliction identifier="mercurypoisoning" strength="12" />
+          <Affliction identifier="ptoe_mercurypoisoning" strength="12" />
         </Explosion>
         <Remove />
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="aluminiumamalgam2" variantof="silveramalgam">
+  <Item name="" identifier="ptoe_aluminiumamalgam2" variantof="ptoe_silveramalgam">
     <Deconstruct>
-      <Item identifier="mercury" />
+      <Item identifier="ptoe_mercury" />
       <Item identifier="aluminium" />
     </Deconstruct>
     <Holdable>
@@ -160,14 +160,14 @@
         <Explosion range="250.0" ballastfloradamage="20" force="3" applyfireeffects="false" flames="false">
           <Affliction identifier="burn" strength="50" />
           <Affliction identifier="stun" strength="5" />
-          <Affliction identifier="mercurypoisoning" strength="25" />
+          <Affliction identifier="ptoe_mercurypoisoning" strength="25" />
         </Explosion>
         <Remove />
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="goldamalgam" variantof="silveramalgam" spritecolor="255,224,128,255" InventoryIconColor="255,224,128,255" />
-  <Item name="" identifier="deuteriumoxide" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="crate" description="" Tags="smallitem,poison" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Item name="" identifier="ptoe_goldamalgam" variantof="ptoe_silveramalgam" spritecolor="255,224,128,255" InventoryIconColor="255,224,128,255" />
+  <Item name="" identifier="ptoe_deuteriumoxide" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="crate" description="" Tags="smallitem" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <PreferredContainer primary="storagecab" />
     <InventoryIcon texture="%ModDir%/Items.png" sourcerect="624,336,64,64" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items.png" sourcerect="752,336,30,57" depth="0.6" origin="0.5,0.5" />
@@ -181,7 +181,7 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="tritiumoxide" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="crate" description="" Tags="smallitem,poison" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Item name="" identifier="ptoe_tritiumoxide" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="crate" description="" Tags="smallitem,poison" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <PreferredContainer primary="storagecab" />
     <InventoryIcon texture="%ModDir%/Items.png" sourcerect="688,336,64,64" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items.png" sourcerect="783,336,30,57" depth="0.6" origin="0.5,0.5" />
@@ -198,7 +198,7 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="fusionfuelk2dt" category="Weapon" description="" Scale="0.5" Tags="smallitem,explosive" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft" damagedbyexplosions="true" ondamagedthreshold="900">
+  <Item name="" identifier="ptoe_fusionfuelk2dt" category="Weapon" description="" Scale="0.5" Tags="smallitem,explosive" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft" damagedbyexplosions="true" ondamagedthreshold="900">
     <PreferredContainer primary="secarmcab" secondary="armcab"/>
     <Deconstruct time="5">
       <Item identifier="potassium" />
@@ -208,8 +208,8 @@
       <RequiredSkill identifier="mechanical" level="42" />
       <RequiredSkill identifier="medical" level="42" />
       <RequiredItem identifier="potassium" />
-      <RequiredItem identifier="deuteriumoxide" />
-      <RequiredItem identifier="tritiumoxide" />
+      <RequiredItem identifier="ptoe_deuteriumoxide" />
+      <RequiredItem identifier="ptoe_tritiumoxide" />
     </Fabricate>
     <Sprite texture="%ModDir%/Items.png" depth="0.55" sourcerect="820,341,48,32" origin="0.5,0.5" />
     <Body width="45" height="30" density="20" />

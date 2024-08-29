@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="note181" category="Misc" hideinmenus="true" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="" identifier="ptoe_note181" category="Misc" hideinmenus="true" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="crewcab" secondary="locker" />
     <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="1" fabricationlimitmin="1" fabricationlimitmax="1" />
     <InventoryIcon texture="%ModDir%/Notes/Note181.png" sourcerect="0,0,768,1024" origin="0.5,0.5" />
@@ -8,11 +8,11 @@
     <Body width="35" height="40" density="8" />
     <Holdable slots="Any,RightHand,LeftHand" holdangle="30" handle1="-10,0" msg="ItemMsgPickUpSelect" />
     <Terminal canbeselected="true" msg="ItemMsgInteractSelect" AllowInGameEditing="false" AutoHideScrollbar="true" readonly="true" autoscrolltobottom="false" linestartsymbol="" marginmultiplier="1.5" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.5,0.75" anchor="Center" style="Note181" hidedragicons="true" />
+      <GuiFrame relativesize="0.5,0.75" anchor="Center" style="ptoe_Note181" hidedragicons="true" />
     </Terminal>
     <CustomInterface canbeselected="true" drawhudwhenequipped="true" AllowInGameEditing="false" allowuioverlap="true">
       <GuiFrame relativesize="0.12,0.14" anchor="BottomCenter" absoluteoffset="0,75" />
-      <Button text="tear">
+      <Button text="ptoe_tear">
         <StatusEffect type="OnUse" target="This">
           <Sound file="Content/Items/Medical/Bandage1.ogg" range="500" />
           <Remove />
@@ -20,16 +20,16 @@
       </Button>
     </CustomInterface>
   </Item>
-  <Item name="" identifier="note182" variantof="note181">
+  <Item name="" identifier="ptoe_note182" variantof="ptoe_note181">
     <InventoryIcon texture="%ModDir%/Notes/Note182.png" />
     <Terminal>
-      <GuiFrame style="Note182" />
+      <GuiFrame style="ptoe_Note182" />
     </Terminal>
   </Item>
-  <Item name="" identifier="note183" variantof="note181">
+  <Item name="" identifier="ptoe_note183" variantof="ptoe_note181">
     <InventoryIcon texture="%ModDir%/Notes/Note183.png" sourcerect="0,0,768,512" />
     <Terminal>
-      <GuiFrame style="Note183" />
+      <GuiFrame style="ptoe_Note183" />
     </Terminal>
   </Item>
 </Items>

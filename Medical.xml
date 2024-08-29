@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Items>
-  <Bandage name="" identifier="silverionbandage" category="Medical" Tags="smallitem,medical" maxstacksize="32" maxstacksizecharacterinventory="8" useinhealthinterface="true" cargocontaineridentifier="mediccrate" description="" scale="0.5" impactsoundtag="impact_soft" RequireAimToUse="True">
+  <Bandage name="" identifier="ptoe_silverionbandage" category="Medical" Tags="smallitem,medical" maxstacksize="32" maxstacksizecharacterinventory="8" useinhealthinterface="true" cargocontaineridentifier="mediccrate" description="" scale="0.5" impactsoundtag="impact_soft" RequireAimToUse="True">
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" minamount="1" maxamount="2" spawnprobability="0.5" />
     <PreferredContainer secondary="outpostmedcab" minamount="1" maxamount="2" spawnprobability="0.2" />
     <PreferredContainer secondary="outpostmedcompartment" amount="1" spawnprobability="0.1" />
@@ -12,7 +12,7 @@
     <Fabricate suitablefabricators="medicalfabricator" requiredtime="30" amount="8">
       <RequiredSkill identifier="medical" level="10" />
       <RequiredItem identifier="antibleeding1" amount="8"/>
-      <RequiredItem identifier="silver"/>
+      <RequiredItem identifier="ptoe_silver"/>
     </Fabricate>
     <Deconstruct time="2"/>
     <SuitableTreatment type="bleeding" suitability="35" />
@@ -43,7 +43,7 @@
     </MeleeWeapon>
     <SkillRequirementHint identifier="medical" level="40" />
   </Bandage>
-  <AntibioticGlue name="" identifier="silverionglue" category="Medical" Tags="smallitem,medical" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="mediccrate" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <AntibioticGlue name="" identifier="ptoe_silverionglue" category="Medical" Tags="smallitem,medical" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="mediccrate" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <PreferredContainer primary="medcab" secondary="medcontainer"/>
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" amount="1" spawnprobability="0.4" />
     <PreferredContainer secondary="outpostmedcab" amount="1" spawnprobability="0.3" />
@@ -53,7 +53,7 @@
     </Price>
     <Fabricate suitablefabricators="medicalfabricator" requiredtime="180" amount="8" >
       <RequiredSkill identifier="medical" level="36" />
-      <RequiredItem identifier="silver" />
+      <RequiredItem identifier="ptoe_silver" />
       <RequiredItem identifier="elastin" amount="8" />
     </Fabricate>
     <Deconstruct time="20">
@@ -92,7 +92,7 @@
     </MeleeWeapon>
     <SkillRequirementHint identifier="medical" level="55" />
   </AntibioticGlue>
-  <Item name="" identifier="merbromin" category="Medical" Tags="smallitem,medical" maxstacksize="32" maxstacksizecharacterinventory="8" useinhealthinterface="true" cargocontaineridentifier="mediccrate" description="" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Item name="" identifier="ptoe_merbromin" category="Medical" Tags="smallitem,medical" maxstacksize="32" maxstacksizecharacterinventory="8" useinhealthinterface="true" cargocontaineridentifier="mediccrate" description="" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" amount="1" spawnprobability="0.1" />
     <PreferredContainer secondary="outpostmedcab" amount="1" spawnprobability="0.05" />
     <PreferredContainer secondary="outpostmedcompartment" amount="1" spawnprobability="0.05" />
@@ -104,8 +104,8 @@
     <Fabricate suitablefabricators="medicalfabricator" requiredtime="20" amount="6">
       <RequiredSkill identifier="medical" level="60" />
       <RequiredItem identifier="ethanol" amount="4" />
-      <RequiredItem identifier="mercury" />
-      <RequiredItem identifier="bromine" />
+      <RequiredItem identifier="ptoe_mercury" />
+      <RequiredItem identifier="ptoe_bromine" />
     </Fabricate>
     <Deconstruct time="2" />
     <SuitableTreatment type="infection" suitability="100" />
@@ -119,11 +119,11 @@
       </StatusEffect>
       <StatusEffect tags="medical" type="OnSuccess" target="This,Limb" duration="10.0">
         <ReduceAffliction type="infection" amount="2.8" />
-        <Affliction identifier="merbrominprotection" strength="10" />
+        <Affliction identifier="ptoe_merbrominprotection" strength="10" />
       </StatusEffect>
       <StatusEffect tags="medical" type="OnFailure" target="This,Limb" duration="10.0">
         <ReduceAffliction type="infection" amount="2.1" />
-        <Affliction identifier="merbrominprotection" strength="5" />
+        <Affliction identifier="ptoe_merbrominprotection" strength="5" />
       </StatusEffect>
       <StatusEffect type="OnBroken" target="This">
         <Remove />
@@ -131,7 +131,7 @@
     </MeleeWeapon>
     <SkillRequirementHint identifier="medical" level="30" />
   </Item>
-  <Item name="" identifier="edta2na" category="Medical" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Item name="" identifier="ptoe_edta2na" category="Medical" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <PreferredContainer primary="medcab" minamount="1" maxamount="2" spawnprobability="0.5" notcampaign="true"/>
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" amount="1" spawnprobability="0.2" />
     <PreferredContainer secondary="outpostmedcab" amount="1" spawnprobability="0.5" />
@@ -144,13 +144,13 @@
     <Fabricate suitablefabricators="medicalfabricator" requiredtime="60" amount="2">
       <RequiredSkill identifier="medical" level="40" />
       <RequiredItem identifier="ethanol" amount="2" />
-      <RequiredItem identifier="ammonia" />
+      <RequiredItem identifier="ptoe_ammonia" />
       <RequiredItem identifier="sodium" />
     </Fabricate>
     <Deconstruct time="20">
       <Item identifier="ethanol" />
     </Deconstruct>
-    <SuitableTreatment identifier="mercurypoisoning" suitability="100" />
+    <SuitableTreatment identifier="ptoe_mercurypoisoning" suitability="100" />
     <InventoryIcon texture="%ModDir%/Items.png" sourcerect="928,272,64,64" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items.png" sourcerect="544,320,37,68" depth="0.6" origin="0.5,0.5" />
     <Body width="35" height="65" density="10.2" waterdragcoefficient="1"/>
@@ -159,10 +159,10 @@
       <StatusEffect type="OnSuccess" target="This" Condition="-100.0" setvalue="true"/>
       <StatusEffect type="OnFailure" target="This" Condition="-100.0" setvalue="true"/>
       <StatusEffect tags="medical" type="OnSuccess" target="UseTarget" duration="60.0" stackable="false">
-        <ReduceAffliction identifier="mercurypoisoning" amount="2.0" />
+        <ReduceAffliction identifier="ptoe_mercurypoisoning" amount="2.0" />
       </StatusEffect>
       <StatusEffect tags="medical" type="OnFailure" target="UseTarget" duration="60.0" stackable="false">
-        <ReduceAffliction identifier="mercurypoisoning" amount="1.5" />
+        <ReduceAffliction identifier="ptoe_mercurypoisoning" amount="1.5" />
       </StatusEffect>
       <StatusEffect type="OnSuccess" target="UseTarget">
         <Conditional entitytype="eq Character"/>
@@ -182,7 +182,7 @@
     <Projectile characterusable="false" launchimpulse="18.0" sticktocharacters="true" launchrotation="-90" inheritstatuseffectsfrom="MeleeWeapon" inheritrequiredskillsfrom="MeleeWeapon" />
     <SkillRequirementHint identifier="medical" level="30" />
   </Item>
-  <Item name="" identifier="dimethylmercury" category="Medical" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,poison,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Item name="" identifier="ptoe_dimethylmercury" category="Medical" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,poison,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <PreferredContainer primary="toxcab" secondary="toxcontainer"/>
     <PreferredContainer primary="wrecktoxcab,abandonedtoxcab" spawnprobability="0.02" />
     <Price baseprice="100" sold="false">
@@ -196,7 +196,7 @@
     </Price>
     <Fabricate suitablefabricators="medicalfabricator" requiredtime="75">
       <RequiredSkill identifier="medical" level="60" />
-      <RequiredItem identifier="mercury" />
+      <RequiredItem identifier="ptoe_mercury" />
       <RequiredItem identifier="carbon" amount="2" />
     </Fabricate>
     <Deconstruct time="20">
@@ -209,16 +209,16 @@
       <RequiredSkill identifier="medical" level="60"/>
       <StatusEffect type="OnSuccess" target="This" Condition="-100.0" setvalue="true"/>
       <StatusEffect type="OnFailure" target="This" Condition="-100.0" setvalue="true"/>
-      <StatusEffect type="OnSuccess" target="UseTarget" multiplyafflictionsbymaxvitality="true">
+      <StatusEffect type="OnSuccess" target="UseTarget">
         <Conditional ishuman="true"/>
-        <Affliction identifier="mercurypoisoning" amount="40" />
+        <Affliction identifier="ptoe_mercurypoisoning" amount="40" />
       </StatusEffect>
-      <StatusEffect type="OnSuccess" target="UseTarget" multiplyafflictionsbymaxvitality="true">
+      <StatusEffect type="OnSuccess" target="UseTarget">
         <Conditional ishuman="false"/>
-        <Affliction identifier="mercurypoisoning" amount="45" />
+        <Affliction identifier="ptoe_mercurypoisoning" amount="45" />
       </StatusEffect>
-      <StatusEffect type="OnFailure" target="UseTarget" multiplyafflictionsbymaxvitality="true">
-        <Affliction identifier="mercurypoisoning" amount="30" />
+      <StatusEffect type="OnFailure" target="UseTarget">
+        <Affliction identifier="ptoe_mercurypoisoning" amount="30" />
       </StatusEffect>
       <StatusEffect type="OnSuccess" target="UseTarget">
         <Conditional entitytype="eq Character"/>
@@ -238,7 +238,7 @@
     <Projectile characterusable="false" launchimpulse="18.0" sticktocharacters="true" launchrotation="-90" inheritStatusEffectsFrom="MeleeWeapon" inheritrequiredskillsfrom="MeleeWeapon"/>
     <SkillRequirementHint identifier="medical" level="50"/>
   </Item>
-  <Item name="" identifier="whitearsenic" category="Medical" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,poison,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Item name="" identifier="ptoe_whitearsenic" category="Medical" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,poison,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <PreferredContainer primary="toxcab" secondary="toxcontainer"/>
     <PreferredContainer primary="wrecktoxcab,abandonedtoxcab" spawnprobability="0.1" />
     <Price baseprice="50" minavailable="1">
@@ -253,7 +253,7 @@
     </Price>
     <Fabricate suitablefabricators="medicalfabricator" requiredtime="10">
       <RequiredSkill identifier="medical" level="18" />
-      <RequiredItem identifier="arsenic" amount="2" />
+      <RequiredItem identifier="ptoe_arsenic" amount="2" />
     </Fabricate>
     <Deconstruct time="20">
       <Item identifier="arsenic" />
@@ -265,16 +265,16 @@
       <RequiredSkill identifier="medical" level="20"/>
       <StatusEffect type="OnSuccess" target="This" Condition="-100.0" setvalue="true"/>
       <StatusEffect type="OnFailure" target="This" Condition="-100.0" setvalue="true"/>
-      <StatusEffect type="OnSuccess" target="UseTarget" multiplyafflictionsbymaxvitality="true">
+      <StatusEffect type="OnSuccess" target="UseTarget">
         <Conditional ishuman="true"/>
-        <Affliction identifier="arsenicpoisoning" amount="11" />
+        <Affliction identifier="ptoe_arsenicpoisoning" amount="11" />
       </StatusEffect>
-      <StatusEffect type="OnSuccess" target="UseTarget" multiplyafflictionsbymaxvitality="true">
+      <StatusEffect type="OnSuccess" target="UseTarget">
         <Conditional ishuman="false"/>
-        <Affliction identifier="arsenicpoisoning" amount="20" />
+        <Affliction identifier="ptoe_arsenicpoisoning" amount="20" />
       </StatusEffect>
-      <StatusEffect type="OnFailure" target="UseTarget" multiplyafflictionsbymaxvitality="true">
-        <Affliction identifier="arsenicpoisoning" amount="10" />
+      <StatusEffect type="OnFailure" target="UseTarget">
+        <Affliction identifier="ptoe_arsenicpoisoning" amount="10" />
       </StatusEffect>
       <StatusEffect type="OnSuccess" target="UseTarget">
         <Conditional entitytype="eq Character"/>
@@ -294,7 +294,7 @@
     <Projectile characterusable="false" launchimpulse="18.0" sticktocharacters="true" launchrotation="-90" inheritStatusEffectsFrom="MeleeWeapon" inheritrequiredskillsfrom="MeleeWeapon"/>
     <SkillRequirementHint identifier="medical" level="20"/>
   </Item>
-  <Item name="" identifier="arsenicantidote" category="Medical" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Item name="" identifier="ptoe_arsenicantidote" category="Medical" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <PreferredContainer primary="medcab" amount="1" spawnprobability="0.5" notcampaign="true"/>
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" amount="1" spawnprobability="0.1" />
     <PreferredContainer secondary="outpostmedcab" amount="1" spawnprobability="0.2" />
@@ -311,13 +311,13 @@
     </Price>
     <Fabricate suitablefabricators="medicalfabricator" requiredtime="30" >
       <RequiredSkill identifier="medical" level="12" />
-      <RequiredItem identifier="whitearsenic" />
+      <RequiredItem identifier="ptoe_whitearsenic" />
       <RequiredItem identifier="stabilozine" />
     </Fabricate>
     <Deconstruct time="20">
       <Item identifier="stabilozine" />
     </Deconstruct>
-    <SuitableTreatment identifier="arsenicpoisoning" suitability="100" />
+    <SuitableTreatment identifier="ptoe_arsenicpoisoning" suitability="100" />
     <InventoryIcon texture="%ModDir%/Items.png" sourcerect="576,0,64,64" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items.png" sourcerect="679,0,36,71" depth="0.6" origin="0.5,0.5" />
     <Body width="35" height="65" density="10.2" waterdragcoefficient="1"/>
@@ -326,10 +326,10 @@
       <StatusEffect type="OnSuccess" target="This" Condition="-100.0" setvalue="true"/>
       <StatusEffect type="OnFailure" target="This" Condition="-100.0" setvalue="true"/>
       <StatusEffect tags="medical" type="OnSuccess" target="UseTarget" duration="10.0">
-        <ReduceAffliction identifier="arsenicpoisoning" amount="10.0" />
+        <ReduceAffliction identifier="ptoe_arsenicpoisoning" amount="10.0" />
       </StatusEffect>
       <StatusEffect tags="medical" type="OnFailure" target="UseTarget" duration="5.0">
-        <ReduceAffliction identifier="arsenicpoisoning" amount="10.0" />
+        <ReduceAffliction identifier="ptoe_arsenicpoisoning" amount="10.0" />
       </StatusEffect>
       <StatusEffect type="OnSuccess" target="UseTarget">
         <Conditional entitytype="eq Character"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Items>
-  <Item name="" identifier="beryllium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_beryllium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
     <Price baseprice="194" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -18,7 +18,7 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="boron" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_boron" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
     <Price baseprice="23" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -36,7 +36,7 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="ammonia" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="metalcrate" Tags="smallitem" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_ammonia" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="metalcrate" Tags="smallitem" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" minamount="1" maxamount="2" spawnprobability="0.05" />
     <Price baseprice="15" sold="false">
@@ -47,7 +47,7 @@
       <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="20" />
     </Price>
     <Fabricate suitablefabricators="fabricator" requiredtime="30" >
-      <RequiredItem identifier="platinum" usecondition="true" mincondition="0.0" />
+      <RequiredItem identifier="ptoe_platinum" usecondition="true" mincondition="0.0" />
     </Fabricate>
     <InventoryIcon texture="%ModDir%/PToE.png" sourcerect="896,64,64,64" />
     <Sprite texture="%ModDir%/Items.png" sourcerect="720,0,22,43" depth="0.6" origin="0.5,0.5" />
@@ -58,7 +58,7 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="sulphur" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_sulphur" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" minamount="1" maxamount="2" spawnprobability="0.05" />
     <Price baseprice="20" sold="false">
@@ -77,7 +77,7 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="vanadium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_vanadium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
     <Price baseprice="210" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -96,7 +96,7 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="" identifier="chromium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,plate,munition_core,advmunition_tip" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_chromium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,ptoe_plate,munition_core,advmunition_tip" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" amount="1" spawnprobability="0.05" />
     <Price baseprice="54" sold="false">
@@ -116,7 +116,7 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="" identifier="manganese" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_manganese" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" minamount="1" maxamount="2" spawnprobability="0.05" />
     <Price baseprice="22" sold="false">
@@ -136,7 +136,7 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="" identifier="nickel" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,plate,munition_jacket,munition_core" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_nickel" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,ptoe_plate,munition_jacket,munition_core" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" amount="1" spawnprobability="0.05" />
     <Price baseprice="60" sold="false">
@@ -156,7 +156,7 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="" identifier="gallium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_gallium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" amount="1" spawnprobability="0.01" />
     <Price baseprice="600" sold="false">
@@ -168,7 +168,7 @@
     </Price>
     <Fabricate suitablefabricators="fabricator" requiredtime="180">
       <RequiredSkill identifier="mechanical" level="60" />
-      <RequiredItem identifier="fluorescentpowder" amount="8" />
+      <RequiredItem identifier="ptoe_fluorescentpowder" amount="8" />
     </Fabricate>
     <InventoryIcon texture="%ModDir%/PToE.png" sourcerect="768,192,64,64" />
     <Sprite texture="%ModDir%/PToE.png" sourcerect="772,201,58,48" depth="0.55" origin="0.5,0.5" />
@@ -180,7 +180,7 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="" identifier="arsenic" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_arsenic" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" minamount="1" maxamount="2" spawnprobability="0.05" />
     <Price baseprice="11" sold="false">
@@ -199,7 +199,7 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="bromine" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="metalcrate" Tags="smallitem,distillable" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_bromine" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="metalcrate" Tags="smallitem,ptoe_distillable" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" amount="1" spawnprobability="0.01" />
     <Price baseprice="50" sold="false">
@@ -218,7 +218,7 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="silver" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_silver" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" amount="1" spawnprobability="0.03" />
     <Price baseprice="190" sold="false">
@@ -238,9 +238,8 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="" identifier="lanthanides" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,rareearth" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_lanthanides" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,ptoe_rareearth" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
-    <!--
     <Deconstruct time="5" chooserandom="true">
       <Item identifier="lanthanum" commoness="0.2" />
       <Item identifier="cerium" commoness="0.3" />
@@ -257,7 +256,6 @@
       <Item identifier="ytterbium" commoness="0.05" />
       <Item identifier="lutetium" commoness="0.02" />
     </Deconstruct>
-    -->
     <InventoryIcon texture="%ModDir%/PToE.png" sourcerect="128,320,64,64" />
     <Sprite texture="%ModDir%/Items.png" sourcerect="371,160,21,43" depth="0.55" origin="0.5,0.5" />
     <Body width="45" height="30" density="30" />
@@ -268,8 +266,7 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <!--
-  <Item name="" identifier="lanthanum" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,rareearth" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_lanthanum" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,ptoe_rareearth" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
     <Price baseprice="450" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -288,8 +285,273 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  -->
-  <Item name="" identifier="tungsten" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,advmunition_core,plate" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_cerium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,ptoe_rareearth" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <Price baseprice="410" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
+      <Price storeidentifier="merchantmine" multiplier="0.8" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/PToE.png" sourcerect="192,448,64,64" />
+    <Sprite texture="%ModDir%/Items.png" sourcerect="706,160,22,42" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="30" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="" identifier="ptoe_praseodymium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,ptoe_rareearth" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <Price baseprice="490" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
+      <Price storeidentifier="merchantmine" multiplier="0.8" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/PToE.png" sourcerect="256,448,64,64" />
+    <Sprite texture="%ModDir%/Items.png" sourcerect="729,160,22,42" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="30" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="" identifier="ptoe_neodymium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,ptoe_rareearth" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <Price baseprice="590" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
+      <Price storeidentifier="merchantmine" multiplier="0.8" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/PToE.png" sourcerect="320,448,64,64" />
+    <Sprite texture="%ModDir%/Items.png" sourcerect="752,160,22,42" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="30" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="" identifier="ptoe_samarium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,ptoe_rareearth" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <Price baseprice="550" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
+      <Price storeidentifier="merchantmine" multiplier="0.8" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/PToE.png" sourcerect="448,448,64,64" />
+    <Sprite texture="%ModDir%/Items.png" sourcerect="775,160,22,42" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="30" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="" identifier="ptoe_europium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,ptoe_rareearth" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <Price baseprice="720" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
+      <Price storeidentifier="merchantmine" multiplier="0.8" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/PToE.png" sourcerect="512,448,64,64" />
+    <Sprite texture="%ModDir%/Items.png" sourcerect="798,160,22,42" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="30" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="InWater" target="This" IsOn="true">
+        <ParticleEmitter particle="weldspark" particlespersecond="5" anglemin="0" anglemax="360" velocitymin="100" velocitymax="500" scalemin="0.5" scalemax="1" />
+        <ParticleEmitter particle="swirlysmoke" particlespersecond="2" scalemin="0.5" scalemax="1" />
+        <ParticleEmitter particle="damagebubbles" particlespersecond="2" scalemin="0.5" scalemax="0.7" anglemin="0" anglemax="360" velocitymin="-10" velocitymax="10" />
+        <sound file="Content/Items/Tools/FlareLoop.ogg" type="OnActive" range="500.0" loop="true" />
+      </StatusEffect>
+      <StatusEffect type="InWater" target="This" delay="3.0" setvalue="true" condition="0" stackable="false" checkconditionalalways="true">
+        <Conditional InWater="true"/>
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <sound file="Content/Items/Weapons/ExplosionSmall1.ogg" range="2000" />
+        <sound file="Content/Items/Weapons/ExplosionSmall2.ogg" range="2000" />
+        <sound file="Content/Items/Weapons/ExplosionSmall3.ogg" range="2000" />
+        <Explosion range="150.0" ballastfloradamage="20" force="3" applyfireeffects="false" flames="false">
+          <Affliction identifier="burn" strength="25" />
+          <Affliction identifier="stun" strength="5" />
+        </Explosion>
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="" identifier="ptoe_gadolinium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,ptoe_rareearth" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <Price baseprice="450" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
+      <Price storeidentifier="merchantmine" multiplier="0.8" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/PToE.png" sourcerect="576,448,64,64" />
+    <Sprite texture="%ModDir%/Items.png" sourcerect="821,160,22,42" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="30" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="" identifier="ptoe_terbium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,ptoe_rareearth" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <Price baseprice="490" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
+      <Price storeidentifier="merchantmine" multiplier="0.8" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/PToE.png" sourcerect="640,448,64,64" />
+    <Sprite texture="%ModDir%/Items.png" sourcerect="844,160,22,42" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="30" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="" identifier="ptoe_dysprosium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,ptoe_rareearth" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <Price baseprice="610" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
+      <Price storeidentifier="merchantmine" multiplier="0.8" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/PToE.png" sourcerect="704,448,64,64" />
+    <Sprite texture="%ModDir%/Items.png" sourcerect="867,160,22,42" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="30" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="" identifier="ptoe_holmium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,ptoe_rareearth" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <Price baseprice="690" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
+      <Price storeidentifier="merchantmine" multiplier="0.8" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/PToE.png" sourcerect="768,448,64,64" />
+    <Sprite texture="%ModDir%/Items.png" sourcerect="890,160,22,42" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="30" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="" identifier="ptoe_erbium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,ptoe_rareearth" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <Price baseprice="630" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
+      <Price storeidentifier="merchantmine" multiplier="0.8" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/PToE.png" sourcerect="832,448,64,64" />
+    <Sprite texture="%ModDir%/Items.png" sourcerect="913,160,22,42" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="30" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="" identifier="ptoe_thulium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,ptoe_rareearth" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <Price baseprice="780" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
+      <Price storeidentifier="merchantmine" multiplier="0.8" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/PToE.png" sourcerect="896,448,64,64" />
+    <Sprite texture="%ModDir%/Items.png" sourcerect="936,160,22,42" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="30" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="" identifier="ptoe_ytterbium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,ptoe_rareearth" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <Price baseprice="460" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
+      <Price storeidentifier="merchantmine" multiplier="0.8" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/PToE.png" sourcerect="960,448,64,64" />
+    <Sprite texture="%ModDir%/Items.png" sourcerect="959,160,22,42" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="30" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="" identifier="ptoe_lutetium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,ptoe_rareearth" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <Price baseprice="470" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
+      <Price storeidentifier="merchantmine" multiplier="0.8" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/PToE.png" sourcerect="1024,448,64,64" />
+    <Sprite texture="%ModDir%/Items.png" sourcerect="982,160,22,42" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="30" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="" identifier="ptoe_tungsten" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,advmunition_core,ptoe_plate" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" amount="1" spawnprobability="0.05" />
     <Price baseprice="56" sold="false">
@@ -309,7 +571,7 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="" identifier="platinum" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_platinum" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" amount="1" spawnprobability="0.01" />
     <Price baseprice="1200" sold="false">
@@ -329,7 +591,7 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="" identifier="gold" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_gold" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" amount="1" spawnprobability="0.01" />
     <Price baseprice="2000" sold="false">
@@ -349,7 +611,7 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="" identifier="mercury" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="metalcrate" Tags="smallitem,distillable" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_mercury" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="metalcrate" Tags="smallitem,ptoe_distillable" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" amount="1" spawnprobability="0.02" />
     <Price baseprice="52">
@@ -368,7 +630,7 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="plutonium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_plutonium" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
     <Price baseprice="1230" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />

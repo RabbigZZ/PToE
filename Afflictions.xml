@@ -2,7 +2,7 @@
 <Afflictions>
   <Affliction
     name=""
-    identifier="arsenicpoisoning"
+    identifier="ptoe_arsenicpoisoning"
     description=""
     type="poison"
     causeofdeathdescription=""
@@ -19,22 +19,22 @@
     basehealcost="50"
     MedicalSkillGain="1.5">
     <Description
-      textidentifier="afflictiondescription.arsenicpoisoning.medium.self"
+      textidentifier="afflictiondescription.ptoe_arsenicpoisoning.medium.self"
       target="Self"
       minstrength="0"
       maxstrength="100"/>
     <Description
-      textidentifier="afflictiondescription.arsenicpoisoning.low"
+      textidentifier="afflictiondescription.ptoe_arsenicpoisoning.low"
       target="OtherCharacter"
       minstrength="0"
       maxstrength="50"/>
     <Description
-      textidentifier="afflictiondescription.arsenicpoisoning"
+      textidentifier="afflictiondescription.ptoe_arsenicpoisoning"
       target="OtherCharacter"
       minstrength="50"
       maxstrength="75"/>
     <Description
-      textidentifier="afflictiondescription.arsenicpoisoning.high"
+      textidentifier="afflictiondescription.ptoe_arsenicpoisoning.high"
       target="OtherCharacter"
       minstrength="75"
       maxstrength="100"/>
@@ -111,7 +111,7 @@
   </Affliction>
   <Affliction
     name=""
-    identifier="mercurypoisoning"
+    identifier="ptoe_mercurypoisoning"
     description=""
     type="poison"
     causeofdeathdescription=""
@@ -128,22 +128,22 @@
     basehealcost="50"
     MedicalSkillGain="1.5">
     <Description
-      textidentifier="afflictiondescription.mercurypoisoning.medium.self"
+      textidentifier="afflictiondescription.ptoe_mercurypoisoning.medium.self"
       target="Self"
       minstrength="0"
       maxstrength="100"/>
     <Description
-      textidentifier="afflictiondescription.mercurypoisoning.low"
+      textidentifier="afflictiondescription.ptoe_mercurypoisoning.low"
       target="OtherCharacter"
       minstrength="0"
       maxstrength="25"/>
     <Description
-      textidentifier="afflictiondescription.mercurypoisoning"
+      textidentifier="afflictiondescription.ptoe_mercurypoisoning"
       target="OtherCharacter"
       minstrength="25"
       maxstrength="50"/>
     <Description
-      textidentifier="afflictiondescription.mercurypoisoning.high"
+      textidentifier="afflictiondescription.ptoe_mercurypoisoning.high"
       target="OtherCharacter"
       minstrength="50"
       maxstrength="100"/>
@@ -205,7 +205,7 @@
   </Affliction>
   <Affliction
     name=""
-    identifier="underwaterboost"
+    identifier="ptoe_underwaterboost"
     description=""
     type=""
     isbuff="true"
@@ -219,7 +219,7 @@
   </Affliction>
   <Affliction
     name=""
-    identifier="merbrominprotection"
+    identifier="ptoe_merbrominprotection"
     description=""
     type=""
     isbuff="true"

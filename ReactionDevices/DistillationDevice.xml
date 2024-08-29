@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Items>
-  <Item name="" identifier="distillationdevice" category="Misc" Tags="chemicaldevice" scale="0.5" impactsoundtag="impact_metal_heavy" isshootable="true">
+  <Item name="" identifier="ptoe_distillationdevice" category="Misc" Tags="ptoe_chemicaldevice" scale="0.5" impactsoundtag="impact_metal_heavy" isshootable="true">
     <Sprite texture="%ModDir%/Items.png" depth="0.7" sourcerect="720,208,208,128" origin="0.5,0.5" />
     <Body width="200" height="120" density="20" />
     <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="ItemMsgDetachWrench" PickingTime="5.0" aimpos="85,-10" handle1="0,0" attachable="true" attachedbydefault="true" aimable="true">
@@ -14,39 +14,39 @@
       <SlotIcon slotindex="1" texture="%ModDir%/UI.png" sourcerect="256,0,64,64" origin="0.5,0.5" />
       <GuiFrame relativesize="0.15,0.2" anchor="Center" style="ItemUI" />
       <Containable items="smallitem">
-        <StatusEffect type="OnContaining" targettype="Contained" targets="silveramalgam" delay="10.0" stackable="false" checkconditionalalways="true">
+        <StatusEffect type="OnContaining" targettype="Contained" targets="ptoe_silveramalgam" delay="10.0" stackable="false" checkconditionalalways="true">
           <Conditional voltage="gt 0.5" TargetContainer="true" />
-          <SpawnItem identifiers="silver" spawnposition="ThisInventory" spawnifinventoryfull="true" />
-          <SpawnItem identifiers="mercury" spawnposition="ThisInventory"  spawnifinventoryfull="true" />
+          <SpawnItem identifiers="ptoe_silver" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="ptoe_mercury" spawnposition="ThisInventory"  spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>
-        <StatusEffect type="OnContaining" targettype="Contained" targets="aluminiumamalgam1" delay="10.0" stackable="false" checkconditionalalways="true">
+        <StatusEffect type="OnContaining" targettype="Contained" targets="ptoe_aluminiumamalgam1" delay="10.0" stackable="false" checkconditionalalways="true">
           <Conditional voltage="gt 0.5" TargetContainer="true" />
           <SpawnItem identifiers="aluminium" spawnposition="ThisInventory" spawnifinventoryfull="true" />
-          <SpawnItem identifiers="mercury" spawnposition="ThisInventory"  spawnifinventoryfull="true" />
+          <SpawnItem identifiers="ptoe_mercury" spawnposition="ThisInventory"  spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>
-        <StatusEffect type="OnContaining" targettype="Contained" targets="aluminiumamalgam2" delay="10.0" stackable="false" checkconditionalalways="true">
+        <StatusEffect type="OnContaining" targettype="Contained" targets="ptoe_aluminiumamalgam2" delay="10.0" stackable="false" checkconditionalalways="true">
           <Conditional voltage="gt 0.5" TargetContainer="true" />
-          <SpawnItem identifiers="aluminium2" spawnposition="ThisInventory" spawnifinventoryfull="true" />
-          <SpawnItem identifiers="mercury" spawnposition="ThisInventory"  spawnifinventoryfull="true" />
+          <SpawnItem identifiers="ptoe_aluminium2" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="ptoe_mercury" spawnposition="ThisInventory"  spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>
-        <StatusEffect type="OnContaining" targettype="Contained" targets="goldamalgam" delay="10.0" stackable="false" checkconditionalalways="true">
+        <StatusEffect type="OnContaining" targettype="Contained" targets="ptoe_goldamalgam" delay="10.0" stackable="false" checkconditionalalways="true">
           <Conditional voltage="gt 0.5" TargetContainer="true" />
-          <SpawnItem identifiers="gold" spawnposition="ThisInventory" spawnifinventoryfull="true" />
-          <SpawnItem identifiers="mercury" spawnposition="ThisInventory"  spawnifinventoryfull="true" />
+          <SpawnItem identifiers="ptoe_gold" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="ptoe_mercury" spawnposition="ThisInventory"  spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>
-        <StatusEffect type="OnContaining" targettype="Contained" targets="brominewaterconcentrated" delay="10.0" stackable="false" checkconditionalalways="true">
+        <StatusEffect type="OnContaining" targettype="Contained" targets="ptoe_brominewaterconcentrated" delay="10.0" stackable="false" checkconditionalalways="true">
           <Conditional voltage="gt 0.5" TargetContainer="true" />
-          <SpawnItem identifiers="brominewaterdilute" spawnposition="ThisInventory" spawnifinventoryfull="true" />
-          <SpawnItem identifiers="bromine" spawnposition="ThisInventory"  spawnifinventoryfull="true" />
+          <SpawnItem identifiers="ptoe_brominewaterdilute" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="ptoe_bromine" spawnposition="ThisInventory"  spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>
       </Containable>
       <SubContainer hideitems="true" capacity="1" maxstacksize="1">
-        <Containable items="distillable" />
+        <Containable items="ptoe_distillable" />
       </SubContainer>
     </ItemContainer>
     <CustomInterface canbeselected="true" drawhudwhenequipped="true" AllowInGameEditing="false" allowuioverlap="true">
@@ -54,11 +54,11 @@
       <Button text="deconstructordeconstruct">
         <StatusEffect type="OnUse" target="This">
           <DropContainedItems />
-          <SpawnItem identifiers="beaker" spawnposition="SameInventory" spawnifinventoryfull="true" SpawnIfNotInInventory="true" />
-          <SpawnItem identifiers="flusk" spawnposition="SameInventory" spawnifinventoryfull="true" SpawnIfNotInInventory="true" />
-          <SpawnItem identifiers="condenser" spawnposition="SameInventory" spawnifinventoryfull="true" SpawnIfNotInInventory="true" />
-          <SpawnItem identifiers="thermometer" spawnposition="SameInventory" spawnifinventoryfull="true" SpawnIfNotInInventory="true" />
-          <SpawnItem identifiers="smartheater" spawnposition="SameInventory" spawnifinventoryfull="true" SpawnIfNotInInventory="true" />
+          <SpawnItem identifiers="ptoe_beaker" spawnposition="SameInventory" spawnifinventoryfull="true" SpawnIfNotInInventory="true" />
+          <SpawnItem identifiers="ptoe_flusk" spawnposition="SameInventory" spawnifinventoryfull="true" SpawnIfNotInInventory="true" />
+          <SpawnItem identifiers="ptoe_condenser" spawnposition="SameInventory" spawnifinventoryfull="true" SpawnIfNotInInventory="true" />
+          <SpawnItem identifiers="ptoe_thermometer" spawnposition="SameInventory" spawnifinventoryfull="true" SpawnIfNotInInventory="true" />
+          <SpawnItem identifiers="ptoe_smartheater" spawnposition="SameInventory" spawnifinventoryfull="true" SpawnIfNotInInventory="true" />
           <Remove />
         </StatusEffect>
       </Button>

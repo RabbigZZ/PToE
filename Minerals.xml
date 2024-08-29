@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="silverore" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_silverore" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="600" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -8,9 +8,9 @@
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
     <Deconstruct time="5">
-      <Item identifier="silver" />
-      <Item identifier="silver" />
-      <Item identifier="silver" />
+      <Item identifier="ptoe_silver" />
+      <Item identifier="ptoe_silver" />
+      <Item identifier="ptoe_silver" />
     </Deconstruct>
     <LightComponent lightcolor="192,192,192,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
@@ -34,7 +34,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="cerargyrite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_cerargyrite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="500" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -42,8 +42,8 @@
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
     <Deconstruct time="5">
-      <Item identifier="silver" />
-      <Item identifier="silver" />
+      <Item identifier="ptoe_silver" />
+      <Item identifier="ptoe_silver" />
       <Item identifier="chlorine" />
     </Deconstruct>
     <LightComponent lightcolor="88,116,64,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
@@ -65,7 +65,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="goldore" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_goldore" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="5000" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -73,8 +73,8 @@
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
     <Deconstruct time="5">
-      <Item identifier="gold" />
-      <Item identifier="gold" />
+      <Item identifier="ptoe_gold" />
+      <Item identifier="ptoe_gold" />
     </Deconstruct>
     <LightComponent lightcolor="255,255,177,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
@@ -97,7 +97,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="carnotite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_carnotite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="820" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -106,7 +106,7 @@
     </Price>
     <Deconstruct time="5">
       <Item identifier="potassium" />
-      <Item identifier="vanadium" />
+      <Item identifier="ptoe_vanadium" />
       <Item identifier="uranium" />
     </Deconstruct>
     <LightComponent lightcolor="201,236,3,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
@@ -131,7 +131,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="cavansite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_cavansite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="750" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -140,7 +140,7 @@
     </Price>
     <Deconstruct time="5">
       <Item identifier="calcium" />
-      <Item identifier="vanadium" />
+      <Item identifier="ptoe_vanadium" />
       <Item identifier="silicon" />
       <Item identifier="silicon" />
     </Deconstruct>
@@ -167,7 +167,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="sulfur001" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_sulfur" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="80" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -175,10 +175,10 @@
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
     <Deconstruct time="5">
-      <Item identifier="sulphur" />
-      <Item identifier="sulphur" />
-      <Item identifier="sulphur" />
-      <Item identifier="sulphur" />
+      <Item identifier="ptoe_sulphur" />
+      <Item identifier="ptoe_sulphur" />
+      <Item identifier="ptoe_sulphur" />
+      <Item identifier="ptoe_sulphur" />
     </Deconstruct>
     <LightComponent lightcolor="217,214,0,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
@@ -199,7 +199,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="argentite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_argentite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="420" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -207,9 +207,9 @@
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
     <Deconstruct time="5">
-      <Item identifier="silver" />
-      <Item identifier="silver" />
-      <Item identifier="sulphur" />
+      <Item identifier="ptoe_silver" />
+      <Item identifier="ptoe_silver" />
+      <Item identifier="ptoe_sulphur" />
     </Deconstruct>
     <LightComponent lightcolor="187,171,169,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
@@ -234,7 +234,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="realgar" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_realgar" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="70" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -242,10 +242,10 @@
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
     <Deconstruct time="5">
-      <Item identifier="arsenic" />
-      <Item identifier="arsenic" />
-      <Item identifier="sulphur" />
-      <Item identifier="sulphur" />
+      <Item identifier="ptoe_arsenic" />
+      <Item identifier="ptoe_arsenic" />
+      <Item identifier="ptoe_sulphur" />
+      <Item identifier="ptoe_sulphur" />
     </Deconstruct>
     <LightComponent lightcolor="138,65,34,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
@@ -269,7 +269,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="orpiment" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_orpiment" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="80" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -277,10 +277,10 @@
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
     <Deconstruct time="5">
-      <Item identifier="arsenic" />
-      <Item identifier="sulphur" />
-      <Item identifier="sulphur" />
-      <Item identifier="sulphur" />
+      <Item identifier="ptoe_arsenic" />
+      <Item identifier="ptoe_sulphur" />
+      <Item identifier="ptoe_sulphur" />
+      <Item identifier="ptoe_sulphur" />
     </Deconstruct>
     <LightComponent lightcolor="161,100,0,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
@@ -304,7 +304,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="sperrylite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_sperrylite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="1350" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -312,9 +312,9 @@
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
     <Deconstruct time="5">
-      <Item identifier="platinum" />
-      <Item identifier="arsenic" />
-      <Item identifier="arsenic" />
+      <Item identifier="ptoe_platinum" />
+      <Item identifier="ptoe_arsenic" />
+      <Item identifier="ptoe_arsenic" />
     </Deconstruct>
     <LightComponent lightcolor="166,155,140,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
@@ -339,7 +339,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="chromite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_chromite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="90" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -348,8 +348,8 @@
     </Price>
     <Deconstruct time="5">
       <Item identifier="iron" />
-      <Item identifier="chromium" />
-      <Item identifier="chromium" />
+      <Item identifier="ptoe_chromium" />
+      <Item identifier="ptoe_chromium" />
     </Deconstruct>
     <LightComponent lightcolor="160,175,187,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
@@ -373,7 +373,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="crocoite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_crocoite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="120" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -382,7 +382,7 @@
     </Price>
     <Deconstruct time="5">
       <Item identifier="lead" />
-      <Item identifier="chromium" />
+      <Item identifier="ptoe_chromium" />
     </Deconstruct>
     <LightComponent lightcolor="158,45,50,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
@@ -407,7 +407,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="nickeline" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_nickeline" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="60" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -415,8 +415,8 @@
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
     <Deconstruct time="5">
-      <Item identifier="nickel" />
-      <Item identifier="arsenic" />
+      <Item identifier="ptoe_nickel" />
+      <Item identifier="ptoe_arsenic" />
     </Deconstruct>
     <LightComponent lightcolor="181,164,160,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
@@ -441,7 +441,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="violarite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_violarite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="100" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -449,10 +449,10 @@
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
     <Deconstruct time="5">
-      <Item identifier="nickel" />
+      <Item identifier="ptoe_nickel" />
       <Item identifier="iron" />
-      <Item identifier="sulphur" />
-      <Item identifier="sulphur" />
+      <Item identifier="ptoe_sulphur" />
+      <Item identifier="ptoe_sulphur" />
     </Deconstruct>
     <LightComponent lightcolor="111,90,94,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
@@ -477,7 +477,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="monazite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_monazite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="470" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -485,7 +485,7 @@
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
     <Deconstruct time="5">
-      <Item identifier="lanthanides" />
+      <Item identifier="ptoe_lanthanides" />
       <Item identifier="phosphorus" />
     </Deconstruct>
     <LightComponent lightcolor="175,107,44,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
@@ -507,7 +507,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="pyrolusite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_pyrolusite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="45" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -515,8 +515,8 @@
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
     <Deconstruct time="5">
-      <Item identifier="manganese" />
-      <Item identifier="manganese" />
+      <Item identifier="ptoe_manganese" />
+      <Item identifier="ptoe_manganese" />
     </Deconstruct>
     <LightComponent lightcolor="96,96,96,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
@@ -541,7 +541,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="ferberite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_ferberite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="74" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -550,7 +550,7 @@
     </Price>
     <Deconstruct time="5">
       <Item identifier="iron" />
-      <Item identifier="tungsten" />
+      <Item identifier="ptoe_tungsten" />
     </Deconstruct>
     <LightComponent lightcolor="101,101,97,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
@@ -575,7 +575,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="scheelite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_scheelite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="98" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -584,7 +584,7 @@
     </Price>
     <Deconstruct time="5">
       <Item identifier="calcium" />
-      <Item identifier="tungsten" />
+      <Item identifier="ptoe_tungsten" />
     </Deconstruct>
     <LightComponent lightcolor="184,142,103,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
@@ -609,7 +609,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="huebnerite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_huebnerite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="100" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -617,8 +617,8 @@
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
     <Deconstruct time="5">
-      <Item identifier="manganese" />
-      <Item identifier="tungsten" />
+      <Item identifier="ptoe_manganese" />
+      <Item identifier="ptoe_tungsten" />
     </Deconstruct>
     <LightComponent lightcolor="160,160,160,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
@@ -641,7 +641,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="borax" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_borax" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="82" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -650,8 +650,8 @@
     </Price>
     <Deconstruct time="5">
       <Item identifier="sodium" />
-      <Item identifier="boron" />
-      <Item identifier="boron" />
+      <Item identifier="ptoe_boron" />
+      <Item identifier="ptoe_boron" />
     </Deconstruct>
     <LightComponent lightcolor="128,128,128,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
@@ -676,7 +676,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="priceite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_priceite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="78" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -685,8 +685,8 @@
     </Price>
     <Deconstruct time="5">
       <Item identifier="calcium" />
-      <Item identifier="boron" />
-      <Item identifier="boron" />
+      <Item identifier="ptoe_boron" />
+      <Item identifier="ptoe_boron" />
     </Deconstruct>
     <LightComponent lightcolor="192,192,192,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
@@ -709,7 +709,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="cinnabar" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_cinnabar" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="88" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -717,8 +717,8 @@
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
     <Deconstruct time="5">
-      <Item identifier="mercury" />
-      <Item identifier="sulphur" />
+      <Item identifier="ptoe_mercury" />
+      <Item identifier="ptoe_sulphur" />
     </Deconstruct>
     <LightComponent lightcolor="178,108,109,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
@@ -743,7 +743,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="montroydite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_montroydite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="116" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -751,8 +751,8 @@
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
     <Deconstruct time="5">
-      <Item identifier="mercury" />
-      <Item identifier="mercury" />
+      <Item identifier="ptoe_mercury" />
+      <Item identifier="ptoe_mercury" />
     </Deconstruct>
     <LightComponent lightcolor="177,74,27,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
@@ -777,7 +777,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="berylite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_berylite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="320" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -787,7 +787,7 @@
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
     <Deconstruct time="5">
-      <Item identifier="beryllium" />
+      <Item identifier="ptoe_beryllium" />
       <Item identifier="aluminium" />
       <Item identifier="silicon" />
       <Item identifier="silicon" />
@@ -815,7 +815,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="chrysoberyl" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_chrysoberyl" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="360" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -825,7 +825,7 @@
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
     <Deconstruct time="5">
-      <Item identifier="beryllium" />
+      <Item identifier="ptoe_beryllium" />
       <Item identifier="aluminium" />
       <Item identifier="aluminium" />
     </Deconstruct>
@@ -850,7 +850,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="phenakite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ptoe_phenakite" category="Material" Tags="smallitem,ore" maxstacksize="32" maxstacksizecharacterinventory="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="mineralcab" secondary="storagecab" />
     <Price baseprice="428" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" />
@@ -860,8 +860,8 @@
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
     <Deconstruct time="5">
-      <Item identifier="beryllium" />
-      <Item identifier="beryllium" />
+      <Item identifier="ptoe_beryllium" />
+      <Item identifier="ptoe_beryllium" />
       <Item identifier="silicon" />
     </Deconstruct>
     <LightComponent lightcolor="188,171,140,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">

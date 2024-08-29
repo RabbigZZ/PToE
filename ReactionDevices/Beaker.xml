@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Items>
-  <Item name="" identifier="beaker" category="Misc" Tags="mediumitem,chemicaldevice" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="5.5">
+  <Item name="" identifier="ptoe_beaker" category="Misc" Tags="mediumitem,ptoe_chemicaldevice" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="5.5">
     <Price baseprice="60" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
       <Price storeidentifier="merchantcity" sold="true" multiplier="1.25" available="1" />
@@ -15,7 +15,7 @@
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="60">
       <RequiredSkill identifier="medical" level="30" />
-      <RequiredItem identifier="advancedglass" />
+      <RequiredItem identifier="ptoe_advancedglass" />
     </Fabricate>
     <Throwable characterusable="true" canBeCombined="false" slots="Any,RightHand,LeftHand" throwforce="3.5" aimpos="35,-10" msg="ItemMsgPickUpSelect">
       <StatusEffect type="OnImpact" target="This" Condition="0.0" setvalue="true" />
@@ -38,69 +38,69 @@
     </ItemContainer>
     <CustomInterface canbeselected="true" drawhudwhenequipped="true" AllowInGameEditing="false">
       <GuiFrame relativesize="0.12,0.14" anchor="BottomCenter" absoluteoffset="0,75" />
-      <Button text="react">
+      <Button text="ptoe_react">
         <StatusEffect type="OnUse" target="Contained">
-          <RequiredItem items="silver" type="Contained" />
-          <RequiredItem items="mercury" type="Contained" />
-          <SpawnItem identifiers="silveramalgam" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <RequiredItem items="ptoe_silver" type="Contained" />
+          <RequiredItem items="ptoe_mercury" type="Contained" />
+          <SpawnItem identifiers="ptoe_silveramalgam" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>
         <StatusEffect type="OnUse" target="Contained">
-          <RequiredItem items="silvercommendation" type="Contained" />
-          <RequiredItem items="mercury" type="Contained" />
-          <SpawnItem identifiers="silveramalgam" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <RequiredItem items="ptoe_silvercommendation" type="Contained" />
+          <RequiredItem items="ptoe_mercury" type="Contained" />
+          <SpawnItem identifiers="ptoe_silveramalgam" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <SpawnItem identifiers="coalitioncommendation" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>
         <StatusEffect type="OnUse" target="Contained">
-          <RequiredItem items="silvermedal" type="Contained" />
-          <RequiredItem items="mercury" type="Contained" />
-          <SpawnItem identifiers="silveramalgam" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <RequiredItem items="ptoe_silvermedal" type="Contained" />
+          <RequiredItem items="ptoe_mercury" type="Contained" />
+          <SpawnItem identifiers="ptoe_silveramalgam" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <SpawnItem identifiers="coalitionmedal" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>
         <StatusEffect type="OnUse" target="Contained">
           <RequiredItem items="aluminium" type="Contained" />
-          <RequiredItem items="mercury" type="Contained" />
-          <SpawnItem identifiers="aluminiumamalgam1" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <RequiredItem items="ptoe_mercury" type="Contained" />
+          <SpawnItem identifiers="ptoe_aluminiumamalgam1" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>
         <StatusEffect type="OnUse" target="Contained">
           <RequiredItem items="aluminium" type="Contained" />
-          <RequiredItem items="aluminiumamalgam1" type="Contained" />
-          <SpawnItem identifiers="aluminiumamalgam2" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <RequiredItem items="ptoe_aluminiumamalgam1" type="Contained" />
+          <SpawnItem identifiers="ptoe_aluminiumamalgam2" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>
         <StatusEffect type="OnUse" target="Contained">
           <RequiredItem items="oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank" type="Contained" ExcludeBroken="false" />
-          <RequiredItem items="mercury" type="Contained" />
-          <SpawnItem identifiers="aluminiumamalgam2" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <RequiredItem items="ptoe_mercury" type="Contained" />
+          <SpawnItem identifiers="ptoe_aluminiumamalgam2" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>
         <StatusEffect type="OnUse" target="Contained">
-          <RequiredItem items="gold" type="Contained" />
-          <RequiredItem items="mercury" type="Contained" />
-          <SpawnItem identifiers="goldamalgam" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <RequiredItem items="ptoe_gold" type="Contained" />
+          <RequiredItem items="ptoe_mercury" type="Contained" />
+          <SpawnItem identifiers="ptoe_goldamalgam" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>
         <StatusEffect type="OnUse" target="Contained">
-          <RequiredItem items="goldcommendation" type="Contained" />
-          <RequiredItem items="mercury" type="Contained" />
-          <SpawnItem identifiers="goldamalgam" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <RequiredItem items="ptoe_goldcommendation" type="Contained" />
+          <RequiredItem items="ptoe_mercury" type="Contained" />
+          <SpawnItem identifiers="ptoe_goldamalgam" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <SpawnItem identifiers="coalitioncommendation" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>
         <StatusEffect type="OnUse" target="Contained">
-          <RequiredItem items="goldmedal" type="Contained" />
-          <RequiredItem items="mercury" type="Contained" />
-          <SpawnItem identifiers="goldamalgam" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <RequiredItem items="ptoe_goldmedal" type="Contained" />
+          <RequiredItem items="ptoe_mercury" type="Contained" />
+          <SpawnItem identifiers="ptoe_goldamalgam" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <SpawnItem identifiers="coalitionmedal" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>
         <StatusEffect type="OnUse" target="Contained">
-          <RequiredItem items="golddivingknife" type="Contained" />
-          <RequiredItem items="mercury" type="Contained" />
-          <SpawnItem identifiers="goldamalgam" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <RequiredItem items="ptoe_divingknifegilded" type="Contained" />
+          <RequiredItem items="ptoe_mercury" type="Contained" />
+          <SpawnItem identifiers="ptoe_goldamalgam" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <SpawnItem identifiers="divingknife" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <Remove />
         </StatusEffect>

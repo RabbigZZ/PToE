@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Items>
-  <Item name="" identifier="supportstand" category="Misc" tags="mediumitem,chemicaldevice" scale="0.7" pickdistance="150" showcontentsintooltip="true" impactsoundtag="impact_metal_heavy" isshootable="true">
+  <Item name="" identifier="ptoe_supportstand" category="Misc" tags="mediumitem,ptoe_chemicaldevice" scale="0.7" pickdistance="150" showcontentsintooltip="true" impactsoundtag="impact_metal_heavy" isshootable="true">
     <Deconstruct time="10">
       <Item identifier="steel" amount="2" />
     </Deconstruct>
@@ -17,32 +17,32 @@
       </StatusEffect>
     </Holdable>
     <ItemContainer capacity="5" maxstacksize="1" canbeselected="true" hideitems="true" AllowAccessWhenDropped="false" msg="ItemMsgInteractSelect" allowuioverlap="true">
-      <Containable items="chemicaldevice" excludeditems="supportstand" />
+      <Containable items="ptoe_chemicaldevice" excludeditems="ptoe_supportstand" />
       <GuiFrame relativesize="0.3,0.2" anchor="Center" style="ItemUI" relativeoffset="-0.1,0" />
     </ItemContainer>
     <CustomInterface canbeselected="true" drawhudwhenequipped="false" AllowInGameEditing="false" allowuioverlap="true">
       <GuiFrame relativesize="0.1,0.1" anchor="Center" relativeoffset="0.1,0" />
-      <Button text="assemble">
+      <Button text="ptoe_assemble">
         <StatusEffect type="OnUse" target="Contained">
-          <RequiredItem items="smartheater" type="Contained" />
-          <RequiredItem items="beaker" type="Contained" />
-          <SpawnItem identifiers="heatdevice" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <RequiredItem items="ptoe_smartheater" type="Contained" />
+          <RequiredItem items="ptoe_beaker" type="Contained" />
+          <SpawnItem identifiers="ptoe_heatdevice" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <DropContainedItems />
           <Remove />
         </StatusEffect>
         <StatusEffect type="OnUse" target="Contained">
-          <RequiredItem items="flusk" type="Contained" />
-          <RequiredItem items="condenser" type="Contained" />
-          <RequiredItem items="thermometer" type="Contained" />
-          <RequiredItem items="heatdevice" type="Contained" />
-          <SpawnItem identifiers="distillationdevice" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <RequiredItem items="ptoe_flusk" type="Contained" />
+          <RequiredItem items="ptoe_condenser" type="Contained" />
+          <RequiredItem items="ptoe_thermometer" type="Contained" />
+          <RequiredItem items="ptoe_heatdevice" type="Contained" />
+          <SpawnItem identifiers="ptoe_distillationdevice" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <DropContainedItems />
           <Remove />
         </StatusEffect>
         <StatusEffect type="OnUse" target="Contained">
-          <RequiredItem items="watertank" type="Contained" />
+          <RequiredItem items="ptoe_watertank" type="Contained" />
           <RequiredItem items="wire" type="Contained" />
-          <SpawnItem identifiers="electroplatingtank" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+          <SpawnItem identifiers="ptoe_electroplatingtank" spawnposition="ThisInventory" spawnifinventoryfull="true" />
           <DropContainedItems />
           <Remove />
         </StatusEffect>

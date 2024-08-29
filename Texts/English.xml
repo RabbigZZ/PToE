@@ -1,349 +1,349 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <infotexts language="English" nowhitespace="false" translatedname="English">
   <!--Actions-->
-  <react>React</react>
-  <shake>Shake</shake>
-  <assemble>Assemble</assemble>
-  <tear>Tear</tear>
-  <extract>Extract</extract>
+  <ptoe_react>React</ptoe_react>
+  <ptoe_shake>Shake</ptoe_shake>
+  <ptoe_assemble>Assemble</ptoe_assemble>
+  <ptoe_tear>Tear</ptoe_tear>
+  <ptoe_extract>Extract</ptoe_extract>
   <!--Fabrication Descriptions-->
-  <fabricationdescription.plate>Plating. Hard and wearproof metals.</fabricationdescription.plate>
-  <fabricationdescription.rareearth>Scandium, yttrium, or lanthanides except promethium.</fabricationdescription.rareearth>
-  <fabricationdescription.oxidant1>Solid oxidants for explosives.</fabricationdescription.oxidant1>
+  <fabricationdescription.ptoe_plate>Plating. Hard and wearproof metals.</fabricationdescription.ptoe_plate>
+  <fabricationdescription.ptoe_rareearth>Scandium, yttrium, or lanthanides except promethium.</fabricationdescription.ptoe_rareearth>
+  <fabricationdescription.ptoe_oxidant1>Solid oxidants for explosives.</fabricationdescription.ptoe_oxidant1>
   <!--Interactable Devices-->
-  <entityname.beaker>Beaker</entityname.beaker>
-  <entitydescription.beaker>Suitable to most simple chemical reactions.</entitydescription.beaker>
-  <entityname.heatdevice>Heat Device</entityname.heatdevice>
-  <entitydescription.heatdevice>An open heat device.</entitydescription.heatdevice>
-  <entityname.distillationdevice>Distillation Device</entityname.distillationdevice>
-  <entitydescription.distillationdevice>Evaporate and collect liquids. It may take a bit longer time.</entitydescription.distillationdevice>
-  <entityname.supportstand>Support Stand</entityname.supportstand>
-  <entitydescription.supportstand>Assemble devices.</entitydescription.supportstand>
-  <entityname.electroplatingtank>Electroplating Tank</entityname.electroplatingtank>
-  <entitydescription.electroplatingtank>Cathode is for the item about to be plated, anode is for the plating metal.</entitydescription.electroplatingtank>
+  <entityname.ptoe_beaker>Beaker</entityname.ptoe_beaker>
+  <entitydescription.ptoe_beaker>Suitable to most simple chemical reactions.</entitydescription.ptoe_beaker>
+  <entityname.ptoe_heatdevice>Heat Device</entityname.ptoe_heatdevice>
+  <entitydescription.ptoe_heatdevice>An open heat device.</entitydescription.ptoe_heatdevice>
+  <entityname.ptoe_distillationdevice>Distillation Device</entityname.ptoe_distillationdevice>
+  <entitydescription.ptoe_distillationdevice>Evaporate and collect liquids. It may take a bit longer time.</entitydescription.ptoe_distillationdevice>
+  <entityname.ptoe_supportstand>Support Stand</entityname.ptoe_supportstand>
+  <entitydescription.ptoe_supportstand>Assemble devices.</entitydescription.ptoe_supportstand>
+  <entityname.ptoe_electroplatingtank>Electroplating Tank</entityname.ptoe_electroplatingtank>
+  <entitydescription.ptoe_electroplatingtank>Cathode is for the item about to be plated, anode is for the plating metal.</entitydescription.ptoe_electroplatingtank>
   <!--Elements-->
-  <entityname.beryllium>Beryllium</entityname.beryllium>
-  <entitydescription.beryllium>Familiar with aluminum in most attributes, but lighter and rarer.</entitydescription.beryllium>
-  <entityname.boron>Boron</entityname.boron>
-  <entitydescription.boron>Metalloid with properties complex and unique, usages even more various.</entitydescription.boron>
-  <entityname.ammonia>Ammonia</entityname.ammonia>
-  <entitydescription.ammonia>Ammonia is the best source of nitrogen in chemical synthesis.</entitydescription.ammonia>
-  <entityname.sulphur>Sulphur</entityname.sulphur>
-  <entitydescription.sulphur>Smelly yellow solid mainly used to make black powder and sulphuric acid.</entitydescription.sulphur>
-  <entityname.vanadium>Vanadium</entityname.vanadium>
-  <entitydescription.vanadium>Uncommon metal. One of its oxides is a perfect catalyst of sulphuric acid production.</entitydescription.vanadium>
-  <entityname.chromium>Chromium</entityname.chromium>
-  <entitydescription.chromium>Hardest among metals, and not too expensive.</entitydescription.chromium>
-  <entityname.manganese>Manganese</entityname.manganese>
-  <entitydescription.manganese>Crispy metal. Its compounds have wide usages.</entitydescription.manganese>
-  <entityname.nickel>Nickel</entityname.nickel>
-  <entitydescription.nickel>Cheap, processable, and corrosion-resistant.</entitydescription.nickel>
-  <entityname.gallium>Gallium</entityname.gallium>
-  <entitydescription.gallium>Melts in hand. Used to produce thermometers and semiconductor materials, also ID cards.</entitydescription.gallium>
-  <entityname.arsenic>Arsenic</entityname.arsenic>
-  <entitydescription.arsenic>Looks like metal but crumbly. Poisonous.</entitydescription.arsenic>
-  <entityname.bromine>Bromine</entityname.bromine>
-  <entitydescription.bromine>Extracted from marine water, extremely stinky.</entitydescription.bromine>
-  <entityname.silver>Silver</entityname.silver>
-  <entitydescription.silver>Valuable metal used to make medals. Its ions can sterilize wounds.</entitydescription.silver>
-  <entityname.lanthanides>Lanthanides</entityname.lanthanides>
-  <entitydescription.lanthanides>Mixture of lanthanide metals.</entitydescription.lanthanides>
+  <entityname.ptoe_beryllium>Beryllium</entityname.ptoe_beryllium>
+  <entitydescription.ptoe_beryllium>Similiar with aluminum in most attributes, but lighter and rarer.</entitydescription.ptoe_beryllium>
+  <entityname.ptoe_boron>Boron</entityname.ptoe_boron>
+  <entitydescription.ptoe_boron>Metalloid with properties complex and unique, usages even more various.</entitydescription.ptoe_boron>
+  <entityname.ptoe_ammonia>Ammonia</entityname.ptoe_ammonia>
+  <entitydescription.ptoe_ammonia>Ammonia is the best source of nitrogen in chemical synthesis.</entitydescription.ptoe_ammonia>
+  <entityname.ptoe_sulphur>Sulphur</entityname.ptoe_sulphur>
+  <entitydescription.ptoe_sulphur>Smelly yellow solid mainly used to make black powder and sulphuric acid.</entitydescription.ptoe_sulphur>
+  <entityname.ptoe_vanadium>Vanadium</entityname.ptoe_vanadium>
+  <entitydescription.ptoe_vanadium>Uncommon metal. One of its oxides is a perfect catalyst of sulphuric acid production.</entitydescription.ptoe_vanadium>
+  <entityname.ptoe_chromium>Chromium</entityname.ptoe_chromium>
+  <entitydescription.ptoe_chromium>Hardest among metals, and not too expensive.</entitydescription.ptoe_chromium>
+  <entityname.ptoe_manganese>Manganese</entityname.ptoe_manganese>
+  <entitydescription.ptoe_manganese>Crispy metal. Its compounds have wide usages.</entitydescription.ptoe_manganese>
+  <entityname.ptoe_nickel>Nickel</entityname.ptoe_nickel>
+  <entitydescription.ptoe_nickel>Cheap, processable, and corrosion-resistant.</entitydescription.ptoe_nickel>
+  <entityname.ptoe_gallium>Gallium</entityname.ptoe_gallium>
+  <entitydescription.ptoe_gallium>Melts in hand. Used to produce thermometers and semiconductor materials, also ID cards.</entitydescription.ptoe_gallium>
+  <entityname.ptoe_arsenic>Arsenic</entityname.ptoe_arsenic>
+  <entitydescription.ptoe_arsenic>Looks like metal but crumbly. Poisonous.</entitydescription.ptoe_arsenic>
+  <entityname.ptoe_bromine>Bromine</entityname.ptoe_bromine>
+  <entitydescription.ptoe_bromine>Extracted from marine water, extremely stinky.</entitydescription.ptoe_bromine>
+  <entityname.ptoe_silver>Silver</entityname.ptoe_silver>
+  <entitydescription.ptoe_silver>Valuable metal used to make medals. Its ions can sterilize wounds.</entitydescription.ptoe_silver>
+  <entityname.ptoe_lanthanides>Lanthanides</entityname.ptoe_lanthanides>
+  <entitydescription.ptoe_lanthanides>Mixture of lanthanide metals.</entitydescription.ptoe_lanthanides>
+  <entityname.ptoe_lanthanum>Lanthanum</entityname.ptoe_lanthanum>
+  <entitydescription.ptoe_lanthanum>The first of lanthanide elements, a kind of rare earth.</entitydescription.ptoe_lanthanum>
+  <entityname.ptoe_cerium>Cerium</entityname.ptoe_cerium>
+  <entitydescription.ptoe_cerium>The second of lanthanide elements, a kind of rare earth.</entitydescription.ptoe_cerium>
+  <entityname.ptoe_praseodymium>Praseodymium</entityname.ptoe_praseodymium>
+  <entitydescription.ptoe_praseodymium>The third of lanthanide elements, a kind of rare earth.</entitydescription.ptoe_praseodymium>
+  <entityname.ptoe_neodymium>Neodymium</entityname.ptoe_neodymium>
+  <entitydescription.ptoe_neodymium>The fourth of lanthanide elements, a kind of rare earth.</entitydescription.ptoe_neodymium>
   <!--
-  <entityname.lanthanum>Lanthanum</entityname.lanthanum>
-  <entitydescription.lanthanum>The first of lanthanide elements, a kind of rare earth.</entitydescription.lanthanum>
-  <entityname.cerium>Cerium</entityname.cerium>
-  <entitydescription.cerium>The second of lanthanide elements, a kind of rare earth.</entitydescription.cerium>
-  <entityname.praseodymium>Praseodymium</entityname.praseodymium>
-  <entitydescription.praseodymium>The third of lanthanide elements, a kind of rare earth.</entitydescription.praseodymium>
-  <entityname.neodymium>Neodymium</entityname.neodymium>
-  <entitydescription.neodymium>The fourth of lanthanide elements, a kind of rare earth.</entitydescription.neodymium>
-  <entityname.promethium>Promethium</entityname.promethium>
-  <entitydescription.promethium>The fifth of lanthanide elements, radioactive. May not be considered as rare earth.</entitydescription.promethium>
-  <entityname.samarium>Samarium</entityname.samarium>
-  <entitydescription.samarium>The sixth of lanthanide elements, a kind of rare earth.</entitydescription.samarium>
-  <entityname.europium>Europium</entityname.europium>
-  <entitydescription.europium>The seventh of lanthanide elements, a kind of rare earth.</entitydescription.europium>
-  <entityname.gadolinium>Gadolinium</entityname.gadolinium>
-  <entitydescription.gadolinium>The eighth of lanthanide elements, a kind of rare earth.</entitydescription.gadolinium>
-  <entityname.terbium>Terbium</entityname.terbium>
-  <entitydescription.terbium>The ninth of lanthanide elements, a kind of rare earth.</entitydescription.terbium>
-  <entityname.dysprosium>Dysprosium</entityname.dysprosium>
-  <entitydescription.dysprosium>The tenth of lanthanide elements, a kind of rare earth.</entitydescription.dysprosium>
-  <entityname.holmium>Holmium</entityname.holmium>
-  <entitydescription.holmium>The eleventh of lanthanide elements, a kind of rare earth.</entitydescription.holmium>
-  <entityname.erbium>Erbium</entityname.erbium>
-  <entitydescription.erbium>The twelfth of lanthanide elements, a kind of rare earth.</entitydescription.erbium>
-  <entityname.thulium>Thulium</entityname.thulium>
-  <entitydescription.thulium>The thirteenth of lanthanide elements, a kind of rare earth.</entitydescription.thulium>
-  <entityname.ytterbium>Ytterbium</entityname.ytterbium>
-  <entitydescription.ytterbium>The fourteenth of lanthanide elements, a kind of rare earth.</entitydescription.ytterbium>
-  <entityname.lutetium>Lutetium</entityname.lutetium>
-  <entitydescription.lutetium>The fifteenth of lanthanide elements, a kind of rare earth.</entitydescription.lutetium>
+  <entityname.ptoe_promethium>Promethium</entityname.ptoe_promethium>
+  <entitydescription.ptoe_promethium>The fifth of lanthanide elements, radioactive. May not be considered as rare earth.</entitydescription.ptoe_promethium>
   -->
-  <entityname.tungsten>Tungsten</entityname.tungsten>
-  <entitydescription.tungsten>Heavy and hard, with highest melt point among metals.</entitydescription.tungsten>
-  <entityname.platinum>Platinum</entityname.platinum>
-  <entitydescription.platinum>Precious metal, catalyst of ammonia synthesis.</entitydescription.platinum>
-  <entityname.gold>Gold</entityname.gold>
-  <entitydescription.gold>Its value does not need explanations.</entitydescription.gold>
-  <entityname.mercury>Mercury</entityname.mercury>
-  <entitydescription.mercury>Is liquid at room temperature, can dissolve many metals. Toxic.</entitydescription.mercury>
-  <entityname.plutonium>Plutonium</entityname.plutonium>
-  <entitydescription.plutonium>Transferred from uranium. The power it containing greatly exceeded uranium and thorium.</entitydescription.plutonium>
+  <entityname.ptoe_samarium>Samarium</entityname.ptoe_samarium>
+  <entitydescription.ptoe_samarium>The sixth of lanthanide elements, a kind of rare earth.</entitydescription.ptoe_samarium>
+  <entityname.ptoe_europium>Europium</entityname.ptoe_europium>
+  <entitydescription.ptoe_europium>The seventh of lanthanide elements, a kind of rare earth.</entitydescription.ptoe_europium>
+  <entityname.ptoe_gadolinium>Gadolinium</entityname.ptoe_gadolinium>
+  <entitydescription.ptoe_gadolinium>The eighth of lanthanide elements, a kind of rare earth.</entitydescription.ptoe_gadolinium>
+  <entityname.ptoe_terbium>Terbium</entityname.ptoe_terbium>
+  <entitydescription.ptoe_terbium>The ninth of lanthanide elements, a kind of rare earth.</entitydescription.ptoe_terbium>
+  <entityname.ptoe_dysprosium>Dysprosium</entityname.ptoe_dysprosium>
+  <entitydescription.ptoe_dysprosium>The tenth of lanthanide elements, a kind of rare earth.</entitydescription.ptoe_dysprosium>
+  <entityname.ptoe_holmium>Holmium</entityname.ptoe_holmium>
+  <entitydescription.ptoe_holmium>The eleventh of lanthanide elements, a kind of rare earth.</entitydescription.ptoe_holmium>
+  <entityname.ptoe_erbium>Erbium</entityname.ptoe_erbium>
+  <entitydescription.ptoe_erbium>The twelfth of lanthanide elements, a kind of rare earth.</entitydescription.ptoe_erbium>
+  <entityname.ptoe_thulium>Thulium</entityname.ptoe_thulium>
+  <entitydescription.ptoe_thulium>The thirteenth of lanthanide elements, a kind of rare earth.</entitydescription.ptoe_thulium>
+  <entityname.ptoe_ytterbium>Ytterbium</entityname.ptoe_ytterbium>
+  <entitydescription.ptoe_ytterbium>The fourteenth of lanthanide elements, a kind of rare earth.</entitydescription.ptoe_ytterbium>
+  <entityname.ptoe_lutetium>Lutetium</entityname.ptoe_lutetium>
+  <entitydescription.ptoe_lutetium>The fifteenth of lanthanide elements, a kind of rare earth.</entitydescription.ptoe_lutetium>
+  <entityname.ptoe_tungsten>Tungsten</entityname.ptoe_tungsten>
+  <entitydescription.ptoe_tungsten>Heavy and hard, with highest melt point among metals.</entitydescription.ptoe_tungsten>
+  <entityname.ptoe_platinum>Platinum</entityname.ptoe_platinum>
+  <entitydescription.ptoe_platinum>Precious metal, catalyst of ammonia synthesis.</entitydescription.ptoe_platinum>
+  <entityname.ptoe_gold>Gold</entityname.ptoe_gold>
+  <entitydescription.ptoe_gold>Its value does not need explanations.</entitydescription.ptoe_gold>
+  <entityname.ptoe_mercury>Mercury</entityname.ptoe_mercury>
+  <entitydescription.ptoe_mercury>Is liquid at room temperature, can dissolve many metals. Toxic.</entitydescription.ptoe_mercury>
+  <entityname.ptoe_plutonium>Plutonium</entityname.ptoe_plutonium>
+  <entitydescription.ptoe_plutonium>Transferred from uranium. The power it containing greatly exceeded uranium and thorium.</entitydescription.ptoe_plutonium>
   <!--Compounds-->
-  <entityname.disulphuricacid>Disulphuric Acid</entityname.disulphuricacid>
-  <entitydescription.disulphuricacid>React mildly with water to generate sulphuric acid.</entitydescription.disulphuricacid>
-  <entityname.potassiumchlorate>Potassium Chlorate</entityname.potassiumchlorate>
-  <entitydescription.potassiumchlorate>Strong oxidant. Causes a big bang even with sugar.</entitydescription.potassiumchlorate>
-  <entityname.potassiumnitrate>Potassium Nitrate</entityname.potassiumnitrate>
-  <entitydescription.potassiumnitrate>One material of black powder. Also a type of fertilizer.</entitydescription.potassiumnitrate>
-  <entityname.potassiumpermanganate>Potassium Permanganate</entityname.potassiumpermanganate>
-  <entitydescription.potassiumpermanganate>Strong oxidant. Mainly used to disinfect.</entitydescription.potassiumpermanganate>
-  <entityname.silveramalgam>Silver Amalgam</entityname.silveramalgam>
-  <entitydescription.silveramalgam>Silver-mercury alloy that can be separated by distillation.</entitydescription.silveramalgam>
-  <entityname.aluminiumamalgam1>Aluminum Amalgam</entityname.aluminiumamalgam1>
-  <entitydescription.aluminiumamalgam1>Mercury with some aluminum dissolved. Reacts violently when coming into contact with water, and can be separated by distillation.</entitydescription.aluminiumamalgam1>
-  <entityname.aluminiumamalgam2>Aluminum Amalgam</entityname.aluminiumamalgam2>
-  <entitydescription.aluminiumamalgam2>Mercury with a lot of aluminum dissolved. Becomes extremely dangerous when coming into contact with water, and can be separated by distillation.</entitydescription.aluminiumamalgam2>
-  <entityname.goldamalgam>Gold Amalgam</entityname.goldamalgam>
-  <entitydescription.goldamalgam>Gold-mercury alloy that can be separated by distillation.</entitydescription.goldamalgam>
-  <entityname.deuteriumoxide>Deuterium Oxide</entityname.deuteriumoxide>
-  <entitydescription.deuteriumoxide>Similar to water, but a little heavier and thicker. Try to take a sip?</entitydescription.deuteriumoxide>
-  <entityname.tritiumoxide>Tritium Oxide</entityname.tritiumoxide>
-  <entitydescription.tritiumoxide>Radioactive but generally safe.</entitydescription.tritiumoxide>
-  <entityname.fusionfuelk2dt>Fusion Fuel K2DT</entityname.fusionfuelk2dt>
-  <entitydescription.fusionfuelk2dt>Put this into a nuclear shell, then you'll get a hydrogen shell.</entitydescription.fusionfuelk2dt>
+  <entityname.ptoe_disulphuricacid>Disulphuric Acid</entityname.ptoe_disulphuricacid>
+  <entitydescription.ptoe_disulphuricacid>React mildly with water to generate sulphuric acid.</entitydescription.ptoe_disulphuricacid>
+  <entityname.ptoe_potassiumchlorate>Potassium Chlorate</entityname.ptoe_potassiumchlorate>
+  <entitydescription.ptoe_potassiumchlorate>Strong oxidant. Causes a big bang even with sugar.</entitydescription.ptoe_potassiumchlorate>
+  <entityname.ptoe_potassiumnitrate>Potassium Nitrate</entityname.ptoe_potassiumnitrate>
+  <entitydescription.ptoe_potassiumnitrate>One material of black powder. Also a type of fertilizer.</entitydescription.ptoe_potassiumnitrate>
+  <entityname.ptoe_potassiumpermanganate>Potassium Permanganate</entityname.ptoe_potassiumpermanganate>
+  <entitydescription.ptoe_potassiumpermanganate>Strong oxidant. Mainly used to disinfect.</entitydescription.ptoe_potassiumpermanganate>
+  <entityname.ptoe_silveramalgam>Silver Amalgam</entityname.ptoe_silveramalgam>
+  <entitydescription.ptoe_silveramalgam>Silver-mercury alloy that can be separated by distillation.</entitydescription.ptoe_silveramalgam>
+  <entityname.ptoe_aluminiumamalgam1>Aluminum Amalgam</entityname.ptoe_aluminiumamalgam1>
+  <entitydescription.ptoe_aluminiumamalgam1>Mercury with some aluminum dissolved. Reacts violently when coming into contact with water, and can be separated by distillation.</entitydescription.ptoe_aluminiumamalgam1>
+  <entityname.ptoe_aluminiumamalgam2>Aluminum Amalgam</entityname.ptoe_aluminiumamalgam2>
+  <entitydescription.ptoe_aluminiumamalgam2>Mercury with a lot of aluminum dissolved. Becomes extremely dangerous when coming into contact with water, and can be separated by distillation.</entitydescription.ptoe_aluminiumamalgam2>
+  <entityname.ptoe_goldamalgam>Gold Amalgam</entityname.ptoe_goldamalgam>
+  <entitydescription.ptoe_goldamalgam>Gold-mercury alloy that can be separated by distillation.</entitydescription.ptoe_goldamalgam>
+  <entityname.ptoe_deuteriumoxide>Deuterium Oxide</entityname.ptoe_deuteriumoxide>
+  <entitydescription.ptoe_deuteriumoxide>Similar to water, but a little heavier and thicker. Try to take a sip?</entitydescription.ptoe_deuteriumoxide>
+  <entityname.ptoe_tritiumoxide>Tritium Oxide</entityname.ptoe_tritiumoxide>
+  <entitydescription.ptoe_tritiumoxide>Radioactive but generally safe.</entitydescription.ptoe_tritiumoxide>
+  <entityname.ptoe_fusionfuelk2dt>Fusion Fuel K2DT</entityname.ptoe_fusionfuelk2dt>
+  <entitydescription.ptoe_fusionfuelk2dt>Put this into a nuclear shell, then you'll get a hydrogen shell.</entitydescription.ptoe_fusionfuelk2dt>
   <!--Items-->
-  <entityname.hydrogentank>Hydrogen Tank</entityname.hydrogentank>
-  <displayname.hydrogentankempty>Hydrogen Tank (empty)</displayname.hydrogentankempty>
-  <entitydescription.hydrogentank>Dangerous fuel, completely prohibited. Can be refilled by oxygenerators.</entitydescription.hydrogentank>
-  <entityname.hydrogenstoringalloytank>Hydrogen Storing Alloy Tank</entityname.hydrogenstoringalloytank>
-  <entitydescription.hydrogenstoringalloytank>Rare earth-nickel alloy inside is able to store massive hydrogen safely. Can be refilled by oxygenerators.</entitydescription.hydrogenstoringalloytank>
-  <entityname.silvercommendation>Silver Commendation</entityname.silvercommendation>
-  <entitydescription.silvercommendation>A small medal fashioned out of copper and silver, made out of Commendation. When applied to another crewmember's body, it instantly bestows them with the experience 3 times of Commendation.</entitydescription.silvercommendation>
-  <entityname.silvermedal>Silver Medal</entityname.silvermedal>
-  <entitydescription.silvermedal>A small medal fashioned out of bronze and silver, made out of Medal. When applied to another crewmember's body, it instantly bestows them with the experience 3 times of Medal.</entitydescription.silvermedal>
-  <entityname.goldcommendation>Gold Commendation</entityname.goldcommendation>
-  <entitydescription.goldcommendation>A small medal fashioned out of copper and gold, made out of Commendation. When applied to another crewmember's body, it instantly bestows them with the experience 10 times of Commendation.</entitydescription.goldcommendation>
-  <entityname.goldmedal>Gold Medal</entityname.goldmedal>
-  <entitydescription.goldmedal>A small medal fashioned out of bronze and gold, made out of Medal. When applied to another crewmember's body, it instantly bestows them with the experience 10 times of Medal.</entitydescription.goldmedal>
-  <entityname.goldingot>Gold Ingot</entityname.goldingot>
-  <entitydescription.goldingot>Extremely heavy and precious.</entitydescription.goldingot>
-  <entityname.v2o5crate>V2O5 Crate</entityname.v2o5crate>
-  <entitydescription.v2o5crate>A metal crate with some divanadium pentaoxide powder inside.</entitydescription.v2o5crate>
-  <entityname.vanadinitecrystal>Vanadinite Crystal</entityname.vanadinitecrystal>
-  <entitydescription.vanadinitecrystal>Beautiful crystal which takes some time to form.</entitydescription.vanadinitecrystal>
-  <displayname.vanadinitecrystalveryquick>Vanadinite Crystal (very quick)</displayname.vanadinitecrystalveryquick>
-  <displayname.vanadinitecrystalquick>Vanadinite Crystal (quick)</displayname.vanadinitecrystalquick>
-  <displayname.vanadinitecrystalslow>Vanadinite Crystal (slow)</displayname.vanadinitecrystalslow>
-  <displayname.vanadinitecrystalveryslow>Vanadinite Crystal (very slow)</displayname.vanadinitecrystalveryslow>
-  <entityname.blackpowder>Black Powder</entityname.blackpowder>
-  <entitydescription.blackpowder>Material of some old-fashioned explosives.</entitydescription.blackpowder>
-  <entityname.blackpowderpack>Black Powder Pack</entityname.blackpowderpack>
-  <entitydescription.blackpowderpack>An explosive with power weaker than UEX.</entitydescription.blackpowderpack>
-  <entityname.ironcannonball>Iron Cannonball</entityname.ironcannonball>
-  <entitydescription.ironcannonball>An iron ball.</entitydescription.ironcannonball>
-  <entityname.leadcannonball>Lead Cannonball</entityname.leadcannonball>
-  <entitydescription.leadcannonball>Causes massive damage to walls.</entitydescription.leadcannonball>
-  <entityname.physicoriumcannonball>Physicorium Cannonball</entityname.physicoriumcannonball>
-  <entitydescription.physicoriumcannonball>Causes massive damage to both walls and giant creatures. Extra lacerations for creatures.</entitydescription.physicoriumcannonball>
-  <entityname.caststeelcannon>Cast Steel Cannon</entityname.caststeelcannon>
-  <entitydescription.caststeelcannon>An ancient cannon which requires black powder to fire.</entitydescription.caststeelcannon>
-  <entityname.leadmusketprojectile>Lead Musket Projectile</entityname.leadmusketprojectile>
-  <entityname.physicoriummusketprojectile>Physicorium Musket Projectile</entityname.physicoriummusketprojectile>
-  <entitydescription.physicoriummusketprojectile>Little material used but strong power.</entitydescription.physicoriummusketprojectile>
-  <entitydescription.leadmusketprojectile>Some small lead balls.</entitydescription.leadmusketprojectile>
-  <entityname.revolvermusket>Revolver-Musket</entityname.revolvermusket>
-  <entitydescription.revolvermusket>Capacity is 4. The condition bar demonstrates remaining black powder.</entitydescription.revolvermusket>
-  <entityname.musket>Musket</entityname.musket>
-  <entitydescription.musket>Consumes black powder to shoot projectiles. The accuracy is NOT guaranteed.</entitydescription.musket>
-  <entityname.pulselaserammoboxvanadium>Pulse Vanadium Fuel Box</entityname.pulselaserammoboxvanadium>
-  <entitydescription.pulselaserammoboxvanadium>A box of containing some vanadinite crystals. It changes the colour of laser and is more durable.</entitydescription.pulselaserammoboxvanadium>
-  <entityname.shiningsword>Shining Sword</entityname.shiningsword>
-  <entitydescription.shiningsword>Deals five types of resistless damage with its amazing power.</entitydescription.shiningsword>
-  <entityname.wrenchplated>Plated Wrench</entityname.wrenchplated>
-  <entitydescription.wrenchplated>A wrench plated with hard metal. The strengthened material allows for little more efficient repairs and super swings.</entitydescription.wrenchplated>
-  <entityname.screwdriverplated>Plated Screwdriver</entityname.screwdriverplated>
-  <entitydescription.screwdriverplated>A screwdriver plated with hard metal. The strengthened material allows for little more efficient repairs and super swings.</entitydescription.screwdriverplated>
-  <entityname.crowbarplated>Plated Crowbar</entityname.crowbarplated>
-  <entitydescription.crowbarplated>A crowbar plated with hard metal. Damage armored targets effectively.</entitydescription.crowbarplated>
-  <entityname.stunbatonplated>Plated Baton</entityname.stunbatonplated>
-  <entitydescription.stunbatonplated>Not just stun again.</entitydescription.stunbatonplated>
-  <entityname.ultimatewrench>Ultimate Wrench</entityname.ultimatewrench>
-  <entitydescription.ultimatewrench>A Superb tool and strong weapon that only mechanical masters can rein.</entitydescription.ultimatewrench>
-  <entityname.znmndrycell>Zn-Mn Dry Cell</entityname.znmndrycell>
-  <entitydescription.znmndrycell>Zinc-Manganese Dry Cell. Extremely cheap but NOT rechargeable.</entitydescription.znmndrycell>
-  <entityname.incandescentlight>Incandescent Light</entityname.incandescentlight>
-  <entitydescription.incandescentlight>Old type light bulb, bright enough but consumes more power.</entitydescription.incandescentlight>
-  <entityname.halogenlight>Halogen Light</entityname.halogenlight>
-  <entitydescription.halogenlight>Halogen injected. It's now a little better than normal incandescent lights.</entitydescription.halogenlight>
-  <entityname.flamergreen>Green Flamer</entityname.flamergreen>
-  <entitydescription.flamergreen>Ejects ghostly green flame. Wow.</entitydescription.flamergreen>
-  <entityname.advancedglass>Advanced Glass</entityname.advancedglass>
-  <entitydescription.advancedglass>Resistant. Mainly used in production of many instruments.</entitydescription.advancedglass>
-  <entityname.nh3bh3tank>NH3BH3 Tank</entityname.nh3bh3tank>
-  <entitydescription.nh3bh3tank>A tank storing hydrogen with nitrogen-boron compounds. Small capacity due to immature technology.</entitydescription.nh3bh3tank>
-  <entityname.fluorescentpowder>Fluorescent Powder</entityname.fluorescentpowder>
-  <entitydescription.fluorescentpowder>Powder shaved off from ID cards. Contains gallium.</entitydescription.fluorescentpowder>
-  <entityname.asgacircuit>ASGA Circuit</entityname.asgacircuit>
-  <entitydescription.asgacircuit>Gallium arsenide semiconductor applied. Function much stronger than FPGA circuit.</entitydescription.asgacircuit>
-  <entityname.masterkey>"Master Key"</entityname.masterkey>
-  <entitydescription.masterkey>An ID card that looks strange.</entitydescription.masterkey>
-  <entityname.smartheater>Smart Heater</entityname.smartheater>
-  <entitydescription.smartheater>Looks like a kind of cooker, but is much too expensive.</entitydescription.smartheater>
-  <entityname.flusk>Flusk</entityname.flusk>
-  <entitydescription.flusk>Used in reactions refer to liquids. Heatable.</entitydescription.flusk>
-  <entityname.condenser>Condenser</entityname.condenser>
-  <entitydescription.condenser>Transfer gas went through into liquid with cold water.</entitydescription.condenser>
-  <entityname.thermometer>Thermometer</entityname.thermometer>
-  <entitydescription.thermometer>Made from gallium, with super measuring range.</entitydescription.thermometer>
-  <entityname.advancedsprayer>Advanced Sprayer</entityname.advancedsprayer>
-  <entitydescription.advancedsprayer>Little consumption, super range and all paints supported.</entitydescription.advancedsprayer>
-  <entityname.brominewaterdilute>Bromine Water (Dilute)</entityname.brominewaterdilute>
-  <entitydescription.brominewaterdilute>Got this by passing chlorine into marine water. It can be concentrated by medical fabricator.</entitydescription.brominewaterdilute>
-  <entityname.brominewaterconcentrated>Bromine Water (Concentrated)</entityname.brominewaterconcentrated>
-  <entitydescription.brominewaterconcentrated>It really stinks. Distill to get liquid bromine.</entitydescription.brominewaterconcentrated>
-  <entityname.nuclearglowstick>Nuclear Glowstick</entityname.nuclearglowstick>
-  <entitydescription.nuclearglowstick>Glows for about 5 minutes after a shake, can be used unlimited times.</entitydescription.nuclearglowstick>
-  <entityname.aluminium2>Aluminium (x2)</entityname.aluminium2>
-  <entitydescription.aluminium2>Too much aluminium stacking in this container.</entitydescription.aluminium2>
-  <entityname.divingknifegilded>Gilded Diving Knife</entityname.divingknifegilded>
-  <entitydescription.divingknifegilded>It is not sharper but makes you more focused.</entitydescription.divingknifegilded>
-  <entityname.lightweightdivingsuit>Lightweight Diving Suit</entityname.lightweightdivingsuit>
-  <entitydescription.lightweightdivingsuit>You can walk and run as usual in it. You can take a incandescent light with you by it.</entitydescription.lightweightdivingsuit>
-  <entityname.lightweightscooter>Lightweight Scooter</entityname.lightweightscooter>
-  <entitydescription.lightweightscooter>Carry it on your back instead of holding it.</entitydescription.lightweightscooter>
-  <entityname.advanceddivingmask>Advanced Diving Mask</entityname.advanceddivingmask>
-  <entitydescription.advanceddivingmask>Level 2 diving mask: Much harder than a normal one.</entitydescription.advanceddivingmask>
-  <entityname.smartdivingmask>Smart Diving Mask</entityname.smartdivingmask>
-  <entitydescription.smartdivingmask>Level 3 diving mask: Only comsumes oxygen in necessity.</entitydescription.smartdivingmask>
-  <entityname.automaticdivingmask>Automatic Diving Mask</entityname.automaticdivingmask>
-  <entitydescription.automaticdivingmask>Level 4 diving mask: Refills oxygen tanks when enquipped and in idle.</entitydescription.automaticdivingmask>
-  <entityname.watertank>Water Tank</entityname.watertank>
-  <entitydescription.watertank>Can both contain and proof water.</entitydescription.watertank>
-  <entityname.plutoniumblock>Plutonium Block</entityname.plutoniumblock>
-  <entitydescription.plutoniumblock>The power of this pack is at least 2 times of a nuclear shell. Think twice before use.</entitydescription.plutoniumblock>
-  <entityname.plutoniumshell>Plutonium Shell</entityname.plutoniumshell>
-  <entitydescription.plutoniumshell>Maybe more destructive than a plutonium block.</entitydescription.plutoniumshell>
-  <entityname.leadcrate>Lead Crate</entityname.leadcrate>
-  <entitydescription.leadcrate>Thick enough to prevent fatal radiations. Also the place to recycle reaction rods.</entitydescription.leadcrate>
+  <entityname.ptoe_hydrogentank>Hydrogen Tank</entityname.ptoe_hydrogentank>
+  <displayname.ptoe_hydrogentankempty>Hydrogen Tank (empty)</displayname.ptoe_hydrogentankempty>
+  <entitydescription.ptoe_hydrogentank>Dangerous fuel, completely prohibited. Can be refilled by oxygenerators.</entitydescription.ptoe_hydrogentank>
+  <entityname.ptoe_hydrogenstoringalloytank>Hydrogen Storing Alloy Tank</entityname.ptoe_hydrogenstoringalloytank>
+  <entitydescription.ptoe_hydrogenstoringalloytank>Rare earth-nickel alloy inside is able to store massive hydrogen safely. Can be refilled by oxygenerators.</entitydescription.ptoe_hydrogenstoringalloytank>
+  <entityname.ptoe_silvercommendation>Silver Commendation</entityname.ptoe_silvercommendation>
+  <entitydescription.ptoe_silvercommendation>A small medal fashioned out of copper and silver, made out of Commendation. When applied to another crewmember's body, it instantly bestows them with the experience 3 times of Commendation.</entitydescription.ptoe_silvercommendation>
+  <entityname.ptoe_silvermedal>Silver Medal</entityname.ptoe_silvermedal>
+  <entitydescription.ptoe_silvermedal>A small medal fashioned out of bronze and silver, made out of Medal. When applied to another crewmember's body, it instantly bestows them with the experience 3 times of Medal.</entitydescription.ptoe_silvermedal>
+  <entityname.ptoe_goldcommendation>Gold Commendation</entityname.ptoe_goldcommendation>
+  <entitydescription.ptoe_goldcommendation>A small medal fashioned out of copper and gold, made out of Commendation. When applied to another crewmember's body, it instantly bestows them with the experience 10 times of Commendation.</entitydescription.ptoe_goldcommendation>
+  <entityname.ptoe_goldmedal>Gold Medal</entityname.ptoe_goldmedal>
+  <entitydescription.ptoe_goldmedal>A small medal fashioned out of bronze and gold, made out of Medal. When applied to another crewmember's body, it instantly bestows them with the experience 10 times of Medal.</entitydescription.ptoe_goldmedal>
+  <entityname.ptoe_goldingot>Gold Ingot</entityname.ptoe_goldingot>
+  <entitydescription.ptoe_goldingot>Extremely heavy and precious.</entitydescription.ptoe_goldingot>
+  <entityname.ptoe_v2o5crate>V2O5 Crate</entityname.ptoe_v2o5crate>
+  <entitydescription.ptoe_v2o5crate>A metal crate with some divanadium pentaoxide powder inside.</entitydescription.ptoe_v2o5crate>
+  <entityname.ptoe_vanadinitecrystal>Vanadinite Crystal</entityname.ptoe_vanadinitecrystal>
+  <entitydescription.ptoe_vanadinitecrystal>Beautiful crystal which takes some time to form.</entitydescription.ptoe_vanadinitecrystal>
+  <displayname.ptoe_vanadinitecrystalveryquick>Vanadinite Crystal (very quick)</displayname.ptoe_vanadinitecrystalveryquick>
+  <displayname.ptoe_vanadinitecrystalquick>Vanadinite Crystal (quick)</displayname.ptoe_vanadinitecrystalquick>
+  <displayname.ptoe_vanadinitecrystalslow>Vanadinite Crystal (slow)</displayname.ptoe_vanadinitecrystalslow>
+  <displayname.ptoe_vanadinitecrystalveryslow>Vanadinite Crystal (very slow)</displayname.ptoe_vanadinitecrystalveryslow>
+  <entityname.ptoe_blackpowder>Black Powder</entityname.ptoe_blackpowder>
+  <entitydescription.ptoe_blackpowder>Material of some old-fashioned explosives.</entitydescription.ptoe_blackpowder>
+  <entityname.ptoe_blackpowderpack>Black Powder Pack</entityname.ptoe_blackpowderpack>
+  <entitydescription.ptoe_blackpowderpack>An explosive with power weaker than UEX.</entitydescription.ptoe_blackpowderpack>
+  <entityname.ptoe_ironcannonball>Iron Cannonball</entityname.ptoe_ironcannonball>
+  <entitydescription.ptoe_ironcannonball>An iron ball.</entitydescription.ptoe_ironcannonball>
+  <entityname.ptoe_leadcannonball>Lead Cannonball</entityname.ptoe_leadcannonball>
+  <entitydescription.ptoe_leadcannonball>Causes massive damage to walls.</entitydescription.ptoe_leadcannonball>
+  <entityname.ptoe_physicoriumcannonball>Physicorium Cannonball</entityname.ptoe_physicoriumcannonball>
+  <entitydescription.ptoe_physicoriumcannonball>Causes massive damage to both walls and giant creatures. Extra lacerations for creatures.</entitydescription.ptoe_physicoriumcannonball>
+  <entityname.ptoe_caststeelcannon>Cast Steel Cannon</entityname.ptoe_caststeelcannon>
+  <entitydescription.ptoe_caststeelcannon>An ancient cannon which requires black powder to fire.</entitydescription.ptoe_caststeelcannon>
+  <entityname.ptoe_leadmusketprojectile>Lead Musket Projectile</entityname.ptoe_leadmusketprojectile>
+  <entityname.ptoe_physicoriummusketprojectile>Physicorium Musket Projectile</entityname.ptoe_physicoriummusketprojectile>
+  <entitydescription.ptoe_physicoriummusketprojectile>Little material used but strong power.</entitydescription.ptoe_physicoriummusketprojectile>
+  <entitydescription.ptoe_leadmusketprojectile>Some small lead balls.</entitydescription.ptoe_leadmusketprojectile>
+  <entityname.ptoe_revolvermusket>Revolver-Musket</entityname.ptoe_revolvermusket>
+  <entitydescription.ptoe_revolvermusket>Capacity is 4. The condition bar demonstrates remaining black powder.</entitydescription.ptoe_revolvermusket>
+  <entityname.ptoe_musket>Musket</entityname.ptoe_musket>
+  <entitydescription.ptoe_musket>Consumes black powder to shoot projectiles. The accuracy is NOT guaranteed.</entitydescription.ptoe_musket>
+  <entityname.ptoe_pulselaserammoboxvanadium>Pulse Vanadium Fuel Box</entityname.ptoe_pulselaserammoboxvanadium>
+  <entitydescription.ptoe_pulselaserammoboxvanadium>A box of containing some vanadinite crystals. It changes the colour of laser and is more durable.</entitydescription.ptoe_pulselaserammoboxvanadium>
+  <entityname.ptoe_shiningsword>Shining Sword</entityname.ptoe_shiningsword>
+  <entitydescription.ptoe_shiningsword>Deals five types of resistless damage with its amazing power.</entitydescription.ptoe_shiningsword>
+  <entityname.ptoe_wrenchplated>Plated Wrench</entityname.ptoe_wrenchplated>
+  <entitydescription.ptoe_wrenchplated>A wrench plated with hard metal. The strengthened material allows for little more efficient repairs and super swings.</entitydescription.ptoe_wrenchplated>
+  <entityname.ptoe_screwdriverplated>Plated Screwdriver</entityname.ptoe_screwdriverplated>
+  <entitydescription.ptoe_screwdriverplated>A screwdriver plated with hard metal. The strengthened material allows for little more efficient repairs and super swings.</entitydescription.ptoe_screwdriverplated>
+  <entityname.ptoe_crowbarplated>Plated Crowbar</entityname.ptoe_crowbarplated>
+  <entitydescription.ptoe_crowbarplated>A crowbar plated with hard metal. Damage armored targets effectively.</entitydescription.ptoe_crowbarplated>
+  <entityname.ptoe_stunbatonplated>Plated Baton</entityname.ptoe_stunbatonplated>
+  <entitydescription.ptoe_stunbatonplated>Not just stun again.</entitydescription.ptoe_stunbatonplated>
+  <entityname.ptoe_ultimatewrench>Ultimate Wrench</entityname.ptoe_ultimatewrench>
+  <entitydescription.ptoe_ultimatewrench>A Superb tool and strong weapon that only mechanical masters can rein.</entitydescription.ptoe_ultimatewrench>
+  <entityname.ptoe_znmndrycell>Zn-Mn Dry Cell</entityname.ptoe_znmndrycell>
+  <entitydescription.ptoe_znmndrycell>Zinc-Manganese Dry Cell. Extremely cheap but NOT rechargeable.</entitydescription.ptoe_znmndrycell>
+  <entityname.ptoe_incandescentlight>Incandescent Light</entityname.ptoe_incandescentlight>
+  <entitydescription.ptoe_incandescentlight>Old type light bulb, bright enough but consumes more power.</entitydescription.ptoe_incandescentlight>
+  <entityname.ptoe_halogenlight>Halogen Light</entityname.ptoe_halogenlight>
+  <entitydescription.ptoe_halogenlight>Halogen injected. It's now a little better than normal incandescent lights.</entitydescription.ptoe_halogenlight>
+  <entityname.ptoe_flamergreen>Green Flamer</entityname.ptoe_flamergreen>
+  <entitydescription.ptoe_flamergreen>Ejects ghostly green flame. Wow.</entitydescription.ptoe_flamergreen>
+  <entityname.ptoe_advancedglass>Advanced Glass</entityname.ptoe_advancedglass>
+  <entitydescription.ptoe_advancedglass>Resistant. Mainly used in production of many instruments.</entitydescription.ptoe_advancedglass>
+  <entityname.ptoe_nh3bh3tank>NH3BH3 Tank</entityname.ptoe_nh3bh3tank>
+  <entitydescription.ptoe_nh3bh3tank>A tank storing hydrogen with nitrogen-boron compounds. Small capacity due to immature technology.</entitydescription.ptoe_nh3bh3tank>
+  <entityname.ptoe_fluorescentpowder>Fluorescent Powder</entityname.ptoe_fluorescentpowder>
+  <entitydescription.ptoe_fluorescentpowder>Powder shaved off from ID cards. Contains gallium.</entitydescription.ptoe_fluorescentpowder>
+  <entityname.ptoe_asgacircuit>ASGA Circuit</entityname.ptoe_asgacircuit>
+  <entitydescription.ptoe_asgacircuit>Gallium arsenide semiconductor applied. Function much stronger than FPGA circuit.</entitydescription.ptoe_asgacircuit>
+  <entityname.ptoe_masterkey>"Master Key"</entityname.ptoe_masterkey>
+  <entitydescription.ptoe_masterkey>An ID card that looks strange.</entitydescription.ptoe_masterkey>
+  <entityname.ptoe_smartheater>Smart Heater</entityname.ptoe_smartheater>
+  <entitydescription.ptoe_smartheater>Looks like a kind of cooker, but is much too expensive.</entitydescription.ptoe_smartheater>
+  <entityname.ptoe_flusk>Flusk</entityname.ptoe_flusk>
+  <entitydescription.ptoe_flusk>Used in reactions refer to liquids. Heatable.</entitydescription.ptoe_flusk>
+  <entityname.ptoe_condenser>Condenser</entityname.ptoe_condenser>
+  <entitydescription.ptoe_condenser>Transfer gas went through into liquid with cold water.</entitydescription.ptoe_condenser>
+  <entityname.ptoe_thermometer>Thermometer</entityname.ptoe_thermometer>
+  <entitydescription.ptoe_thermometer>Made from gallium, with super measuring range.</entitydescription.ptoe_thermometer>
+  <entityname.ptoe_advancedsprayer>Advanced Sprayer</entityname.ptoe_advancedsprayer>
+  <entitydescription.ptoe_advancedsprayer>Little consumption, super range and all paints supported.</entitydescription.ptoe_advancedsprayer>
+  <entityname.ptoe_brominewaterdilute>Bromine Water (Dilute)</entityname.ptoe_brominewaterdilute>
+  <entitydescription.ptoe_brominewaterdilute>Got this by passing chlorine into marine water. It can be concentrated by medical fabricator.</entitydescription.ptoe_brominewaterdilute>
+  <entityname.ptoe_brominewaterconcentrated>Bromine Water (Concentrated)</entityname.ptoe_brominewaterconcentrated>
+  <entitydescription.ptoe_brominewaterconcentrated>It really stinks. Distill to get liquid bromine.</entitydescription.ptoe_brominewaterconcentrated>
+  <entityname.ptoe_nuclearglowstick>Nuclear Glowstick</entityname.ptoe_nuclearglowstick>
+  <entitydescription.ptoe_nuclearglowstick>Glows for about 5 minutes after a shake, can be used unlimited times.</entitydescription.ptoe_nuclearglowstick>
+  <entityname.ptoe_aluminium2>Aluminium (x2)</entityname.ptoe_aluminium2>
+  <entitydescription.ptoe_aluminium2>Too much aluminium stacking in this container.</entitydescription.ptoe_aluminium2>
+  <entityname.ptoe_divingknifegilded>Gilded Diving Knife</entityname.ptoe_divingknifegilded>
+  <entitydescription.ptoe_divingknifegilded>It is not sharper but makes you more focused.</entitydescription.ptoe_divingknifegilded>
+  <entityname.ptoe_lightweightdivingsuit>Lightweight Diving Suit</entityname.ptoe_lightweightdivingsuit>
+  <entitydescription.ptoe_lightweightdivingsuit>You can walk and run as usual in it. You can take a incandescent light with you by it.</entitydescription.ptoe_lightweightdivingsuit>
+  <entityname.ptoe_lightweightscooter>Lightweight Scooter</entityname.ptoe_lightweightscooter>
+  <entitydescription.ptoe_lightweightscooter>Carry it on your back instead of holding it.</entitydescription.ptoe_lightweightscooter>
+  <entityname.ptoe_advanceddivingmask>Advanced Diving Mask</entityname.ptoe_advanceddivingmask>
+  <entitydescription.ptoe_advanceddivingmask>Level 2 diving mask: Much harder than a normal one.</entitydescription.ptoe_advanceddivingmask>
+  <entityname.ptoe_smartdivingmask>Smart Diving Mask</entityname.ptoe_smartdivingmask>
+  <entitydescription.ptoe_smartdivingmask>Level 3 diving mask: Only comsumes oxygen in necessity.</entitydescription.ptoe_smartdivingmask>
+  <entityname.ptoe_automaticdivingmask>Automatic Diving Mask</entityname.ptoe_automaticdivingmask>
+  <entitydescription.ptoe_automaticdivingmask>Level 4 diving mask: Refills oxygen tanks when enquipped and in idle.</entitydescription.ptoe_automaticdivingmask>
+  <entityname.ptoe_watertank>Water Tank</entityname.ptoe_watertank>
+  <entitydescription.ptoe_watertank>Can both contain and proof water.</entitydescription.ptoe_watertank>
+  <entityname.ptoe_plutoniumblock>Plutonium Block</entityname.ptoe_plutoniumblock>
+  <entitydescription.ptoe_plutoniumblock>The power of this pack is at least 2 times of a nuclear shell. Think twice before use.</entitydescription.ptoe_plutoniumblock>
+  <entityname.ptoe_plutoniumshell>Plutonium Shell</entityname.ptoe_plutoniumshell>
+  <entitydescription.ptoe_plutoniumshell>Maybe more destructive than a plutonium block.</entitydescription.ptoe_plutoniumshell>
+  <entityname.ptoe_leadcrate>Lead Crate</entityname.ptoe_leadcrate>
+  <entitydescription.ptoe_leadcrate>Thick enough to prevent fatal radiations. Also the place to recycle reaction rods.</entitydescription.ptoe_leadcrate>
   <!--Medical-->
-  <entityname.silverionbandage>Silver Ion Bandage</entityname.silverionbandage>
-  <entitydescription.silverionbandage>Bandage with silver ion added.</entitydescription.silverionbandage>
-  <entityname.silverionglue>Silver Ion Glue</entityname.silverionglue>
-  <entitydescription.silverionglue>Antibiotic Glue made out of silver ion, cheaper but not so effecient as general antibiotic glue.</entitydescription.silverionglue>
-  <entityname.merbromin>Merbromin</entityname.merbromin>
-  <entitydescription.merbromin>Disinfect efficiently, barely irritates wounds.</entitydescription.merbromin>
-  <entityname.edta2na>EDTA-2Na</entityname.edta2na>
-  <entitydescription.edta2na>Ethylenediaminetetraacetic acid disodium salt, which can relieve all kinds of heavy metal poisioning.</entitydescription.edta2na>
-  <entityname.dimethylmercury>Dimethyl Mercury</entityname.dimethylmercury>
-  <entitydescription.dimethylmercury>One of the most dangerous mercury compounds. It can even penetrate latex gloves.</entitydescription.dimethylmercury>
-  <entityname.whitearsenic>White Arsenic</entityname.whitearsenic>
-  <entitydescription.whitearsenic>Fatal poison even slowlier than sufforin.</entitydescription.whitearsenic>
-  <entityname.arsenicantidote>Arsenic Antidote</entityname.arsenicantidote>
-  <entitydescription.arsenicantidote>An antidote for acute cyanide poisoning.</entitydescription.arsenicantidote>
+  <entityname.ptoe_silverionbandage>Silver Ion Bandage</entityname.ptoe_silverionbandage>
+  <entitydescription.ptoe_silverionbandage>Bandage with silver ion added.</entitydescription.ptoe_silverionbandage>
+  <entityname.ptoe_silverionglue>Silver Ion Glue</entityname.ptoe_silverionglue>
+  <entitydescription.ptoe_silverionglue>Antibiotic Glue made out of silver ion, cheaper but not so effecient as general antibiotic glue.</entitydescription.ptoe_silverionglue>
+  <entityname.ptoe_merbromin>Merbromin</entityname.ptoe_merbromin>
+  <entitydescription.ptoe_merbromin>Disinfect efficiently, barely irritates wounds.</entitydescription.ptoe_merbromin>
+  <entityname.ptoe_edta2na>EDTA-2Na</entityname.ptoe_edta2na>
+  <entitydescription.ptoe_edta2na>Ethylenediaminetetraacetic acid disodium salt, which can relieve all kinds of heavy metal poisioning.</entitydescription.ptoe_edta2na>
+  <entityname.ptoe_dimethylmercury>Dimethyl Mercury</entityname.ptoe_dimethylmercury>
+  <entitydescription.ptoe_dimethylmercury>One of the most dangerous mercury compounds. It can even penetrate latex gloves.</entitydescription.ptoe_dimethylmercury>
+  <entityname.ptoe_whitearsenic>White Arsenic</entityname.ptoe_whitearsenic>
+  <entitydescription.ptoe_whitearsenic>Fatal poison even slowlier than sufforin.</entitydescription.ptoe_whitearsenic>
+  <entityname.ptoe_arsenicantidote>Arsenic Antidote</entityname.ptoe_arsenicantidote>
+  <entitydescription.ptoe_arsenicantidote>An antidote for acute cyanide poisoning.</entitydescription.ptoe_arsenicantidote>
   <!--Minerals-->
-  <entityname.silverore>Silver Ore</entityname.silverore>
-  <entitydescription.silverore>A mineral containing large amounts of silver.</entitydescription.silverore>
-  <entityname.cerargyrite>Cerargyrite</entityname.cerargyrite>
-  <entitydescription.cerargyrite>A mineral composed of silver and chlorine.</entitydescription.cerargyrite>
-  <entityname.goldore>Gold Ore</entityname.goldore>
-  <entitydescription.goldore>A mineral containing gold.</entitydescription.goldore>
-  <entityname.carnotite>Carnotite</entityname.carnotite>
-  <entitydescription.carnotite>A mineral containing potassium, vanadium and uranium.</entitydescription.carnotite>
-  <entityname.cavansite>Cavansite</entityname.cavansite>
-  <entitydescription.cavansite>A mineral containing calcium, vanadium and silicon.</entitydescription.cavansite>
-  <entityname.sulfur001>Sulfur</entityname.sulfur001>
-  <entitydescription.sulfur001>Sulphur in crystalline form.</entitydescription.sulfur001>
-  <entityname.argentite>Argentite</entityname.argentite>
-  <entitydescription.argentite>A mineral composed of silver and sulphur.</entitydescription.argentite>
-  <entityname.realgar>Realgar</entityname.realgar>
-  <entitydescription.realgar>A mineral consisting of arsenic and sulphur.</entitydescription.realgar>
-  <entityname.orpiment>Orpiment</entityname.orpiment>
-  <entitydescription.orpiment>A mineral composed of arsenic and sulphur.</entitydescription.orpiment>
-  <entityname.sperrylite>Sperrylite</entityname.sperrylite>
-  <entitydescription.sperrylite>A mineral composed of platinum and arsenic.</entitydescription.sperrylite>
-  <entityname.chromite>Chromite</entityname.chromite>
-  <entitydescription.chromite>A mineral containing iron and chromium.</entitydescription.chromite>
-  <entityname.crocoite>Crocoite</entityname.crocoite>
-  <entitydescription.crocoite>A mineral containing lead and chromium.</entitydescription.crocoite>
-  <entityname.nickeline>Nickeline</entityname.nickeline>
-  <entitydescription.nickeline>A mineral composed of nickel and arsenic.</entitydescription.nickeline>
-  <entityname.violarite>Violarite</entityname.violarite>
-  <entitydescription.violarite>A mineral composed of nickel, iron and sulphur.</entitydescription.violarite>
-  <entityname.monazite>Monazite</entityname.monazite>
-  <entitydescription.monazite>A mineral containing lanthanides and phosphorus.</entitydescription.monazite>
-  <entityname.pyrolusite>Pyrolusite</entityname.pyrolusite>
-  <entitydescription.pyrolusite>A mineral containing manganese.</entitydescription.pyrolusite>
-  <entityname.ferberite>Ferberite</entityname.ferberite>
-  <entitydescription.ferberite>A mineral containing iron and tungsten.</entitydescription.ferberite>
-  <entityname.scheelite>Scheelite</entityname.scheelite>
-  <entitydescription.scheelite>A mineral containing calcium and tungsten.</entitydescription.scheelite>
-  <entityname.huebnerite>Huebnerite</entityname.huebnerite>
-  <entitydescription.huebnerite>A mineral containing manganese and tungsten.</entitydescription.huebnerite>
-  <entityname.borax>Borax</entityname.borax>
-  <entitydescription.borax>A mineral containing sodium and boron.</entitydescription.borax>
-  <entityname.priceite>Priceite</entityname.priceite>
-  <entitydescription.priceite>A mineral containing calcium and boron.</entitydescription.priceite>
-  <entityname.cinnabar>Cinnabar</entityname.cinnabar>
-  <entitydescription.cinnabar>A mineral composed of mercury and sulphur.</entitydescription.cinnabar>
-  <entityname.montroydite>Montroydite</entityname.montroydite>
-  <entitydescription.montroydite>A mineral containing mercury.</entitydescription.montroydite>
-  <entityname.berylite>Berylite</entityname.berylite>
-  <entitydescription.berylite>A mineral containing beryllium, aluminum and silicon.</entitydescription.berylite>
-  <entityname.chrysoberyl>Chrysoberyl</entityname.chrysoberyl>
-  <entitydescription.chrysoberyl>A mineral containing beryllium and aluminum.</entitydescription.chrysoberyl>
-  <entityname.phenakite>Phenakite</entityname.phenakite>
-  <entitydescription.phenakite>A mineral containing beryllium and silicon.</entitydescription.phenakite>
+  <entityname.ptoe_silverore>Silver Ore</entityname.ptoe_silverore>
+  <entitydescription.ptoe_silverore>A mineral containing large amounts of silver.</entitydescription.ptoe_silverore>
+  <entityname.ptoe_cerargyrite>Cerargyrite</entityname.ptoe_cerargyrite>
+  <entitydescription.ptoe_cerargyrite>A mineral composed of silver and chlorine.</entitydescription.ptoe_cerargyrite>
+  <entityname.ptoe_goldore>Gold Ore</entityname.ptoe_goldore>
+  <entitydescription.ptoe_goldore>A mineral containing gold.</entitydescription.ptoe_goldore>
+  <entityname.ptoe_carnotite>Carnotite</entityname.ptoe_carnotite>
+  <entitydescription.ptoe_carnotite>A mineral containing potassium, vanadium and uranium.</entitydescription.ptoe_carnotite>
+  <entityname.ptoe_cavansite>Cavansite</entityname.ptoe_cavansite>
+  <entitydescription.ptoe_cavansite>A mineral containing calcium, vanadium and silicon.</entitydescription.ptoe_cavansite>
+  <entityname.ptoe_sulfur>Sulfur</entityname.ptoe_sulfur>
+  <entitydescription.ptoe_sulfur>Sulphur in crystalline form.</entitydescription.ptoe_sulfur>
+  <entityname.ptoe_argentite>Argentite</entityname.ptoe_argentite>
+  <entitydescription.ptoe_argentite>A mineral composed of silver and sulphur.</entitydescription.ptoe_argentite>
+  <entityname.ptoe_realgar>Realgar</entityname.ptoe_realgar>
+  <entitydescription.ptoe_realgar>A mineral consisting of arsenic and sulphur.</entitydescription.ptoe_realgar>
+  <entityname.ptoe_orpiment>Orpiment</entityname.ptoe_orpiment>
+  <entitydescription.ptoe_orpiment>A mineral composed of arsenic and sulphur.</entitydescription.ptoe_orpiment>
+  <entityname.ptoe_sperrylite>Sperrylite</entityname.ptoe_sperrylite>
+  <entitydescription.ptoe_sperrylite>A mineral composed of platinum and arsenic.</entitydescription.ptoe_sperrylite>
+  <entityname.ptoe_chromite>Chromite</entityname.ptoe_chromite>
+  <entitydescription.ptoe_chromite>A mineral containing iron and chromium.</entitydescription.ptoe_chromite>
+  <entityname.ptoe_crocoite>Crocoite</entityname.ptoe_crocoite>
+  <entitydescription.ptoe_crocoite>A mineral containing lead and chromium.</entitydescription.ptoe_crocoite>
+  <entityname.ptoe_nickeline>Nickeline</entityname.ptoe_nickeline>
+  <entitydescription.ptoe_nickeline>A mineral composed of nickel and arsenic.</entitydescription.ptoe_nickeline>
+  <entityname.ptoe_violarite>Violarite</entityname.ptoe_violarite>
+  <entitydescription.ptoe_violarite>A mineral composed of nickel, iron and sulphur.</entitydescription.ptoe_violarite>
+  <entityname.ptoe_monazite>Monazite</entityname.ptoe_monazite>
+  <entitydescription.ptoe_monazite>A mineral containing lanthanides and phosphorus.</entitydescription.ptoe_monazite>
+  <entityname.ptoe_pyrolusite>Pyrolusite</entityname.ptoe_pyrolusite>
+  <entitydescription.ptoe_pyrolusite>A mineral containing manganese.</entitydescription.ptoe_pyrolusite>
+  <entityname.ptoe_ferberite>Ferberite</entityname.ptoe_ferberite>
+  <entitydescription.ptoe_ferberite>A mineral containing iron and tungsten.</entitydescription.ptoe_ferberite>
+  <entityname.ptoe_scheelite>Scheelite</entityname.ptoe_scheelite>
+  <entitydescription.ptoe_scheelite>A mineral containing calcium and tungsten.</entitydescription.ptoe_scheelite>
+  <entityname.ptoe_huebnerite>Huebnerite</entityname.ptoe_huebnerite>
+  <entitydescription.ptoe_huebnerite>A mineral containing manganese and tungsten.</entitydescription.ptoe_huebnerite>
+  <entityname.ptoe_borax>Borax</entityname.ptoe_borax>
+  <entitydescription.ptoe_borax>A mineral containing sodium and boron.</entitydescription.ptoe_borax>
+  <entityname.ptoe_priceite>Priceite</entityname.ptoe_priceite>
+  <entitydescription.ptoe_priceite>A mineral containing calcium and boron.</entitydescription.ptoe_priceite>
+  <entityname.ptoe_cinnabar>Cinnabar</entityname.ptoe_cinnabar>
+  <entitydescription.ptoe_cinnabar>A mineral composed of mercury and sulphur.</entitydescription.ptoe_cinnabar>
+  <entityname.ptoe_montroydite>Montroydite</entityname.ptoe_montroydite>
+  <entitydescription.ptoe_montroydite>A mineral containing mercury.</entitydescription.ptoe_montroydite>
+  <entityname.ptoe_berylite>Berylite</entityname.ptoe_berylite>
+  <entitydescription.ptoe_berylite>A mineral containing beryllium, aluminum and silicon.</entitydescription.ptoe_berylite>
+  <entityname.ptoe_chrysoberyl>Chrysoberyl</entityname.ptoe_chrysoberyl>
+  <entitydescription.ptoe_chrysoberyl>A mineral containing beryllium and aluminum.</entitydescription.ptoe_chrysoberyl>
+  <entityname.ptoe_phenakite>Phenakite</entityname.ptoe_phenakite>
+  <entitydescription.ptoe_phenakite>A mineral containing beryllium and silicon.</entitydescription.ptoe_phenakite>
   <!--Paints-->
-  <entityname.chromeyellowpaint>Chrome Yellow Paint</entityname.chromeyellowpaint>
-  <entityname.prussianbluepaint>Prussian Blue Paint</entityname.prussianbluepaint>
-  <entityname.parisgreenpaint>Paris Green Paint</entityname.parisgreenpaint>
+  <entityname.ptoe_chromeyellowpaint>Chrome Yellow Paint</entityname.ptoe_chromeyellowpaint>
+  <entityname.ptoe_prussianbluepaint>Prussian Blue Paint</entityname.ptoe_prussianbluepaint>
+  <entityname.ptoe_parisgreenpaint>Paris Green Paint</entityname.ptoe_parisgreenpaint>
   <!--Rods-->
-  <entityname.emptyreactionrod>Reaction Rod (empty)</entityname.emptyreactionrod>
-  <entitydescription.emptyreactionrod>If this is placed in an active reactor, material inside will absorb neutrons and begin to transfer.</entitydescription.emptyreactionrod>
-  <entityname.plutoniumfuelrod>Plutonium Fuel Rod</entityname.plutoniumfuelrod>
-  <entitydescription.plutoniumfuelrod>Despite the long life 12 times of uranium fuel rod, it's a waste to fuel your reactor with this.</entitydescription.plutoniumfuelrod>
-  <entityname.uraniumreactionrod>Uranium Reaction Rod</entityname.uraniumreactionrod>
-  <entitydescription.uraniumreactionrod>238U + n -> 239U</entitydescription.uraniumreactionrod>
-  <entityname.uraniumreactionrod1>Uranium Reaction Rod (decaying)</entityname.uraniumreactionrod1>
-  <entitydescription.uraniumreactionrod1>239U -> 239Np + e- (quick)</entitydescription.uraniumreactionrod1>
-  <entityname.neptuniumreactionrod1>Neptunium Reaction Rod (decaying)</entityname.neptuniumreactionrod1>
-  <entitydescription.neptuniumreactionrod1>239Np -> 239Pu + e- (slow)</entitydescription.neptuniumreactionrod1>
-  <entityname.plutoniumreactionrod>Plutonium Reaction Rod</entityname.plutoniumreactionrod>
-  <entitydescription.plutoniumreactionrod>It seems not able to react further. Deconstruct to get plutonium.</entitydescription.plutoniumreactionrod>
-  <entityname.waterreactionrod>Water Reaction Rod</entityname.waterreactionrod>
-  <entitydescription.waterreactionrod>H + n -> D</entitydescription.waterreactionrod>
-  <entityname.deuteriumreactionrod>Deuterium Reaction Rod</entityname.deuteriumreactionrod>
-  <entitydescription.deuteriumreactionrod>D + n -> T</entitydescription.deuteriumreactionrod>
-  <entityname.tritiumreactionrod>Tritium Reaction Rod</entityname.tritiumreactionrod>
-  <entitydescription.tritiumreactionrod>It seems not able to react further. Deconstruct to get tritium oxide.</entitydescription.tritiumreactionrod>
+  <entityname.ptoe_emptyreactionrod>Reaction Rod (empty)</entityname.ptoe_emptyreactionrod>
+  <entitydescription.ptoe_emptyreactionrod>If this is placed in an active reactor, material inside will absorb neutrons and begin to transfer.</entitydescription.ptoe_emptyreactionrod>
+  <entityname.ptoe_plutoniumfuelrod>Plutonium Fuel Rod</entityname.ptoe_plutoniumfuelrod>
+  <entitydescription.ptoe_plutoniumfuelrod>Despite the long life 12 times of uranium fuel rod, it's a waste to fuel your reactor with this.</entitydescription.ptoe_plutoniumfuelrod>
+  <entityname.ptoe_uraniumreactionrod>Uranium Reaction Rod</entityname.ptoe_uraniumreactionrod>
+  <entitydescription.ptoe_uraniumreactionrod>238U + n -> 239U</entitydescription.ptoe_uraniumreactionrod>
+  <entityname.ptoe_uraniumreactionrod1>Uranium Reaction Rod (decaying)</entityname.ptoe_uraniumreactionrod1>
+  <entitydescription.ptoe_uraniumreactionrod1>239U -> 239Np + e- (quick)</entitydescription.ptoe_uraniumreactionrod1>
+  <entityname.ptoe_neptuniumreactionrod1>Neptunium Reaction Rod (decaying)</entityname.ptoe_neptuniumreactionrod1>
+  <entitydescription.ptoe_neptuniumreactionrod1>239Np -> 239Pu + e- (slow)</entitydescription.ptoe_neptuniumreactionrod1>
+  <entityname.ptoe_plutoniumreactionrod>Plutonium Reaction Rod</entityname.ptoe_plutoniumreactionrod>
+  <entitydescription.ptoe_plutoniumreactionrod>It seems not able to react further. Deconstruct to get plutonium.</entitydescription.ptoe_plutoniumreactionrod>
+  <entityname.ptoe_waterreactionrod>Water Reaction Rod</entityname.ptoe_waterreactionrod>
+  <entitydescription.ptoe_waterreactionrod>H + n -> D</entitydescription.ptoe_waterreactionrod>
+  <entityname.ptoe_deuteriumreactionrod>Deuterium Reaction Rod</entityname.ptoe_deuteriumreactionrod>
+  <entitydescription.ptoe_deuteriumreactionrod>D + n -> T</entitydescription.ptoe_deuteriumreactionrod>
+  <entityname.ptoe_tritiumreactionrod>Tritium Reaction Rod</entityname.ptoe_tritiumreactionrod>
+  <entitydescription.ptoe_tritiumreactionrod>It seems not able to react further. Deconstruct to get tritium oxide.</entitydescription.ptoe_tritiumreactionrod>
   <!--Notes-->
-  <entityname.note181>Note 18.0 (1/2)</entityname.note181>
-  <entitydescription.note181>It seems that someone was not sober while drawing these.</entitydescription.note181>
-  <entityname.note182>Note 18.0 (2/2)</entityname.note182>
-  <entitydescription.note182>Something about the electroplating tank.</entitydescription.note182>
-  <entityname.note183>Note 18.1</entityname.note183>
-  <entitydescription.note183>Put a empty reaction rod into water, then the reactor.</entitydescription.note183>
+  <entityname.ptoe_note181>Note 18.0 (1/2)</entityname.ptoe_note181>
+  <entitydescription.ptoe_note181>It seems that someone was not sober while drawing these.</entitydescription.ptoe_note181>
+  <entityname.ptoe_note182>Note 18.0 (2/2)</entityname.ptoe_note182>
+  <entitydescription.ptoe_note182>Something about the electroplating tank.</entitydescription.ptoe_note182>
+  <entityname.ptoe_note183>Note 18.1</entityname.ptoe_note183>
+  <entitydescription.ptoe_note183>Put a empty reaction rod into water, then the reactor.</entitydescription.ptoe_note183>
   <!--Messages-->
-  <afflictionname.arsenicpoisoning>Arsenic poisoning</afflictionname.arsenicpoisoning>
-  <afflictioncauseofdeath.arsenicpoisoning>Died of arsenic poisoning.</afflictioncauseofdeath.arsenicpoisoning>
-  <afflictioncauseofdeathself.arsenicpoisoning>You have died of arsenic poisoning.</afflictioncauseofdeathself.arsenicpoisoning>
-  <afflictiondescription.arsenicpoisoning>The patient is seemingly sick, and without a prompt treatment they will only get worse.</afflictiondescription.arsenicpoisoning>
-  <afflictiondescription.arsenicpoisoning.high>The patient has been poisoned and is vomiting acutely. Unless an antidote is found, the patient will eventually die in agony.</afflictiondescription.arsenicpoisoning.high>
-  <afflictiondescription.arsenicpoisoning.medium.self>You have a headache and fatigue. The nausea is getting worse over time.</afflictiondescription.arsenicpoisoning.medium.self>
-  <afflictiondescription.arsenicpoisoning.low>The arsenic content in the patient's body severely exceeded the limit.</afflictiondescription.arsenicpoisoning.low>
-  <afflictionname.mercurypoisoning>Mercury poisoning</afflictionname.mercurypoisoning>
-  <afflictioncauseofdeath.mercurypoisoning>Died of mercury poisoning.</afflictioncauseofdeath.mercurypoisoning>
-  <afflictioncauseofdeathself.mercurypoisoning>You have died of mercury poisoning.</afflictioncauseofdeathself.mercurypoisoning>
-  <afflictiondescription.mercurypoisoning>The patient has been poisoned to obnubination. Unless an antidote is found, the patient will eventually die in agony.</afflictiondescription.mercurypoisoning>
-  <afflictiondescription.mercurypoisoning.high>The patient has vital signs, but mercury has thoroughly invaded the brain. There is nothing to do.</afflictiondescription.mercurypoisoning.high>
-  <afflictiondescription.mercurypoisoning.medium.self>Dizzy...... who and where am I?</afflictiondescription.mercurypoisoning.medium.self>
-  <afflictiondescription.mercurypoisoning.low>The mercury content in the patient's body severely exceeded the limit.</afflictiondescription.mercurypoisoning.low>
-  <afflictionname.underwaterboost>Underwater Boost</afflictionname.underwaterboost>
-  <afflictiondescription.underwaterboost>Something is pushing you.</afflictiondescription.underwaterboost>
-  <afflictionname.merbrominprotection>Merbromin Protection</afflictionname.merbrominprotection>
-  <afflictiondescription.merbrominprotection>Merbromin is protecting this limb from further infections.</afflictiondescription.merbrominprotection>
-  <itemmsgblackpowderpackrequired>Black powder pack required</itemmsgblackpowderpackrequired>
-  <itemmsgblackpowderrequired>Black powder required</itemmsgblackpowderrequired>
+  <afflictionname.ptoe_arsenicpoisoning>Arsenic poisoning</afflictionname.ptoe_arsenicpoisoning>
+  <afflictioncauseofdeath.ptoe_arsenicpoisoning>Died of arsenic poisoning.</afflictioncauseofdeath.ptoe_arsenicpoisoning>
+  <afflictioncauseofdeathself.ptoe_arsenicpoisoning>You have died of arsenic poisoning.</afflictioncauseofdeathself.ptoe_arsenicpoisoning>
+  <afflictiondescription.ptoe_arsenicpoisoning>The patient is seemingly sick, and without a prompt treatment they will only get worse.</afflictiondescription.ptoe_arsenicpoisoning>
+  <afflictiondescription.ptoe_arsenicpoisoning.high>The patient has been poisoned and is vomiting acutely. Unless an antidote is found, the patient will eventually die in agony.</afflictiondescription.ptoe_arsenicpoisoning.high>
+  <afflictiondescription.ptoe_arsenicpoisoning.medium.self>You have a headache and fatigue. The nausea is getting worse over time.</afflictiondescription.ptoe_arsenicpoisoning.medium.self>
+  <afflictiondescription.ptoe_arsenicpoisoning.low>The arsenic content in the patient's body severely exceeded the limit.</afflictiondescription.ptoe_arsenicpoisoning.low>
+  <afflictionname.ptoe_mercurypoisoning>Mercury poisoning</afflictionname.ptoe_mercurypoisoning>
+  <afflictioncauseofdeath.ptoe_mercurypoisoning>Died of mercury poisoning.</afflictioncauseofdeath.ptoe_mercurypoisoning>
+  <afflictioncauseofdeathself.ptoe_mercurypoisoning>You have died of mercury poisoning.</afflictioncauseofdeathself.ptoe_mercurypoisoning>
+  <afflictiondescription.ptoe_mercurypoisoning>The patient has been poisoned to obnubination. Unless an antidote is found, the patient will eventually die in agony.</afflictiondescription.ptoe_mercurypoisoning>
+  <afflictiondescription.ptoe_mercurypoisoning.high>The patient has vital signs, but mercury has thoroughly invaded the brain. There is nothing to do.</afflictiondescription.ptoe_mercurypoisoning.high>
+  <afflictiondescription.ptoe_mercurypoisoning.medium.self>Dizzy...... who and where am I?</afflictiondescription.ptoe_mercurypoisoning.medium.self>
+  <afflictiondescription.ptoe_mercurypoisoning.low>The mercury content in the patient's body severely exceeded the limit.</afflictiondescription.ptoe_mercurypoisoning.low>
+  <afflictionname.ptoe_underwaterboost>Underwater Boost</afflictionname.ptoe_underwaterboost>
+  <afflictiondescription.ptoe_underwaterboost>Something is pushing you.</afflictiondescription.ptoe_underwaterboost>
+  <afflictionname.ptoe_merbrominprotection>Merbromin Protection</afflictionname.ptoe_merbrominprotection>
+  <afflictiondescription.ptoe_merbrominprotection>Merbromin is protecting this limb from further infections.</afflictiondescription.ptoe_merbrominprotection>
+  <ptoe_itemmsgblackpowderpackrequired>Black powder pack required</ptoe_itemmsgblackpowderpackrequired>
+  <ptoe_itemmsgblackpowderrequired>Black powder required</ptoe_itemmsgblackpowderrequired>
 </infotexts>

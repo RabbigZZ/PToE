@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="advancedsprayer" variantof="sprayer">
+  <Item name="" identifier="ptoe_advancedsprayer" variantof="sprayer">
     <PreferredContainer primary="engcab" />
     <PreferredContainer spawnprobability="0.01" />
     <PreferredContainer spawnprobability="0.02" />
@@ -18,8 +18,8 @@
     <Fabricate suitablefabricators="fabricator" requiredtime="150">
       <RequiredSkill identifier="mechanical" level="70" />
       <RequiredItem identifier="sprayer" />
-      <RequiredItem identifier="asgacircuit" />
-      <RequiredItem identifier="advancedglass" />
+      <RequiredItem identifier="ptoe_asgacircuit" />
+      <RequiredItem identifier="ptoe_advancedglass" />
     </Fabricate>
     <Sprayer range="1000">
       <StatusEffect Condition="-0.5"></StatusEffect>
@@ -31,28 +31,28 @@
         <PaintColor paintitem="bluepaint" color="0,0,128,180" />
         <PaintColor paintitem="blackpaint" color="0,0,0,180" />
         <PaintColor paintitem="whitepaint" color="128,128,128,180" />
-        <PaintColor paintitem="chromeyellowpaint" color="128,67,0,180" />
-        <PaintColor paintitem="prussianbluepaint" color="0,25,41,180" />
-        <PaintColor paintitem="parisgreenpaint" color="0,76,58,180" />
+        <PaintColor paintitem="ptoe_chromeyellowpaint" color="128,67,0,180" />
+        <PaintColor paintitem="ptoe_prussianbluepaint" color="0,25,41,180" />
+        <PaintColor paintitem="ptoe_parisgreenpaint" color="0,76,58,180" />
       </PaintColors>
     </Sprayer>
   </Item>
-  <Item name="" identifier="chromeyellowpaint" variantof="redpaint" spritecolor="128,67,0,255" InventoryIconColor="255,134,0,255">
+  <Item name="" identifier="ptoe_chromeyellowpaint" variantof="redpaint" spritecolor="128,67,0,255" InventoryIconColor="255,134,0,255">
     <Price baseprice="140" sold="false" />
     <Fabricate>
       <RequiredSkill identifier="mechanical" level="20" />
       <RequiredItem identifier="ethanol" />
       <RequiredItem identifier="lead" />
-      <RequiredItem identifier="chromium" />
+      <RequiredItem identifier="ptoe_chromium" />
     </Fabricate>
     <Throwable>
       <StatusEffect>
-        <Explosion decal="fruitsplatter_chromeyellow" />
+        <Explosion decal="fruitsplatter_ptoe_chromeyellow" />
         <ParticleEmitter colormultiplier="128,67,0,255" />
       </StatusEffect>
     </Throwable>
   </Item>
-  <Item name="" identifier="prussianbluepaint" variantof="redpaint" spritecolor="0,25,41,255" InventoryIconColor="0,49,82,255">
+  <Item name="" identifier="ptoe_prussianbluepaint" variantof="redpaint" spritecolor="0,25,41,255" InventoryIconColor="0,49,82,255">
     <Price baseprice="330" sold="false" />
     <Fabricate>
       <RequiredSkill identifier="mechanical" level="20" />
@@ -62,22 +62,22 @@
     </Fabricate>
     <Throwable>
       <StatusEffect>
-        <Explosion decal="fruitsplatter_prussianblue" />
+        <Explosion decal="fruitsplatter_ptoe_prussianblue" />
         <ParticleEmitter colormultiplier="0,25,41,255" />
       </StatusEffect>
     </Throwable>
   </Item>
-  <Item name="" identifier="parisgreenpaint" variantof="redpaint" spritecolor="0,76,58,255" InventoryIconColor="0,152,116,255">
+  <Item name="" identifier="ptoe_parisgreenpaint" variantof="redpaint" spritecolor="0,76,58,255" InventoryIconColor="0,152,116,255">
     <Price baseprice="90" sold="false" />
     <Fabricate>
       <RequiredSkill identifier="mechanical" level="20" />
       <RequiredItem identifier="ethanol" />
       <RequiredItem identifier="copper" />
-      <RequiredItem identifier="arsenic" />
+      <RequiredItem identifier="ptoe_arsenic" />
     </Fabricate>
     <Throwable>
       <StatusEffect>
-        <Explosion decal="fruitsplatter_parisgreen" />
+        <Explosion decal="fruitsplatter_ptoe_parisgreen" />
         <ParticleEmitter colormultiplier="0,76,58,255" />
       </StatusEffect>
     </Throwable>
