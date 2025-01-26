@@ -227,13 +227,25 @@
   <entitydescription.ptoe_plutoniumshell>Maybe more destructive than a plutonium block.</entitydescription.ptoe_plutoniumshell>
   <entityname.ptoe_leadcrate>Lead Crate</entityname.ptoe_leadcrate>
   <entitydescription.ptoe_leadcrate>Thick enough to prevent fatal radiations. Also the place to recycle reaction rods.</entitydescription.ptoe_leadcrate>
+  <entityname.ptoe_precisionlens>Precision Lens</entityname.ptoe_precisionlens>
+  <entitydescription.ptoe_precisionlens>Exellent optical performance.</entitydescription.ptoe_precisionlens>
+  <entityname.ptoe_endlesspulselaserammobox>Endless Pulse Laser Fuel Box</entityname.ptoe_endlesspulselaserammobox>
+  <entitydescription.ptoe_endlesspulselaserammobox>Able to generate laser for unlimited times theoretically, but overheat may damage the precision lens inside.</entitydescription.ptoe_endlesspulselaserammobox>
+  <entityname.ptoe_endlesspulselaserammoboxtrilaser>Endless Pulse Tri-Laser Fuel Box</entityname.ptoe_endlesspulselaserammoboxtrilaser>
+  <entitydescription.ptoe_endlesspulselaserammoboxtrilaser>Able to generate tri-laser for unlimited times theoretically, but overheat is very likely to damage the precision lens inside.</entitydescription.ptoe_endlesspulselaserammoboxtrilaser>
+  <entityname.ptoe_coilgunammoboxscorch>Scorch Coilgun Ammunition Box</entityname.ptoe_coilgunammoboxscorch>
+  <entitydescription.ptoe_coilgunammoboxscorch>Scorch the target quickly, especially destructive to armored targets. Applies a stackable amplify-burn-damage buff to creatures hit.</entitydescription.ptoe_coilgunammoboxscorch>
+  <entityname.ptoe_chaingunammoboxscorch>Scorch Chaingun Ammunition Box</entityname.ptoe_chaingunammoboxscorch>
+  <entitydescription.ptoe_chaingunammoboxscorch>Scorch the target gradually into ash, especially destructive to armored targets. Applies a stackable amplify-burn-damage buff to creatures hit.</entitydescription.ptoe_chaingunammoboxscorch>
+  <entitydescription.ptoe_endlesspulselaserammobox2>An overheat protector will prevent shots when critical temperature is reached.</entitydescription.ptoe_endlesspulselaserammobox2>
+  <displayname.ptoe_installoverheatprotector>(Install Overheat Protector)</displayname.ptoe_installoverheatprotector>
   <!--Medical-->
   <entityname.ptoe_silverionbandage>Silver Ion Bandage</entityname.ptoe_silverionbandage>
   <entitydescription.ptoe_silverionbandage>Bandage with silver ion added.</entitydescription.ptoe_silverionbandage>
   <entityname.ptoe_silverionglue>Silver Ion Glue</entityname.ptoe_silverionglue>
   <entitydescription.ptoe_silverionglue>Antibiotic Glue made out of silver ion, cheaper but not so effecient as general antibiotic glue.</entitydescription.ptoe_silverionglue>
   <entityname.ptoe_merbromin>Merbromin</entityname.ptoe_merbromin>
-  <entitydescription.ptoe_merbromin>Disinfect efficiently, barely irritates wounds.</entitydescription.ptoe_merbromin>
+  <entitydescription.ptoe_merbromin>Disinfect efficiently, causes barely no irritation.</entitydescription.ptoe_merbromin>
   <entityname.ptoe_edta2na>EDTA-2Na</entityname.ptoe_edta2na>
   <entitydescription.ptoe_edta2na>Ethylenediaminetetraacetic acid disodium salt, which can relieve all kinds of heavy metal poisioning.</entitydescription.ptoe_edta2na>
   <entityname.ptoe_dimethylmercury>Dimethyl Mercury</entityname.ptoe_dimethylmercury>
@@ -299,6 +311,7 @@
   <entityname.ptoe_chromeyellowpaint>Chrome Yellow Paint</entityname.ptoe_chromeyellowpaint>
   <entityname.ptoe_prussianbluepaint>Prussian Blue Paint</entityname.ptoe_prussianbluepaint>
   <entityname.ptoe_parisgreenpaint>Paris Green Paint</entityname.ptoe_parisgreenpaint>
+  <entityname.ptoe_chinaredpaint>China Red Paint</entityname.ptoe_chinaredpaint>
   <!--Rods-->
   <entityname.ptoe_emptyreactionrod>Reaction Rod (empty)</entityname.ptoe_emptyreactionrod>
   <entitydescription.ptoe_emptyreactionrod>If this is placed in an active reactor, material inside will absorb neutrons and begin to transfer.</entitydescription.ptoe_emptyreactionrod>
@@ -343,7 +356,9 @@
   <afflictionname.ptoe_underwaterboost>Underwater Boost</afflictionname.ptoe_underwaterboost>
   <afflictiondescription.ptoe_underwaterboost>Something is pushing you.</afflictiondescription.ptoe_underwaterboost>
   <afflictionname.ptoe_merbrominprotection>Merbromin Protection</afflictionname.ptoe_merbrominprotection>
-  <afflictiondescription.ptoe_merbrominprotection>Merbromin is protecting this limb from further infections.</afflictiondescription.ptoe_merbrominprotection>
+  <afflictiondescription.ptoe_merbrominprotection>Merbromin is protecting this guy from further infections.</afflictiondescription.ptoe_merbrominprotection>
+  <afflictionname.ptoe_scorch>Scorch</afflictionname.ptoe_scorch>
+  <afflictiondescription.ptoe_scorch>Multiplies burn damage got.</afflictiondescription.ptoe_scorch>
   <ptoe_itemmsgblackpowderpackrequired>Black powder pack required</ptoe_itemmsgblackpowderpackrequired>
   <ptoe_itemmsgblackpowderrequired>Black powder required</ptoe_itemmsgblackpowderrequired>
 </infotexts>

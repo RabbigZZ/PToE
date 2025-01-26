@@ -82,4 +82,19 @@
       </StatusEffect>
     </Throwable>
   </Item>
+  <Item name="" identifier="ptoe_chinaredpaint" variantof="redpaint" spritecolor="128,38,0,255" InventoryIconColor="255,76,0,255">
+    <Price baseprice="506" sold="false" />
+    <Fabricate>
+      <RequiredSkill identifier="mechanical" level="20" />
+      <RequiredItem identifier="ethanol" />
+      <RequiredItem identifier="ptoe_cerium" />
+      <RequiredItem identifier="ptoe_sulphur" />
+    </Fabricate>
+    <Throwable>
+      <StatusEffect>
+        <Explosion decal="fruitsplatter_ptoe_chinared" />
+        <ParticleEmitter colormultiplier="128,38,0,255" />
+      </StatusEffect>
+    </Throwable>
+  </Item>
 </Items>

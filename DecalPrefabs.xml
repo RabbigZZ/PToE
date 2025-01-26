@@ -12,4 +12,8 @@
     <sprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="672,416,192,192" origin="0.5,0.5" />
     <sprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="672,160,192,192" origin="0.5,0.5" />
   </fruitsplatter_ptoe_parisgreen>
+  <fruitsplatter_ptoe_chinared color="128,38,0,230" lifetime="6000" fadeouttime="30">
+    <sprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="672,416,192,192" origin="0.5,0.5" />
+    <sprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="672,160,192,192" origin="0.5,0.5" />
+  </fruitsplatter_ptoe_chinared>
 </prefabs>

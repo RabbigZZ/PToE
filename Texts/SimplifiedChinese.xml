@@ -227,6 +227,18 @@
   <entitydescription.ptoe_plutoniumshell>可能比钚炸弹更具破坏性。</entitydescription.ptoe_plutoniumshell>
   <entityname.ptoe_leadcrate>铅箱</entityname.ptoe_leadcrate>
   <entitydescription.ptoe_leadcrate>厚度足以阻挡致命辐射。也是回收反应棒的场所。</entitydescription.ptoe_leadcrate>
+  <entityname.ptoe_precisionlens>精密透镜</entityname.ptoe_precisionlens>
+  <entitydescription.ptoe_precisionlens>光学性能极佳。</entitydescription.ptoe_precisionlens>
+  <entityname.ptoe_endlesspulselaserammobox>无尽脉冲激光物资箱</entityname.ptoe_endlesspulselaserammobox>
+  <entitydescription.ptoe_endlesspulselaserammobox>理论上能无限次引发激光，但过热可能损坏其中的精密透镜。</entitydescription.ptoe_endlesspulselaserammobox>
+  <entityname.ptoe_endlesspulselaserammoboxtrilaser>无尽三联脉冲激光物资箱</entityname.ptoe_endlesspulselaserammoboxtrilaser>
+  <entitydescription.ptoe_endlesspulselaserammoboxtrilaser>理论上能无限次引发激光，但过热极有可能损坏其中的精密透镜。</entitydescription.ptoe_endlesspulselaserammoboxtrilaser>
+  <entityname.ptoe_coilgunammoboxscorch>灼烧电磁枪弹药匣</entityname.ptoe_coilgunammoboxscorch>
+  <entitydescription.ptoe_coilgunammoboxscorch>快速烧焦目标，对装甲目标尤为有效。对命中的生物施加可叠加的火焰伤害加深效果。</entitydescription.ptoe_coilgunammoboxscorch>
+  <entityname.ptoe_chaingunammoboxscorch>灼烧连射炮弹药匣</entityname.ptoe_chaingunammoboxscorch>
+  <entitydescription.ptoe_chaingunammoboxscorch>将目标逐渐烧成灰，对装甲目标尤为有效。对命中的生物施加可叠加的火焰伤害加深效果。</entitydescription.ptoe_chaingunammoboxscorch>
+  <entitydescription.ptoe_endlesspulselaserammobox2>过热保护会在温度到达临界时阻止射击。</entitydescription.ptoe_endlesspulselaserammobox2>
+  <displayname.ptoe_installoverheatprotector>（安装过热保护）</displayname.ptoe_installoverheatprotector>
   <!--医疗-->
   <entityname.ptoe_silverionbandage>银离子绷带</entityname.ptoe_silverionbandage>
   <entitydescription.ptoe_silverionbandage>添加了银离子的绷带。</entitydescription.ptoe_silverionbandage>
@@ -299,6 +311,7 @@
   <entityname.ptoe_chromeyellowpaint>铬黄涂料</entityname.ptoe_chromeyellowpaint>
   <entityname.ptoe_prussianbluepaint>普鲁士蓝涂料</entityname.ptoe_prussianbluepaint>
   <entityname.ptoe_parisgreenpaint>巴黎绿涂料</entityname.ptoe_parisgreenpaint>
+  <entityname.ptoe_chinaredpaint>朱红涂料</entityname.ptoe_chinaredpaint>
   <!--“棒”-->
   <entityname.ptoe_emptyreactionrod>反应棒（空）</entityname.ptoe_emptyreactionrod>
   <entitydescription.ptoe_emptyreactionrod>若被置于运作中的反应堆，其中的材料将吸收中子并开始转化。</entitydescription.ptoe_emptyreactionrod>
@@ -343,7 +356,9 @@
   <afflictionname.ptoe_underwaterboost>水下加速</afflictionname.ptoe_underwaterboost>
   <afflictiondescription.ptoe_underwaterboost>有东西推动着你。</afflictiondescription.ptoe_underwaterboost>
   <afflictionname.ptoe_merbrominprotection>汞溴红保护</afflictionname.ptoe_merbrominprotection>
-  <afflictiondescription.ptoe_merbrominprotection>汞溴红正保护此肢体免受进一步感染。</afflictiondescription.ptoe_merbrominprotection>
+  <afflictiondescription.ptoe_merbrominprotection>汞溴红正保护此人免受进一步感染。</afflictiondescription.ptoe_merbrominprotection>
+  <afflictionname.ptoe_scorch>烧焦</afflictionname.ptoe_scorch>
+  <afflictiondescription.ptoe_scorch>受到的燃烧伤害倍增。</afflictiondescription.ptoe_scorch>
   <ptoe_itemmsgblackpowderpackrequired>需要黑火药包</ptoe_itemmsgblackpowderpackrequired>
   <ptoe_itemmsgblackpowderrequired>需要黑火药</ptoe_itemmsgblackpowderrequired>
 </infotexts>

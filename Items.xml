@@ -59,9 +59,9 @@
   <Item name="" identifier="ptoe_silvercommendation" category="Misc" Tags="smallitem" cargocontaineridentifier="metalcrate" allowasextracargo="true" maxstacksize="8" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="crewcab"/>
     <Price sold="false" baseprice="600" minleveldifficulty="60">
-      <Price storeidentifier="merchantcity" sold="true" multiplier="0.9" available="1" />
+      <Price storeidentifier="merchantcity" sold="true" multiplier="0.9" minavailable="1" />
       <Price storeidentifier="merchantresearch" multiplier="0.9" />
-      <Price storeidentifier="merchantmilitary" sold="true" available="1" />
+      <Price storeidentifier="merchantmilitary" sold="true" minavailable="1" />
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
     <Deconstruct time="20">
@@ -86,9 +86,9 @@
   <Item name="" identifier="ptoe_silvermedal" category="Misc" Tags="smallitem" cargocontaineridentifier="metalcrate" allowasextracargo="true" maxstacksize="8" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="crewcab"/>
     <Price sold="false" baseprice="800" minleveldifficulty="80">
-      <Price storeidentifier="merchantcity" sold="true" multiplier="0.9" maxavailable="1" />
+      <Price storeidentifier="merchantcity" sold="true" multiplier="0.9" minavailable="1" />
       <Price storeidentifier="merchantresearch" multiplier="0.9" />
-      <Price storeidentifier="merchantmilitary" sold="true" maxavailable="1" />
+      <Price storeidentifier="merchantmilitary" sold="true" minavailable="1" />
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
     <Deconstruct time="20">
@@ -114,7 +114,7 @@
   <Item name="" identifier="ptoe_goldcommendation" category="Misc" Tags="smallitem" cargocontaineridentifier="metalcrate" allowasextracargo="true" maxstacksize="8" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="crewcab"/>
     <Price sold="false" baseprice="3000" minleveldifficulty="80">
-      <Price storeidentifier="merchantcity" sold="true" multiplier="0.9" />
+      <Price storeidentifier="merchantcity" sold="true" multiplier="0.9" minavaliable="1" />
       <Price storeidentifier="merchantresearch" multiplier="0.9" />
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
@@ -140,7 +140,7 @@
   <Item name="" identifier="ptoe_goldmedal" category="Misc" Tags="smallitem" cargocontaineridentifier="metalcrate" allowasextracargo="true" maxstacksize="8" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="crewcab"/>
     <Price sold="false" baseprice="3200" minleveldifficulty="100">
-      <Price storeidentifier="merchantcity" sold="true" multiplier="0.9" maxavailable="1" />
+      <Price storeidentifier="merchantcity" sold="true" multiplier="0.9" minavailable="1" />
       <Price storeidentifier="merchantresearch" multiplier="0.9" />
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
@@ -851,7 +851,6 @@
     <Fabricate suitablefabricators="fabricator" requiredtime="90">
       <RequiredSkill identifier="mechanical" level="80" />
       <RequiredItem identifier="heavywrench" />
-      <RequiredItem identifier="ptoe_wrenchplated" />
       <RequiredItem identifier="ptoe_screwdriverplated" />
       <RequiredItem identifier="ptoe_crowbarplated" />
     </Fabricate>
@@ -1359,20 +1358,6 @@
           <LightTexture texture="Content/Lights/pointlight_bounce.png" origin="0.5,0.5" />
         </LightComponent>
       </sprite>
-      <sprite name="Lightweight Diving Suit Torso" />
-      <sprite name="Lightweight Diving Suit Right Hand" />
-      <sprite name="Lightweight Diving Suit Left Hand" />
-      <sprite name="Lightweight Diving Suit Right Upper Arm" />
-      <sprite name="Lightweight Diving Suit Left Upper Arm" />
-      <sprite name="Lightweight Diving Suit Right Lower Arm" />
-      <sprite name="Lightweight Diving Suit Left Lower Arm" />
-      <sprite name="Lightweight Diving Suit Waist" />
-      <sprite name="Lightweight Diving Suit Right Thigh" />
-      <sprite name="Lightweight Diving Suit Left Thigh" />
-      <sprite name="Lightweight Diving Suit Right Leg" />
-      <sprite name="Lightweight Diving Suit Left Leg" />
-      <sprite name="Lightweight Diving Suit Left Shoe" />
-      <sprite name="Lightweight Diving Suit Right Shoe" />
       <StatusEffect type="OnWearing" />
       <StatusEffect PressureProtection="4500.0">
         <TriggerAnimation />
@@ -1410,17 +1395,17 @@
     <PreferredContainer spawnprobability="0" />
     <PreferredContainer />
     <Deconstruct time="20">
-      <Item identifier="ptoe_beryllium" amount="2" />
-      <Item identifier="fpgacircuit" />
-      <Item />
-      <Item />
+      <Item identifier="ptoe_beryllium" />
+      <Item identifier="copper" />
+      <Item identifier="tin" />
+      <Item identifier="plastic" />
     </Deconstruct>
     <Fabricate requiredtime="60">
       <RequiredSkill identifier="mechanical" level="45" />
       <RequiredSkill identifier="eletrical" level="55" />
-      <RequiredItem identifier="ptoe_beryllium" amount="3" />
+      <RequiredItem identifier="ptoe_beryllium" amount="2" />
       <RequiredItem identifier="waterdetector" />
-      <RequiredItem />
+      <RequiredItem identifier="ptoe_beryllium" amount="1" />
     </Fabricate>
     <InventoryIcon texture="%ModDir%/Items.png" sourcerect="384,272,64,64" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items.png" depth="0.55" sourcerect="0,336,140,102" origin="0.5,0.53125" />
@@ -1697,5 +1682,352 @@
         <StatusEffect type="OnUse" target="This" voltage="1.0" setvalue="true" disabledeltatime="true" />
       </Button>
     </CustomInterface>
+  </Item>
+  <Item name="" identifier="ptoe_precisionlens" category="Material" maxstacksize="8" maxstacksizecharacterinventory="1" Tags="smallitem" canbepicked="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="5.5">
+    <PreferredContainer primary="storagecab" />
+    <Price baseprice="400" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="0.9" sold="true" minavailable="1" />
+    </Price>
+    <Fabricate suitablefabricators="fabricator" requiredtime="100" amount="2">
+      <RequiredSkill identifier="mechanical" level="60" />
+      <RequiredItem identifier="ptoe_advancedglass" amount="2" />
+      <RequiredItem identifier="ptoe_lanthanum" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="silicon" />
+      <Item identifier="ptoe_boron" />
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Items.png" sourcerect="513,385,46,46" depth="0.55" origin="0.5,0.5" />
+    <Body radius="20" density="20" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnImpact" target="This" Condition="0.0" setvalue="true">
+        <sound file="Content/Sounds/Damage/GlassBreak1.ogg" selectionmode="Random" range="1000" />
+        <sound file="Content/Sounds/Damage/GlassBreak2.ogg" selectionmode="Random" range="1000" />
+        <sound file="Content/Sounds/Damage/GlassBreak3.ogg" selectionmode="Random" range="1000" />
+        <sound file="Content/Sounds/Damage/GlassBreak4.ogg" selectionmode="Random" range="1000" />
+        <ParticleEmitter particle="waterdrop" anglemin="0" anglemax="360" particleamount="10" velocitymin="200" velocitymax="300" scalemin="0.4" scalemax="0.8" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="" identifier="ptoe_endlesspulselaserammobox" variantof="pulselaserammobox">
+    <PreferredContainer amount="0" mincondition="7" />
+    <PreferredContainer mincondition="0" />
+    <Price baseprice="650" sold="false" />
+    <Deconstruct>
+      <Item identifier="ptoe_precisionlens" mincondition="1.0" />
+      <Item identifier="aluminium" />
+    </Deconstruct>
+    <Fabricate>
+      <RequiredSkill level="30" />
+      <RequiredItem identifier="pulselaserammobox" mincondition="90.0" usecondition="false" AllowVariants="false" />
+      <RequiredItem identifier="ptoe_precisionlens" />
+      <RequiredItem identifier="ptoe_precisionlens" />
+    </Fabricate>
+    <Fabricate>
+      <RequiredSkill level="20" />
+      <RequiredItem identifier="ptoe_precisionlens" />
+      <RequiredItem identifier="ptoe_precisionlens" />
+      <RequiredItem identifier="ptoe_endlesspulselaserammobox" maxcondition="0.0" usecondition="false" description="entitydescription.ptoe_endlesspulselaserammobox" header="entityname.ptoe_endlesspulselaserammobox" defaultitem="" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Items.png" depth="0.54" sourcerect="0,432,95,78" origin="0.5,0.5" />
+    <ItemContainer>
+      <StatusEffect target="This" />
+      <StatusEffect condition="-6.25" />
+      <StatusEffect type="Always" target="This" condition="1.25" disabledeltatime="true" interval="2">
+        <Conditional condition="gt 0" />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="ptoe_endlesspulselaserammoboxtrilaser" variantof="pulselaserammoboxtrilaser">
+    <PreferredContainer primary="pulselaserammosource" mincondition="11" />
+    <PreferredContainer primary="ammoboxcontainer" mincondition="0" />
+    <Price baseprice="835">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" />
+      <Price sold="false" />
+    </Price>
+    <Deconstruct>
+      <Item identifier="ptoe_precisionlens" mincondition="1.0" />
+      <Item identifier="aluminium" />
+    </Deconstruct>
+    <Fabricate>
+      <RequiredSkill level="30" />
+      <RequiredItem identifier="pulselaserammoboxtrilaser" mincondition="90.0" usecondition="false" AllowVariants="false" />
+      <RequiredItem identifier="ptoe_precisionlens" />
+      <RequiredItem identifier="ptoe_precisionlens" />
+    </Fabricate>
+    <Fabricate>
+      <RequiredSkill level="20" />
+      <RequiredItem identifier="ptoe_precisionlens" />
+      <RequiredItem identifier="ptoe_precisionlens" />
+      <RequiredItem identifier="ptoe_endlesspulselaserammoboxtrilaser" maxcondition="0.0" usecondition="false" description="entitydescription.ptoe_endlesspulselaserammoboxtrilaser" header="entityname.ptoe_endlesspulselaserammobox" defaultitem="" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Items.png" depth="0.54" sourcerect="96,432,95,78" origin="0.5,0.5" />
+    <ItemContainer>
+      <StatusEffect target="This" />
+      <StatusEffect condition="-10.0" />
+      <StatusEffect type="Always" target="This" condition="1.25" disabledeltatime="true" interval="2">
+        <Conditional condition="gt 0" />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="ptoe_coilgunboltscorch" variantof="coilgunbolt">
+    <Projectile color="255,0,0,255">
+      <Attack structuredamage="40" itemdamage="20" penetration="0.75">
+        <Affliction identifier="lacerations" strength="5" />
+        <Affliction identifier="burn" strength="5" />
+        <Affliction identifier="ptoe_scorch" strength="10" />
+        <Affliction identifier="stun" strength="0.025" />
+      </Attack>
+      <StatusEffect target="This" />
+      <StatusEffect target="This" />
+      <StatusEffect>
+        <ParticleEmitter copyentityangle="true" />
+        <ParticleEmitter colormultiplier="255,64,0,175" particle="impactfirearm" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" scalemin="2.0" scalemax="3.0" />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="ptoe_coilgunammoboxscorch" variantof="coilgunammobox">
+    <PreferredContainer amount="0" />
+    <PreferredContainer amount="0" />
+    <PreferredContainer />
+    <PreferredContainer />
+    <Price baseprice="680" sold="false" />
+    <Deconstruct time="10">
+      <Item identifier="aluminium" />
+    </Deconstruct>
+    <Fabricate>
+      <RequiredSkill identifier="weapons" level="55"/>
+      <RequiredItem tag="advmunition_core" amount="1" description="fabricationdescription.advmunition_core" />
+      <RequiredItem identifier="ptoe_cerium" />
+      <RequiredItem identifier="aluminium" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" displayname="recycleitem" requiredtime="15">
+      <RequiredSkill identifier="weapons" level="50"/>
+      <RequiredItem tag="advmunition_core" amount="1" description="fabricationdescription.advmunition_core" />
+      <RequiredItem tag="ammobox" mincondition="0.0" maxcondition="0.1" usecondition="false" description="fabricationdescription.ammoboxrecycle" header="fabricationheader.ammoboxrecycle" defaultitem="coilgunammobox" />
+      <RequiredItem identifier="ptoe_cerium" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Items.png" depth="0.54" sourcerect="192,432,95,78" origin="0.5,0.5" />
+    <ItemContainer>
+      <StatusEffect>
+        <SpawnItem identifiers="ptoe_coilgunboltscorch" />
+      </StatusEffect>
+      <StatusEffect>
+        <RequiredItem items="ptoe_coilgunboltscorch"  />
+      </StatusEffect>
+      <Containable items="ptoe_coilgunboltscorch" />
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="ptoe_chaingunboltscorch" variantof="chaingunbolt">
+    <Projectile color="255,0,0,255">
+      <Attack structuredamage="12" itemdamage="18" penetration="0.75">
+        <Affliction identifier="lacerations" strength="5" />
+        <Affliction identifier="burn" strength="5" />
+        <Affliction identifier="ptoe_scorch" strength="5" />
+        <Affliction identifier="stun" strength="0.025" probability="1" />
+      </Attack>
+      <StatusEffect target="This" />
+      <StatusEffect target="This" />
+      <StatusEffect>
+        <ParticleEmitter colormultiplier="255,64,0,175" particle="impactfirearm" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" scalemin="2.0" scalemax="3.0" />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="ptoe_chaingunammoboxscorch" variantof="chaingunammobox">
+    <PreferredContainer amount="0" />
+    <PreferredContainer primary="ammoboxcontainer" />
+    <PreferredContainer />
+    <PreferredContainer />
+    <Price baseprice="780" sold="false" />
+    <Fabricate>
+      <RequiredSkill level="70" />
+      <RequiredItem identifier="ptoe_cerium" amount="1" />
+      <RequiredItem tag="advmunition_core" amount="2" description="fabricationdescription.advmunition_core" />
+      <RequiredItem identifier="aluminium" />
+    </Fabricate>
+    <Fabricate>
+      <RequiredSkill level="65" />
+      <RequiredItem identifier="ptoe_cerium" amount="1" />
+      <RequiredItem tag="advmunition_core" amount="2" description="fabricationdescription.advmunition_core" />
+      <RequiredItem tag="ammobox" mincondition="0.0" maxcondition="0.1" usecondition="false" description="fabricationdescription.ammoboxrecycle" header="fabricationheader.ammoboxrecycle" defaultitem="chaingunammoboxshredder" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Items.png" depth="0.54" sourcerect="288,432,95,78" origin="0.5,0.5" />
+    <ItemContainer>
+      <StatusEffect>
+        <SpawnItem identifiers="ptoe_chaingunboltscorch" />
+      </StatusEffect>
+      <StatusEffect>
+        <RequiredItem items="ptoe_chaingunboltscorch" />
+      </StatusEffect>
+      <Containable items="ptoe_chaingunboltscorch" />
+    </ItemContainer>
+  </Item>
+  <Item identifier="ptoe_endlesspulselaserammobox2" nameidentifier="ptoe_endlesspulselaserammobox" descriptionidentifier="ptoe_endlesspulselaserammobox2" variantof="ptoe_endlesspulselaserammobox">
+    <Price baseprice="1650" />
+    <Deconstruct>
+      <Item mincondition="0.0" />
+      <Item identifier="aluminium" />
+      <Item identifier="fpgacircuit" />
+    </Deconstruct>
+    <Fabricate displayname="ptoe_installoverheatprotector">
+      <RequiredSkill identifier="electrical" level="48" />
+      <RequiredItem identifier="ptoe_endlesspulselaserammobox" mincondition="1.0" usecondition="false" AllowVariants="false" />
+      <RequiredItem identifier="ptoe_asgacircuit" />
+      <RequiredItem />
+    </Fabricate>
+    <Fabricate />
+    <Sprite sourcerect="384,432,95,78" />
+    <ItemContainer>
+      <StatusEffect>
+        <Conditional condition="gt 6.25" />
+      </StatusEffect>
+      <StatusEffect condition="-6.25" />
+      <StatusEffect>
+        <Conditional />
+      </StatusEffect>
+      <StatusEffect type="Always" target="This" interval="2">
+        <SpawnItem identifiers="pulselaserbolt" spawnposition="ThisInventory" />
+        <Conditional condition="gt 6.25" />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item identifier="ptoe_endlesspulselaserammoboxtrilaser2" nameidentifier="ptoe_endlesspulselaserammoboxtrilaser" descriptionidentifier="ptoe_endlesspulselaserammobox2" variantof="ptoe_endlesspulselaserammoboxtrilaser">
+    <Price baseprice="1835" />
+    <Deconstruct>
+      <Item mincondition="0.0" />
+      <Item identifier="aluminium" />
+      <Item identifier="fpgacircuit" />
+    </Deconstruct>
+    <Fabricate displayname="ptoe_installoverheatprotector">
+      <RequiredSkill identifier="electrical" level="48" />
+      <RequiredItem identifier="ptoe_endlesspulselaserammoboxtrilaser" mincondition="1.0" usecondition="false" AllowVariants="false" />
+      <RequiredItem identifier="ptoe_asgacircuit" />
+      <RequiredItem />
+    </Fabricate>
+    <Fabricate />
+    <Sprite sourcerect="480,432,95,78" />
+    <ItemContainer>
+      <StatusEffect>
+        <Conditional condition="gt 10" />
+      </StatusEffect>
+      <StatusEffect condition="-10.0" />
+      <StatusEffect>
+        <Conditional />
+      </StatusEffect>
+      <StatusEffect type="Always" target="This" interval="2">
+        <SpawnItem identifiers="pulselaserbolttrilaser" spawnposition="ThisInventory" />
+        <Conditional condition="gt 10" />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="ptoe_grindstone" category="Weapons" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_heavy">
+    <Price sold="false" baseprice="180">
+      <Price storeidentifier="merchantoutpost" multiplier="1.4" />
+      <Price storeidentifier="merchantcity" sold="true" multiplier="1.25" minavaliable="1" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" multiplier="0.9" />
+    </Price>
+    <Deconstruct time="5">
+      <Item identifier="silicon" mincondition="0.5" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="15">
+      <RequiredSkill identifier="weapons" level="20" />
+      <RequiredSkill identifier="mechanical" level="25" />
+      <RequiredItem tag="ore" />
+      <RequiredItem identifier="silicon" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Items.png" sourcerect="688,400,96,32" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items.png" sourcerect="816,378,48,10" depth="0.55" />
+    <Body width="65" height="10" density="20" />
+    <MeleeWeapon slots="Any,RightHand,LeftHand" aimpos="50,0" handle1="-10,0" holdangle="30" reload="0.75" range="50" combatPriority="20" msg="ItemMsgPickUpSelect">
+      <Attack structuredamage="0" itemdamage="5" targetimpulse="5">
+        <Affliction identifier="blunttrauma" strength="10" />
+        <Affliction identifier="stun" strength="0.2" />
+        <StatusEffect type="OnUse" target="UseTarget">
+          <Conditional entitytype="eq Character"/>
+          <Sound file="Content/Items/Weapons/Smack1.ogg" selectionmode="random" range="500"/>
+          <Sound file="Content/Items/Weapons/Smack2.ogg" range="500" />
+        </StatusEffect>
+      </Attack>
+    </MeleeWeapon>
+    <ItemContainer hideitems="true" capacity="1" maxstacksize="1">
+      <Containable items="divingknife">
+        <StatusEffect type="OnContaining" Target="Contained">
+        <RequiredItem type="Contained" identifier="divingknife" />
+        <SpawnItem identifier="ptoe_divingknifesharpened" spawnposition="ThisInventory" spawnifinventoryfull="true" />
+        <Remove />
+        </StatusEffect>
+        <StatusEffect type="OnContaining" Target="This" condition="-5.0" interval="0.1" disabledeltatime="true" />
+      </Containable>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="ptoe_grindstone2" category="Weapons" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_heavy">
+    <Price sold="false" baseprice="680">
+      <Price storeidentifier="merchantoutpost" multiplier="1.4" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" multiplier="0.9" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="iron" />
+      <Item identifier="tin" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="40" />
+      <RequiredSkill identifier="mechanical" level="50" />
+      <RequiredItem identifier="iron" amount="2" />
+      <RequiredItem identifier="ptoe_praseodymium" />
+      <RequiredItem identifier="tin" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Items.png" sourcerect="784,400,96,32" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items.png" sourcerect="816,389,48,10" depth="0.55" />
+    <Body width="65" height="10" density="20" />
+    <MeleeWeapon slots="Any,RightHand,LeftHand" aimpos="50,0" handle1="-10,0" holdangle="30" reload="0.75" range="50" combatPriority="20" msg="ItemMsgPickUpSelect">
+      <Attack structuredamage="0" itemdamage="5" targetimpulse="5">
+        <Affliction identifier="blunttrauma" strength="10" />
+        <Affliction identifier="stun" strength="0.3" />
+        <StatusEffect type="OnUse" target="UseTarget">
+          <Conditional entitytype="eq Character"/>
+          <Sound file="Content/Items/Weapons/Smack1.ogg" selectionmode="random" range="500"/>
+          <Sound file="Content/Items/Weapons/Smack2.ogg" range="500" />
+        </StatusEffect>
+      </Attack>
+    </MeleeWeapon>
+    <ItemContainer hideitems="true" capacity="1" maxstacksize="1">
+      <Containable items="divingknife">
+        <StatusEffect type="OnContaining" Target="Contained">
+          <RequiredItem type="Contained" identifier="divingknife" />
+          <SpawnItem identifier="ptoe_divingknifesharpened" spawnposition="SameInventory" spawnifinventoryfull="true" SpawnIfNotInInventory="true" />
+          <Remove />
+        </StatusEffect>
+      </Containable>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="ptoe_divingknifesharpened" variantof="divingknife">
+    <PreferredContainer />
+    <PreferredContainer />
+    <PreferredContainer />
+    <Price sold="false" />
+    <Fabricate />
+    <InventoryIcon texture="%ModDir%/Knives.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+    <MeleeWeapon combatPriority="26">
+      <Attack penetration="0.3">
+        <Affliction identifier="lacerations" strength="15" />
+        <Affliction identifier="bleeding" strength="15" />
+        <Affliction identifier="stun" strength="0.2" />
+        <StatusEffect type="OnUse" />
+        <StatusEffect type="OnUse" target="This" condition="-10.0" disabledeltatime="true" />
+      </Attack>
+      <StatusEffect type="OnBroken" Target="This">
+        <SpawnItem identifier="divingknife" spawnposition="SameInventory" spawnifinventoryfull="true" SpawnIfNotInInventory="true" />
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
   </Item>
 </Items>
